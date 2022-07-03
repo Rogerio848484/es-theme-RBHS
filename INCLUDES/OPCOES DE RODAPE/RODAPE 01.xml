@@ -1,0 +1,16 @@
+<theme>
+   <formatVersion>7</formatVersion>
+
+<view name="system,basic,detailed,video,grid,gamecarousel">
+
+
+<image name="rodape" extra="true">
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <path>./INCLUDES/OPCOES DE RODAPE/rodape 01.png</path>
+         <zIndex>202</zIndex>
+</image>
+
+</view>
+
+</theme>

@@ -1,0 +1,13 @@
+<theme>
+   <formatVersion>7</formatVersion>
+
+<view name="system">
+
+
+<image name="logo">
+<path>./ARTES/LOGOS/WHEEL RECTANGLE/${system.theme}.png</path>
+</image>
+
+</view>
+
+</theme>

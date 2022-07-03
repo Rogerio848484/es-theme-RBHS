@@ -1,0 +1,14 @@
+<theme>
+   <formatVersion>7</formatVersion>
+
+<view name="system">
+
+<video name="background_video" extra="true">
+<path>./VIDEOS/${system.theme}.mp4</path>
+<path>./VIDEOS/${system.theme}.flv</path>
+<path>./VIDEOS/${system.theme}.avi</path>
+</video>
+
+</view>
+
+</theme>
