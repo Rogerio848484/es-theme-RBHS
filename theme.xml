@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<theme defaultView="gamecarousel">
+<formatVersion>7</formatVersion>
+
+ <feature supported="carousel">
+   <view name="system">
+	<sound name="directory">
+    <path>./music</path>
+	</sound>	  
+   </view>
+</feature>
+		
+<!---------------------------screen------------------------------------- -->
+
+<view name="screen">
+<text name="clock">
+		<fontSize>0.034</fontSize>
+		<color>ffffff</color>
+		<glowColor>000000</glowColor>
+		<pos>0.89 0.9545</pos>
+		<size>0.10 0.058</size>
+		<fontPath>./fonts/Digital-Serial-Bold.ttf</fontPath>
+		<verticalAlignment>right</verticalAlignment>
+		</text>
+	
+     <controllerActivity name="controllerActivity">
+      <pos>0.01 0.010</pos>
+      <size>0.085 0.025</size>
+      <itemSpacing>0.003</itemSpacing>
+      <imagePath>./icons/gamepad.svg</imagePath>
+      <color>FFFFFF1A</color>
+      <activityColor>ff00001A</activityColor>
+      <hotkeyColor>ffffff1A</hotkeyColor>
+    </controllerActivity>
+
+    <batteryIndicator name="batteryIndicator">
+      <pos>0.955 0.0125</pos>
+      <size>0.033 0.033</size>
+      <incharge>./battery/incharge.svg</incharge>
+      <full>./battery/full.svg</full>
+      <at75>./battery/75.svg</at75>
+      <at50>./battery/50.svg</at50>
+      <at25>./battery/25.svg</at25>
+      <empty>./battery/empty.svg</empty>
+      <color>FFFFFFA0</color>
+      </batteryIndicator>
+      <batteryIndicator name="batteryIndicator" tinyScreen="true">
+      <pos>0.915 0.013</pos>
+      <size>0.07 0.07</size>
+      </batteryIndicator>
+    </view>
+
+<!---------------------------menu------------------------------------- -->
+
+<view name="menu">
+<menuText name="menutitle">
+<fontPath>./fonts/Digital-Serial-Bold.ttf</fontPath>
+<color>00FF00</color>
+<fontSize>0.029</fontSize>
+</menuText>
+
+<menuText name="menufooter">
+<fontPath>./fonts/Digital-Serial-Bold.ttf</fontPath>
+<fontSize>0.02</fontSize>
+</menuText>
+
+<menuText name="menutext">
+<fontPath>./fonts/Digital-Serial-Bold.ttf</fontPath>
+<selectorGradientType>horizontal</selectorGradientType>
+<fontSize>0.025</fontSize>
+<color>ffffff</color>
+</menuText>
+
+<menuTextSmall name="menutextsmall">
+<fontPath>./fonts/Digital-Serial-Bold.ttf</fontPath>
+<color>3366ff</color>
+<fontSize>0.03</fontSize>
+</menuTextSmall>
+
+<menuBackground name="menubg">
+<color>000000B7</color>
+<cornerSize>32 32</cornerSize>
+<path>./art/filter.png</path>
+</menuBackground>
+
+<menuIcons name="menuicons">
+<iconKodi>./icons/Kodi.png</iconKodi>
+<iconSystem>./icons/System.png</iconSystem>
+<iconUpdates>./icons/Updates.png</iconUpdates>
+<iconGames>./icons/Games.png</iconGames>
+<iconControllers>./icons/Controllers.png</iconControllers>
+<iconUI>./icons/UI.png</iconUI>
+<iconSound>./icons/Sound.png</iconSound>
+<iconNetwork>./icons/Network.png</iconNetwork>
+<iconScraper>./icons/Scraper.png</iconScraper>
+<iconAdvanced>./icons/Advanced.png</iconAdvanced>
+<iconQuit>./icons/Quit.png</iconQuit>
+<iconRestart>./icons/Restart.png</iconRestart>
+<iconShutdown>./icons/Shutdown.png</iconShutdown>
+<iconFastShutdown>./icons/Fastshutdown.png</iconFastShutdown>
+<iconRetroachievements>./icons/Contest.png</iconRetroachievements>
+</menuIcons>
+<menuTextEdit name="menutextedit">
+<inactive>./textinput_ninepatch.png</inactive>
+<active>./textinput_ninepatch_active.png</active>
+</menuTextEdit>
+</view>
+
+
+<!--------------------------------------Menu Principal------------------------->
+
+<subset name="Main Menu" displayName="Opções de Main Menu">
+<include name="MENU 01 - Azulejos" displayName="MENU 01 - Azulejos">./Menu 01 - Azulejos.xml</include>
+<include name="MENU 02 - Roleta" displayName="MENU 02 - Roleta Direita">./MENU 02 - Roleta Direita.xml</include>
+</subset>
+
+<subset name="Wheel" displayName="Opções de Wheel">
+<include name="Off" displayName="Wheel Off"/>
+<include name="clean" displayName="Wheel Clean">./INCLUDES/OPCOES DE WHEEL/WHEEL CLEAN.xml</include>
+<include name="Carbon" displayName="Wheel Carbon">./INCLUDES/OPCOES DE WHEEL/WHEEL CARBON.xml</include>
+<include name="Long" displayName="Wheel Long">./INCLUDES/OPCOES DE WHEEL/WHEEL LONG.xml</include>
+<include name="Rectangle" displayName="Wheel Rectangle">./INCLUDES/OPCOES DE WHEEL/WHEEL RECTANGLE.xml</include>
+</subset>
+
+<subset name="Rodape" displayName="Opções de Rodape">
+<include name="Rodape Off" displayName="Rodape Off"/>
+<include name="Rodape 01" displayName="Rodape 01">./INCLUDES/OPCOES DE RODAPE/RODAPE 01.xml</include>
+<include name="Rodape 02" displayName="Rodape 02">./INCLUDES/OPCOES DE RODAPE/RODAPE 02.xml</include>
+</subset>
+
+<subset name="Opções de Video" displayName="Opções de Video">
+<include name="Video Sistemas" displayName="Video Sistemas">./INCLUDES/OPCOES DE VIDEO/VIDEO SISTEMAS.xml</include>
+<include name="Video Aleatorio" displayName="Video Aleatorio">./INCLUDES/OPCOES DE VIDEO/VIDEO ALEATORIO.xml</include>
+</subset>
+
+<!--------------------------------------Lista de Jogos------------------------->
+
+<include name="detailed">./detailed.xml</include>
+<include name="gamecarousel">./gamecarousel.xml</include>
+<include name="grid">./grid.xml</include>
+  
+  </theme>
