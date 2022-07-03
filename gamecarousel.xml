@@ -119,8 +119,8 @@
 <animation property="scale" from="1" to="2" begin="1600" duration="1000" mode="linear"/>
 <animation property="x" from="0.83" to="0.75" begin="1600" duration="1000" mode="linear"/>
 <animation property="y" from="0.50" to="0.50" begin="1600" duration="1000" mode="linear"/>
-<animation property="x" from="0.75" to="0.700" begin="2400" duration="1000" mode="linear"/>
-<animation property="y" from="0.50" to="0.150" begin="2400" duration="1000" mode="linear"/>
+<animation property="x" from="0.75" to="0.29" begin="2400" duration="1000" mode="linear"/>
+<animation property="y" from="0.50" to="0.84" begin="2400" duration="1000" mode="linear"/>
 <animation property="scale" from="2" to="1" begin="2400" duration="1000" mode="linear"/>
 <animation property="rotation" from="-360" begin="2600" duration="800" mode="linear"/>
 <animation mode="linear" duration="4000" begin="3400" property="scale" repeat="forever" autoreverse="true" from="1.00" to="1.02"/>
