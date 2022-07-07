@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+
+   <view name="grid">
+
+	  <helpsystem name="help">
+        <pos>0 0.965</pos>  
+	  </helpsystem>
+	  
+	<gameextras name="gameextras">
+    <path>./gamesextras/${system.theme}/_pergametheme</path>
+    </gameextras>
+	  
+	<imagegrid name="gamegrid">
+      <pos>-0.0 0.4850</pos>
+      <size>1.00 0.690</size>
+      <padding>0 0 0 0</padding>
+      <scrollDirection>horizontal</scrollDirection>
+      <autoLayout>5 1</autoLayout>
+      <autoLayoutSelectedZoom>1.5</autoLayoutSelectedZoom>
+      <margin>0 0</margin>
+      <centerSelection>true</centerSelection>
+      <reflexion>0</reflexion>
+      <imageSource>marquee</imageSource>
+      <scrollLoop>true</scrollLoop>
+      <zIndex>900</zIndex>
+    </imagegrid>
+	
+	<gridtile name="default">
+      <padding>64 16</padding>
+      <backgroundCenterColor>FFFFFF00</backgroundCenterColor>
+      <backgroundEdgeColor>FFFFFF00</backgroundEdgeColor>
+      <imageSizeMode>maxSize</imageSizeMode>
+      <imageColor>FFFFFF</imageColor>
+      <reflexion>0 0.0</reflexion>
+    </gridtile>
+	
+    <gridtile name="selected">
+      <backgroundCenterColor>FFFFFF00</backgroundCenterColor>
+      <backgroundEdgeColor>FFFFFF00</backgroundEdgeColor>
+      <padding>64 16</padding>
+    </gridtile>
+	
+    <text name="gridtile">
+      <visible>false</visible>
+      <color>80808080</color>
+      <fontSize>0.016</fontSize>
+      <size>1 0</size>
+    </text>
+	
+    <text name="gridtile:selected">
+      <color>FFFFFF00</color>
+      <fontSize>0.035</fontSize>
+      <size>1 0</size>
+    </text>
+	
+    <ninepatch name="gridtile.background:selected">
+      <animateColorTime>0</animateColorTime>
+    </ninepatch>
+	
+	<gridtile name="default">
+			<size>0.22875 0.33</size>
+			<visible>false</visible>
+			<backgroundColor>00000000</backgroundColor>
+		</gridtile>
+		
+	<image name="logo">
+        <pos>0.69 0.1</pos>
+		<origin>0.5 0.5</origin>
+        <maxSize>0.40 0.40</maxSize>
+        <path>./_inc/logosclean/${system.theme}.png</path>	 
+       <color>ffffff</color>
+	    <zIndex>400</zIndex>
+	</image>
+   
+    <image name="system-background5" extra="true">
+       <pos>0 0</pos>
+       <size>1 1</size>
+       <path>./_inc/molduragamelist.png</path>
+       <zIndex>2</zIndex>          
+    </image>
+	
+  <image name="md_fanart">
+         <pos>0.7 0.4</pos>
+        <maxSize>0.5 0.5</maxSize>
+        <visible>true</visible>
+         <zIndex>1</zIndex>         
+      </image> 
+
+   <image name="md_thumbnail">
+        <pos>0.2 0.38</pos>
+		<origin>0.5 0.5</origin>
+        <maxSize>0.4 0.6</maxSize>
+        <zIndex>8</zIndex>         
+    </image>  
+	  
+	<image name="system-background19" extra="true">
+       <pos>0 0</pos>
+       <size>1 1</size>
+       <path>./_inc/molduragamelistpastor/molduraazulmetalica25%infos.png</path>
+       <zIndex>15</zIndex>          
+    </image>
+	
+	<image name="moldurafanart" extra="true">
+       <pos>0.45 0.15</pos>
+       <size>0.5 0.5</size>
+       <path>./_inc/basic.png</path>
+	   <storyboard event="open">
+	   <animation property="opacity" begin="0" from="0" to="0" duration="500" mode="linear"/>
+	   <animation property="zIndex" begin="0" from="0" to="2" duration="4500" mode="linear"/>
+	   <animation property="opacity" begin="4000" from="1" to="1" duration="500" mode="linear"/>
+	   </storyboard>
+	   <storyboard event="activatePrev">
+	   <animation property="opacity" begin="0" from="0" to="0" duration="500" mode="linear"/>
+	   <animation property="zIndex" begin="0" to="0" duration="500" mode="linear"/>
+	   <animation property="opacity" begin="4000" from="1" to="1" duration="500" mode="linear"/>
+	   </storyboard>
+	   <storyboard event="activateNext">
+	   <animation property="opacity" begin="0" from="0" to="0" duration="500" mode="linear"/>
+	   <animation property="zIndex" begin="0" to="0" duration="500" mode="linear"/>
+	   <animation property="opacity" begin="4000" from="1" to="1" duration="500" mode="linear"/>
+	   </storyboard>
+       <zIndex>15</zIndex>          
+    </image>
+	 
+	 <text name=" md_lbl_players,md_lbl_publisher,md_publisher,md_lbl_developer,logoText,md_developer,md_lbl_releasedate,md_releasedate,md_lbl_rating,md_lbl_genre,md_genre,md_description,md_lbl_playcount,md_lbl_lastplayed, md_lbl_gametime,md_lbl_playcount,md_lbl_lastplayed,md_lbl_gametime,md_playcount,md_lastplayed,md_gametime,md_players">
+<visible>false</visible>
+</text> 
+		
+    
+</view>
+
+</theme>
