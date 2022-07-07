@@ -136,8 +136,11 @@
 
 <!--------------------------------------Lista de Jogos------------------------->
 
+<include name="basic">./basic.xml</include>
+<include name="grid">./grid.xml</include>
 <include name="detailed">./detailed.xml</include>
 <include name="gamecarousel">./gamecarousel.xml</include>
-<include name="grid">./grid.xml</include>
+<include name="video">./video.xml</include>
+
   
   </theme>

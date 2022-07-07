@@ -2,25 +2,64 @@
 <theme>
 <formatVersion>7</formatVersion>
 
-   <view name="grid">
+<view name="grid">
   
 	<imagegrid name="gamegrid">
-    <pos>-0.0 0.4850</pos>
-    <size>1.00 0.690</size>
+    <pos>-0.0 0.65</pos>
+    <size>1.00 0.320</size>
     <padding>0 0 0 0</padding>
     <scrollDirection>horizontal</scrollDirection>
     <autoLayout>5 1</autoLayout>
-    <autoLayoutSelectedZoom>1.5</autoLayoutSelectedZoom>
+    <autoLayoutSelectedZoom>1.4</autoLayoutSelectedZoom>
     <margin>0 0</margin>
+	<color>00000000</color>
     <centerSelection>true</centerSelection>
     <reflexion>0</reflexion>
     <imageSource>marquee</imageSource>
     <scrollLoop>true</scrollLoop>
     <zIndex>900</zIndex>
     </imagegrid>
+	
+	<gridtile name="default">
+    <padding>64 16</padding>
+    <backgroundCenterColor>FFFFFF00</backgroundCenterColor>
+    <backgroundEdgeColor>FFFFFF00</backgroundEdgeColor>
+    <imageSizeMode>maxSize</imageSizeMode>
+    <imageColor>FFFFFF</imageColor>
+    <reflexion>0 0.0</reflexion>
+    </gridtile>
+	
+    <gridtile name="selected">
+    <backgroundCenterColor>FFFFFF00</backgroundCenterColor>
+    <backgroundEdgeColor>FFFFFF00</backgroundEdgeColor>
+    <padding>64 16</padding>
+    </gridtile>
+	
+    <text name="gridtile">
+    <visible>false</visible>
+    <color>80808080</color>
+    <fontSize>0.016</fontSize>
+    <size>1 0</size>
+    </text>
+	
+    <text name="gridtile:selected">
+    <color>FFFFFF00</color>
+    <fontSize>0.035</fontSize>
+    <size>1 0</size>
+    </text>
+	
+    <ninepatch name="gridtile.background:selected">
+    <animateColorTime>0</animateColorTime>
+    </ninepatch>
+	
+	<gridtile name="default">
+    <size>0.22875 0.33</size>
+	<visible>false</visible>
+	<backgroundColor>00000000</backgroundColor>
+	</gridtile>
 
 	<image name="logo">
-    <pos>0.69 0.15</pos>
+    <pos>0.50 0.10</pos>
 	<origin>0.5 0.5</origin>
     <maxSize>0.40 0.40</maxSize>
     <path>./ARTES/LOGOS/LOGOCLEAN/${system.theme}.png</path>	 
