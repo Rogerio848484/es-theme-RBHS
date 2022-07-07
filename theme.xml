@@ -133,6 +133,7 @@
 <include name="Video Aleatorio" displayName="Video Aleatorio">./INCLUDES/OPCOES DE VIDEO/VIDEO ALEATORIO.xml</include>
 </subset>
 
+
 <!--------------------------------------Lista de Jogos------------------------->
 
 <include name="detailed">./detailed.xml</include>
