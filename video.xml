@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+
+   <view name="video"> 
+          <textlist name="gamelist">
+             <origin>0 0</origin>
+             <pos>0.0185 0.18</pos>
+             <size>0.2975 0.7999999</size>
+             <glowColor>000000</glowColor>
+			 <backgroundColor>ffffff</backgroundColor>
+			 <selectedColor>ffffff</selectedColor>
+	         <selectorColor>ffffff</selectorColor>
+             <glowSize>1</glowSize>
+         	 <fontSize>0.023</fontSize> 
+            <lineSpacing>1.50</lineSpacing> 
+            <alignment>left</alignment>
+            <aligmentleft>true</aligmentleft>
+            <horizontalMargin>0.0085</horizontalMargin>
+            <zIndex>3000</zIndex> 
+            </textlist>
+			
+	  <helpsystem name="help">
+      <pos>0 0.965</pos>    
+      </helpsystem>
+
+   	<video name="md_video">
+      <pos>0.3310 0.175</pos>
+	  <size>0.335 0.45</size>
+      <origin>0 0</origin>
+      <delay>0</delay>
+	  <effect>none</effect>
+      <showSnapshotNoVideo>false</showSnapshotNoVideo>
+      <showSnapshotDelay>false</showSnapshotDelay>
+      <loops>99</loops>
+	  <zIndex>9</zIndex>
+    </video>
+		
+	<image name="md_marquee">
+	 <visible>true</visible> 
+	 <pos>0.505 0.11</pos>
+	 <maxSize>0.20 0.10</maxSize>
+	</image>
+		
+	<image name="wallpaper1" extra="true">
+    <origin>0 0</origin>
+    <pos>0 0</pos>
+    <size>1 1</size>
+	<zIndex>1</zIndex>          
+    </image>
+		
+	<image name="molduravideo" extra="true">
+       <origin>0 0</origin>
+       <pos>0 0</pos>
+       <size>1 1</size>
+       <path>./_inc/gamelistlaunchbox.png</path>
+	   <zIndex>2</zIndex>          
+    </image>
+	
+	<image name="logo">
+       <origin>0 0</origin>
+       <pos>0.04 0.025</pos>
+       <maxSize>0.25 0.12</maxSize>
+       <path>./_inc/logosclean/${system.theme}.png</path>
+       <zIndex>8</zIndex>          
+    </image>
+	
+	<image name="system-background9" extra="true">
+       <origin>0 0</origin>
+       <pos>0.73 0.015</pos>
+       <maxSize>0.15</maxSize>
+       <path>./_inc/consoles/${system.theme}.png</path>
+       <zIndex>900</zIndex>          
+    </image>
+
+   	<image name="md_thumbnail">
+      <visible>true</visible> 
+	  <pos>0.805 0.40</pos>
+	  <maxSize>0.20 0.45</maxSize>
+	</image>
+		
+	<text name="md_lbl_developer">
+     <visible>true</visible> 
+	 <pos>.335 0.66</pos>
+	 <size>0.20 0.1</size>
+	 <fontSize>0.023</fontSize>
+     <backgroundColor>00000000</backgroundColor>
+     <glowColor>000000</glowColor>
+     <zIndex>2000</zIndex>
+     <glowSize>1</glowSize>
+		
+</text>
+
+<text name="md_developer">
+		    <pos>0.75 0.709</pos>
+	        <origin>0.5 0.5</origin>
+            <fontSize>0.023</fontSize>
+            <backgroundColor>00000000</backgroundColor>
+            <color>FFFFFF</color>
+            <glowColor>000000</glowColor>
+            <zIndex>2000</zIndex>
+            <glowSize>1</glowSize>
+            <size>0.60 0.8</size>
+            <visible>true</visible> 
+</text>
+
+<text name="md_lbl_releasedate">
+		<visible>true</visible> 
+		<pos>0.6565 0.66</pos>
+	    <fontSize>0.023</fontSize>
+        <backgroundColor>00000000</backgroundColor>
+        <glowColor>000000</glowColor>
+        <zIndex>2000</zIndex>
+        <glowSize>1</glowSize>
+		</text>
+		
+		<datetime name="md_releasedate">
+		<pos>1.03 0.6768</pos>
+	    <origin>0.5 0.5</origin>
+        <fontSize>0.023</fontSize>
+        <backgroundColor>00000000</backgroundColor>
+        <color>FFFFFF</color>
+        <glowColor>000000</glowColor>
+        <zIndex>2000</zIndex>
+        <glowSize>1</glowSize>
+        <size>0.60 0.8</size>
+        <visible>true</visible> 
+		</datetime>
+		
+		<text name="md_lbl_rating">
+		<visible>true</visible> 
+		<pos>0.655 0.695</pos>
+	    <fontSize>0.023</fontSize>
+        <backgroundColor>00000000</backgroundColor>
+        <glowColor>000000</glowColor>
+        <zIndex>2000</zIndex>
+        <glowSize>1</glowSize>
+		</text>
+		
+		<rating name="md_rating">
+		     <pos>0.75 0.698</pos>
+	         <origin>0.1 0.1</origin>
+             <backgroundColor>00000000</backgroundColor>
+             <color>FFFFFF</color>
+             <glowColor>000000</glowColor>
+             <zIndex>2000</zIndex>
+             <glowSize>1</glowSize>
+             <alignment>left</alignment>
+             <size>0.06 0.03</size>
+             <visible>true</visible> 
+		
+		</rating>
+		
+		<text name="md_lbl_genre">
+	    <visible>true</visible> 
+		<pos>.335 0.66</pos>
+	    <fontSize>0.023</fontSize>
+        <backgroundColor>00000000</backgroundColor>
+        <glowColor>000000</glowColor>
+        <zIndex>2000</zIndex>
+        <glowSize>1</glowSize> 
+		</text>
+		
+		<text name="md_genre">
+		<visible>true</visible> 
+		<pos>0.45 0.628</pos>
+		<size>0.60 0.10</size>
+	    <fontSize>0.023</fontSize>
+        <backgroundColor>00000000</backgroundColor>
+        <color>FFFFFF</color>
+        <glowColor>000000</glowColor>
+        <zIndex>2000</zIndex>
+        <glowSize>1</glowSize>
+		</text>
+		
+		<text name="md_description">
+		<visible>true</visible> 
+		<pos>0.335 0.7585</pos>
+		<size>0.65 0.195</size>
+		<fontSize>0.023</fontSize>
+		<color>ffffff</color>
+        <backgroundColor>00000000</backgroundColor>
+        <glowColor>000000</glowColor>
+        <zIndex>2000</zIndex>
+        <glowSize>1</glowSize>
+		</text>
+
+		<text name="md_lbl_playcount, md_lbl_players,md_lbl_publisher, md_lbl_lastplayed, md_lbl_gametime">
+			     <visible>false</visible> 
+		</text>
+		<text name="md_lbl_playcount,logoText">
+		    <visible>false</visible> 
+		</text>
+		<text name="md_lbl_lastplayed">
+		     <visible>false</visible> 
+		</text>
+		<text name="md_lbl_gametime">
+			     <visible>false</visible> 
+		</text>
+		<text name="md_playcount">
+		     <visible>false</visible> 
+		</text>
+		<datetime name="md_lastplayed">
+           <visible>false</visible> 
+		</datetime>
+		<text name="md_gametime">
+        <visible>false</visible> 
+		</text>
+		
+		<text name="md_players">
+		     <visible>false</visible> 
+		</text>
+		
+		<image name="md_hidden">
+		     <visible>false</visible> 
+			 <pos>0.55 0.85</pos>
+	         <origin>0.5 0.5</origin>
+			 <zIndex>2000</zIndex>
+			 <size>0.06 0.03</size>
+		</image>
+		<image name="md_kidgame">
+			     <visible>false</visible> 
+		</image>
+		<image name="md_favorite">
+			     <visible>false</visible> 
+		</image>
+		<image name="md_flag">
+			<visible>false</visible> 
+		</image>
+	       
+   </view>
+   
+   </theme>

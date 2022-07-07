@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+
+<!-- 
+Criado Heder Brobows Doido
+Tema do menu Gamelist Obrigatorio
+IMPORTANTE: para criar uma arte nos temas baseados nesses temas obrigatorios, a arte precisa existir nesse tema, 
+            coloque essa tag para a arte existir mas nao aparecer nesse tema:
+            <visible>false</visible>	  
+-->
+
+<!---------------------------detailed------------------------------------- -->
+
+<!-- lista dos jogos -->
+<view name="detailed">	
+    <textlist name="gamelist">
+<!--  Tamanho da caixa das letras  -->		
+    <size>0.230 0.365</size>
+<!--  Fonte das letras  -->	
+    <!--  Tamanho das letras  -->
+    <fontSize>0.020</fontSize>
+<!--  Posicao das letras  -->		 
+	<pos>0.016 0.210</pos>
+<!--  Alinhamento das letras  -->		 
+    <alignment>left</alignment> 
+<!--  Espaco entre as palavras  -->	
+	<lineSpacing>1.5</lineSpacing> 
+<!--  Cor das letras  -->		 
+	
+<!--  Cor do seletor  -->		 
+	<selectorColor>00c6ff</selectorColor>
+<!--  Cor do jogo Selecionado  -->
+	<selectedColor>FFFFFFFF</selectedColor>	
+<!--  profundidade da arte / sequencia de amostragem da arte  -->
+	<zIndex>5</zIndex>	
+</textlist>		 
+	  
+<!--  Exibe menu de ajuda: Selecionar, voltar, etc...  -->	 
+      <helpsystem name="help">
+      <pos>0 0.965</pos>  
+   </helpsystem>
+
+<!-- Logo por Sistema, aproveita as Wheels dos sistemas -->	
+<image name="logo">
+	<origin>0.5 0.5</origin> 
+	<pos>0.132 0.100</pos>
+	<maxSize>0.220 0.150</maxSize>
+	<path>./_inc/logosclean/${system.theme}.png</path>
+	<linearSmooth>true</linearSmooth>
+	<zIndex>30</zIndex>
+</image>
+
+<!-- Arte extra Fixa Gamelist-->		
+<image name="arte-extra-fixa-gamelist" extra="true">
+    <origin>0 0</origin>
+    <pos>0 0</pos>
+    <maxSize>1 1</maxSize>
+    <path>./GameList Artes Extras Fixas/Detailed Fundo.png</path>
+    <zIndex>1</zIndex> 
+</image> 
+
+<!-- Arte Fanart -->	
+<image name="md_fanart">
+	<pos>0.159 0.760</pos>
+    <origin>0.5 0.5</origin>
+	<maxSize>0.287 0.307</maxSize>
+    <zIndex>2</zIndex>         
+</image>
+
+<!-- Arte Image -->		
+<image name="md_image">
+	<pos>0.489 0.360</pos>
+    <origin>0.5 0.5</origin>
+	<maxSize>0.390 0.390</maxSize>
+    <zIndex>3</zIndex>         
+</image> 
+
+<!-- Arte video -->
+<video name="md_video">
+	<pos>0.488 0.362</pos>
+	<origin>0.5 0.5</origin>
+	<maxSize>0.400 0.405</maxSize>
+	<loops>99</loops>
+	<delay>2</delay> 
+	<effect>none</effect>
+	<zIndex>20</zIndex> 
+</video>
+
+<!-- Arte caixa -->
+<image name="md_thumbnail">
+	<pos>0.404 0.760</pos>
+    <origin>0.5 0.5</origin>
+	<maxSize>0.153 0.307</maxSize>
+    <zIndex>3</zIndex>         
+</image> 
+
+<!-- Arte do cartucho ou CD, tem que ser boxback pois as outras se repetem -->
+<image name="md_boxback">
+	<pos>0.577 0.760</pos>
+    <origin>0.5 0.5</origin>
+	<maxSize>0.150 0.307</maxSize>
+    <zIndex>3</zIndex>         
+</image> 
+
+<!-- Arte Marquee/Wheel/Logo do jogo -->
+<image name="md_marquee">
+    <pos>0.498 0.070</pos>
+    <maxSize>0.215 0.102</maxSize>
+    <origin>0.5 0.5</origin>
+    <zIndex>30</zIndex>
+</image>
+	  
+
+
+<!--  Detalhes -->
+
+
+	  <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, 
+					md_lbl_genre, md_lbl_lastplayed, md_lbl_playcount, md_rating, md_developer, 
+					md_publisher, md_genre, md_playcount, md_lastplayed, md_lbl_description, md_description,
+					md_lbl_gametime, md_gametime">
+      <pos>1 1</pos>
+      </text>
+	  
+      <text name="md_lbl_rating,md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, 
+					md_lbl_genre, md_lbl_lastplayed, md_lbl_playcount, md_lbl_players, 
+					md_developer, md_publisher, md_genre, md_playcount, 
+					md_lastplayed, md_lbl_description, md_description, md_players, md_releasedate, 
+					md_lbl_gametime, md_gametime">
+            <fontSize>0.020</fontSize>
+      </text>
+
+<!--  Publicador =texto principal= -->	  
+      <text name="md_lbl_publisher">
+         <pos>0.732 0.220</pos>
+         <size>0.12 0.035</size>
+		 <fontSize>0.020</fontSize>
+		 <zIndex>15</zIndex>                  
+      </text>
+<!--  Publicador =apresentacao= -->	  
+      <text name="md_publisher">
+         <pos>0.860 0.220</pos>
+         <size>0.12 0.035</size>
+		 <fontSize>0.020</fontSize>
+		 <color>ffffff</color>
+         <zIndex>15</zIndex>                  
+      </text>
+	  
+<!--  Desenvolvedora do jogo =texto principal= -->
+      <text name="md_lbl_developer">
+         <pos>0.732 0.250</pos>
+         <size>0.12 0.035</size>
+		 <fontSize>0.020</fontSize>
+		 <zIndex>15</zIndex>                  
+      </text>
+<!--  Desenvolvedora do jogo =apresentacao= -->	  
+      <text name="md_developer">
+         <pos>0.860 0.250</pos>
+         <size>0.12 0.035</size>
+		 <fontSize>0.020</fontSize>
+		 <color>ffffff</color>
+         <zIndex>15</zIndex>                  
+      </text>
+
+<!--  Data de lancamento =texto principal= -->	  
+      <text name="md_lbl_releasedate">
+         <pos>0.732 0.280</pos>
+         <size>0.12 0.035</size>
+		 <fontSize>0.020</fontSize>
+		 <zIndex>15</zIndex>                  
+      </text>
+<!--  Data de lancamento =apresentacao= -->
+      <datetime name="md_releasedate">
+         <pos>0.860 0.280</pos>
+         <size>0.12 0.035</size>
+		 <fontSize>0.020</fontSize>
+		 <color>ffffff</color>
+         <zIndex>15</zIndex>                 
+      </datetime>
+	  
+<!--  genero do jogo =texto principal= -->	  
+      <text name="md_lbl_genre">
+         <pos>0.732 0.310</pos>
+         <size>0.12 0.035</size>
+		 <fontSize>0.020</fontSize>
+		 <zIndex>15</zIndex>                  
+      </text>
+<!--  genero do jogo =apresentacao= -->	  
+      <text name="md_genre">
+         <pos>0.860 0.310</pos>
+         <size>0.12 0.035</size>
+		 <fontSize>0.020</fontSize>
+		 <color>ffffff</color>
+         <zIndex>15</zIndex>        
+      </text>         
+
+<!--  Numero de jogadores =texto principal= -->	  
+      <text name="md_lbl_players">
+         <pos>0.732 0.340</pos>
+         <size>0.12 0.035</size>
+		 <fontSize>0.020</fontSize>
+		 <zIndex>15</zIndex>                   
+      </text>
+<!--  Numero de jogadores =apresentacao= -->	  
+      <text name="md_players">
+         <pos>0.860 0.340</pos>
+         <size>0.12 0.035</size>
+		 <fontSize>0.020</fontSize>
+		 <color>ffffff</color>
+         <zIndex>15</zIndex>               
+      </text>
+
+<!--  Vezes jogadas =texto principal= -->
+         <text name="md_lbl_playcount">
+         <pos>0.732 0.370</pos>
+         <size>0.12 0.035</size>
+		 <fontSize>0.020</fontSize>
+		 <zIndex>15</zIndex>                  
+      </text>
+<!--  Vezes jogadas =apresentacao= -->	
+         <text name="md_playcount">
+         <pos>0.860 0.370</pos>
+         <size>0.12 0.035</size>
+		 <fontSize>0.020</fontSize>
+		 <color>ffffff</color>
+         <zIndex>15</zIndex>                  
+      </text>
+  
+<!--  ultima vez jogado =texto principal= -->	  
+      <text name="md_lbl_lastplayed">
+         <pos>0.732 0.400</pos>
+         <size>0.12 0.035</size>
+		 <fontSize>0.020</fontSize>
+		 <zIndex>15</zIndex>                 
+      </text>
+<!--  ultima vez jogado =apresentacao= -->	  
+      <datetime name="md_lastplayed">
+         <pos>0.860 0.400</pos>
+         <size>0.12 0.035</size>
+		 <fontSize>0.020</fontSize>
+		 <color>ffffff</color>
+         <zIndex>15</zIndex>                   
+      </datetime>   	
+  
+<!--  tempo jogado =texto principal= -->
+         <text name="md_lbl_gametime">
+         <pos>0.732 0.430</pos>
+         <size>0.12 0.035</size>
+		 <fontSize>0.020</fontSize>
+		 <zIndex>15</zIndex>                   
+      </text>
+<!--  tempo jogado =apresentacao= -->	
+         <text name="md_gametime">
+         <pos>0.860 0.430</pos>
+         <size>0.12 0.035</size>
+		 <fontSize>0.020</fontSize>
+		 <color>ffffff</color>
+         <zIndex>15</zIndex>                     
+      </text>	
+	  
+<!-- Avaliacao do jogo =texto principal=-->	  
+      <text name="md_lbl_rating">
+         <pos>0.810 0.050</pos>
+         <size>0.12 0.035</size>
+		 <fontSize>0.030</fontSize>
+		 <zIndex>15</zIndex>                  
+      </text>
+<!-- Avaliacao do jogo =apresentacao=-->		
+	     <rating name="md_rating">      
+         <pos>0.790 0.100</pos>
+         <maxSize>0.100 0.030</maxSize>
+         <filledPath>./_inc/star_filled.png</filledPath>
+         <unfilledPath>./_inc/star_empty.png</unfilledPath>	
+		 <zIndex>15</zIndex>
+      </rating>	  
+
+<!--  historia do jogo =texto principal= Nao consegui fazer aparecer -->	  
+      <text name="md_lbl_description">
+         <pos>0.730 0.370</pos>
+         <size>0.12 0.035</size>
+		 <fontSize>0.025</fontSize>
+		 <color>ffff00</color>
+         <zIndex>15</zIndex>                  
+      </text>
+<!--  historia do jogo =apresentacao= -->	  
+      <text name="md_description">
+         <pos>0.676 0.603</pos>
+         <size>0.310 0.317</size>
+		 <fontSize>0.019</fontSize>
+		 <alignment>left</alignment>   
+         <zIndex>15</zIndex>         
+      </text>	  
+	 
+
+	
+
+<!-- Bandeira regiao do jogo, ja tem no EmulatonStation, pois nao coloquei em nenhuma pasta do tema -->
+<image name="md_flag">
+	<origin>0 0</origin>
+	<pos>0.731 0.480</pos>
+	<maxSize>0.03 0.03</maxSize>
+	<zIndex>999</zIndex>
+</image>
+
+<!--  Informa se o jogo 'e favorito = pode escolher o lugar no tema -->	
+    <image name="md_favorite, md_notfavorite">
+      <origin>0 0</origin>
+	  <pos>0.771 0.470</pos>
+      <maxSize>0.05 0.05</maxSize>      
+      <path>./_inc/ICONS OUTROS/favorite.png</path>
+      <zIndex>999</zIndex>
+    </image> 
+	
+	<image name="md_notfavorite"> 
+			<color>80808090</color>
+		</image>
+
+<!--  Informa se o jogo tem ou nao um SaveState = pode escolher o lugar no tema -->
+    <image name="md_savestate,md_nosavestate">
+      <origin>0 0</origin>
+	  <pos>0.808 0.475</pos>
+      <maxSize>0.04 0.04</maxSize>
+      <path>./_inc/ICONS OUTROS/savestate.png</path>
+      <color>dddddd</color>
+      <zIndex>150</zIndex>
+    </image>
+    
+    <image name="md_nosavestate">
+      <color>80808090</color>
+    </image>
+
+		
+<!--  Informa se o jogo tem ou nao uma Conquista no Retroarchievments = pode escolher o lugar no tema -->		
+		
+		<image name="md_cheevos,md_notcheevos">
+			<origin>0 0</origin>
+	        <pos>0.841 0.475</pos>
+            <maxSize>0.04 0.04</maxSize>
+			<path>./_inc/ICONS OUTROS/cheevos.png</path>
+			<color>dddddd</color>
+			<zIndex>150</zIndex>
+			<linearSmooth>true</linearSmooth>
+		</image>
+		
+		<image name="md_notcheevos"> 
+			<color>80808090</color>
+		</image>
+
+
+<!-- PDF from gamelist -->
+<!--  Informa se o jogo tem ou nao o manual = pode escolher o lugar no tema -->
+		<image name="md_manual,md_nomanual">
+			<origin>0 0</origin>
+	        <pos>0.876 0.475</pos>
+            <maxSize>0.04 0.04</maxSize>
+			<path>./_inc/ICONS OUTROS/manual.png</path>
+			<color>dddddd</color>
+		</image>
+	
+		<image name="md_nomanual">
+			<color>80808090</color>
+		</image>
+
+<!--  Informa se o jogo tem ou nao o mapa = pode escolher o lugar no tema -->	
+		<image name="md_map,md_nomap">
+			<origin>0 0</origin>
+	        <pos>0.915 0.475</pos>
+            <maxSize>0.04 0.04</maxSize>
+			<path>./_inc/ICONS OUTROS/map.png</path>
+			<color>dddddd</color>
+		</image>
+	
+		<image name="md_nomap">
+			<color>80808090</color>
+		</image>
+
+<!--  Informa se o jogo 'e classificado como infantil = nao sei pra que serve = pode escolher o lugar no tema -->
+		<image name="md_kidgame, md_notkidgame"> 
+			<origin>0 0</origin>
+	        <pos>0.950 0.475</pos>
+            <maxSize>0.04 0.04</maxSize>
+			<path>./_inc/ICONS OUTROS/kid.png</path>
+			<color>dddddd</color>
+			<zIndex>100</zIndex>
+			<linearSmooth>true</linearSmooth>
+		</image>
+		
+		<image name="md_notkidgame"> 
+			<color>80808090</color>
+		</image>
+
+
+<!--  Informa se o jogo foi escondido = entendi nada = nao sei pra que serve = pode escolher o lugar no tema -->
+    <image name="md_hidden">
+			<origin>0 0</origin>
+	        <pos>0.733 0.525</pos>
+            <maxSize>0.04 0.04</maxSize>
+			<path>./_inc/ICONS OUTROS/hidden.png</path>
+			<color>ff0000</color>
+			<zIndex>100</zIndex>
+			<linearSmooth>true</linearSmooth>
+    </image>
+	
+	<text name="logoText">
+		    <visible>false</visible> 
+		</text>
+		
+		
+
+
+ </view>
+ 
+ 
+   </theme>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+
+<!-- 
+Criado Heder Brobows Doido
+Tema do menu Gamelist Obrigatorio
+IMPORTANTE: para criar uma arte nos temas baseados nesses temas obrigatorios, a arte precisa existir nesse tema, 
+            coloque essa tag para a arte existir mas nao aparecer nesse tema:
+            <visible>false</visible>	  
+-->
+	 
+<!---------------------------basic------------------------------------- -->
+
+<!-- lista dos jogos -->
+<view name="basic">	
+    <textlist name="gamelist">
+<!--  Tamanho da caixa das letras  -->		
+    <size>0.230 0.715</size>
+<!--  Fonte das letras  -->	
+      <fontSize>0.020</fontSize>
+<!--  Posicao das letras  -->		 
+	<pos>0.015 0.218</pos>
+<!--  Alinhamento das letras  -->		 
+    <alignment>left</alignment> 
+<!--  Espaco entre as palavras  -->	
+	<lineSpacing>1.8</lineSpacing> 
+<!--  Cor das letras  -->		 
+	<primaryColor>ffff00</primaryColor>
+<!--  Cor do seletor  -->		 
+	<selectorColor>191970</selectorColor>
+<!--  Cor do jogo Selecionado  -->
+	<selectedColor>FFFFFFFF</selectedColor>	
+<!--  profundidade da arte / sequencia de amostragem da arte  -->
+	<zIndex>5</zIndex>	
+</textlist>
+ 
+<!--  Exibe menu de ajuda: Selecionar, voltar, etc...  -->	 
+      <helpsystem name="help">
+      <pos>0 0.965</pos>  
+   </helpsystem>
+	
+ 
+<!-- Logo por Sistema, aproveita as Wheels dos sistemas -->	
+<image name="logo" extra="true">
+	<origin>0.5 0.5</origin> 
+	<pos>0.132 0.100</pos>
+	<maxSize>0.220 0.150</maxSize>
+	<path>./_inc/logosclean/${system.theme}.png</path>
+	<linearSmooth>true</linearSmooth>
+	<zIndex>30</zIndex>
+</image>
+
+<!-- Arte extra Fixa Gamelist-->		
+<image name="arte-extra-fixa-gamelist" extra="true">
+    <origin>0 0</origin>
+    <pos>0 0</pos>
+    <maxSize>1 1</maxSize>
+    <path>./GameList Artes Extras Fixas/Basic Fundo.png</path>
+    <zIndex>1</zIndex> 
+</image> 
+
+  
+  
+</view>
+
+</theme>
