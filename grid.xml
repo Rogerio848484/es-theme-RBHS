@@ -5,7 +5,7 @@
 <view name="grid">
   
 	<imagegrid name="gamegrid">
-    <pos>-0.0 0.65</pos>
+    <pos>-0.0 0.645</pos>
     <size>1.00 0.320</size>
     <padding>0 0 0 0</padding>
     <scrollDirection>horizontal</scrollDirection>
@@ -63,8 +63,16 @@
 	<origin>0.5 0.5</origin>
     <maxSize>0.40 0.40</maxSize>
     <path>./ARTES/LOGOS/LOGOCLEAN/${system.theme}.png</path>	 
-    <color>ffffff</color>
-	<zIndex>400</zIndex>
+    <zIndex>400</zIndex>
+	</image>
+	
+	<image name="background" extra="true">
+    <pos>0.5 0.5</pos>
+	<origin>0.5 0.5</origin>
+    <size>1 1</size>
+    <path>./ARTES/BACKGROUND VIDEOGAMES 1/${system.theme}.jpg</path>	 
+	<color>363636</color>
+    <zIndex>1</zIndex>
 	</image>
 	
 	<image name="moldura_wheel" extra="true">
