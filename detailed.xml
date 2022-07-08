@@ -6,16 +6,31 @@
 <!---------------------------detailed------------------------------------- -->
 
 <view name="detailed">	
-    <textlist name="gamelist">
+   
+   <textlist name="gamelist">
+<!--  Tamanho da caixa das letras  -->		
     <size>0.230 0.365</size>
+<!--  Fonte das letras  -->	
+    <fontPath>./fonts/Digital-Serial-Bold.ttf</fontPath>
+<!--  Tamanho das letras  -->
     <fontSize>0.020</fontSize>
+<!--  Posicao das letras  -->		 
 	<pos>0.016 0.210</pos>
+<!--  Alinhamento das letras  -->		 
     <alignment>left</alignment> 
+<!--  Espaco entre as palavras  -->	
 	<lineSpacing>1.5</lineSpacing> 
-	<selectorColor>00c6ff</selectorColor>
-	<selectedColor>FFFFFFFF</selectedColor>	
+<!--  Barra Seletora   -->		
+	<selectorImagePath></selectorImagePath>
+<!--  Cor das letras  -->		 
+	<primaryColor>ffff00</primaryColor>
+<!--  Cor do seletor  -->		 
+	<selectorColor>4682B4</selectorColor>
+<!--  Cor do jogo Selecionado  -->
+	<selectedColor>FFFFFF</selectedColor>	
+<!--  profundidade da arte / sequencia de amostragem da arte  -->
 	<zIndex>5</zIndex>	
-</textlist>		 
+</textlist>		 		 
 	  
     <helpsystem name="help">
     <pos>0 0.965</pos>  
@@ -26,7 +41,7 @@
 	<origin>0.5 0.5</origin> 
 	<pos>0.132 0.100</pos>
 	<maxSize>0.220 0.150</maxSize>
-	<path>./_inc/logosclean/${system.theme}.png</path>
+	<path>./ARTES/LOGOS/LOGOCLEAN/${system.theme}.png</path>
 	<linearSmooth>true</linearSmooth>
 	<zIndex>30</zIndex>
 </image>
@@ -35,7 +50,7 @@
     <origin>0 0</origin>
     <pos>0 0</pos>
     <maxSize>1 1</maxSize>
-    <path>./GameList Artes Extras Fixas/Detailed Fundo.png</path>
+    <path>./ARTES/ARTES GAMELIST/Detailed Fundo.png</path>
     <zIndex>1</zIndex> 
 </image> 
 
@@ -104,7 +119,8 @@
          <pos>0.732 0.220</pos>
          <size>0.12 0.035</size>
 		 <fontSize>0.020</fontSize>
-		 <zIndex>15</zIndex>                  
+		 <zIndex>15</zIndex>     
+         <color>ffff00</color>		 
       </text>
 <!--  Publicador =apresentacao= -->	  
       <text name="md_publisher">
@@ -120,7 +136,8 @@
          <pos>0.732 0.250</pos>
          <size>0.12 0.035</size>
 		 <fontSize>0.020</fontSize>
-		 <zIndex>15</zIndex>                  
+		 <zIndex>15</zIndex>        
+         <color>ffff00</color>			 
       </text>
 <!--  Desenvolvedora do jogo =apresentacao= -->	  
       <text name="md_developer">
@@ -128,7 +145,7 @@
          <size>0.12 0.035</size>
 		 <fontSize>0.020</fontSize>
 		 <color>ffffff</color>
-         <zIndex>15</zIndex>                  
+         <zIndex>15</zIndex>		 
       </text>
 
 <!--  Data de lancamento =texto principal= -->	  
@@ -136,7 +153,8 @@
          <pos>0.732 0.280</pos>
          <size>0.12 0.035</size>
 		 <fontSize>0.020</fontSize>
-		 <zIndex>15</zIndex>                  
+		 <zIndex>15</zIndex> 
+         <color>ffff00</color>			 
       </text>
 <!--  Data de lancamento =apresentacao= -->
       <datetime name="md_releasedate">
@@ -152,7 +170,8 @@
          <pos>0.732 0.310</pos>
          <size>0.12 0.035</size>
 		 <fontSize>0.020</fontSize>
-		 <zIndex>15</zIndex>                  
+		 <zIndex>15</zIndex>  
+         <color>ffff00</color>			 
       </text>
 <!--  genero do jogo =apresentacao= -->	  
       <text name="md_genre">
@@ -160,7 +179,7 @@
          <size>0.12 0.035</size>
 		 <fontSize>0.020</fontSize>
 		 <color>ffffff</color>
-         <zIndex>15</zIndex>        
+         <zIndex>15</zIndex> 
       </text>         
 
 <!--  Numero de jogadores =texto principal= -->	  
@@ -168,7 +187,8 @@
          <pos>0.732 0.340</pos>
          <size>0.12 0.035</size>
 		 <fontSize>0.020</fontSize>
-		 <zIndex>15</zIndex>                   
+		 <zIndex>15</zIndex>    
+         <color>ffff00</color>			 
       </text>
 <!--  Numero de jogadores =apresentacao= -->	  
       <text name="md_players">
@@ -184,7 +204,8 @@
          <pos>0.732 0.370</pos>
          <size>0.12 0.035</size>
 		 <fontSize>0.020</fontSize>
-		 <zIndex>15</zIndex>                  
+		 <zIndex>15</zIndex>  
+         <color>ffff00</color>			 
       </text>
 <!--  Vezes jogadas =apresentacao= -->	
          <text name="md_playcount">
@@ -192,7 +213,7 @@
          <size>0.12 0.035</size>
 		 <fontSize>0.020</fontSize>
 		 <color>ffffff</color>
-         <zIndex>15</zIndex>                  
+         <zIndex>15</zIndex>   	 
       </text>
   
 <!--  ultima vez jogado =texto principal= -->	  
@@ -200,7 +221,8 @@
          <pos>0.732 0.400</pos>
          <size>0.12 0.035</size>
 		 <fontSize>0.020</fontSize>
-		 <zIndex>15</zIndex>                 
+		 <zIndex>15</zIndex>  
+         <color>ffff00</color>			 
       </text>
 <!--  ultima vez jogado =apresentacao= -->	  
       <datetime name="md_lastplayed">
@@ -216,7 +238,8 @@
          <pos>0.732 0.430</pos>
          <size>0.12 0.035</size>
 		 <fontSize>0.020</fontSize>
-		 <zIndex>15</zIndex>                   
+		 <zIndex>15</zIndex>    
+         <color>ffff00</color>			 
       </text>
 <!--  tempo jogado =apresentacao= -->	
          <text name="md_gametime">
@@ -232,7 +255,8 @@
          <pos>0.810 0.050</pos>
          <size>0.12 0.035</size>
 		 <fontSize>0.030</fontSize>
-		 <zIndex>15</zIndex>                  
+		 <zIndex>15</zIndex> 
+         <color>ffff00</color>			 
       </text>
 <!-- Avaliacao do jogo =apresentacao=-->		
 	     <rating name="md_rating">      
@@ -257,7 +281,8 @@
          <size>0.310 0.317</size>
 		 <fontSize>0.019</fontSize>
 		 <alignment>left</alignment>   
-         <zIndex>15</zIndex>         
+         <zIndex>15</zIndex>   
+         <color>ffff00</color>			 
       </text>	  
 
 <!-- Bandeira regiao do jogo, ja tem no EmulatonStation, pois nao coloquei em nenhuma pasta do tema -->
@@ -273,7 +298,7 @@
       <origin>0 0</origin>
 	  <pos>0.771 0.470</pos>
       <maxSize>0.05 0.05</maxSize>      
-      <path>./_inc/ICONS OUTROS/favorite.png</path>
+      <path>./ICONS OUTROS/favorite.png</path>
       <zIndex>999</zIndex>
     </image> 
 	
@@ -286,7 +311,7 @@
       <origin>0 0</origin>
 	  <pos>0.808 0.475</pos>
       <maxSize>0.04 0.04</maxSize>
-      <path>./_inc/ICONS OUTROS/savestate.png</path>
+      <path>./ICONS OUTROS/savestate.png</path>
       <color>dddddd</color>
       <zIndex>150</zIndex>
     </image>
@@ -301,7 +326,7 @@
 			<origin>0 0</origin>
 	        <pos>0.841 0.475</pos>
             <maxSize>0.04 0.04</maxSize>
-			<path>./_inc/ICONS OUTROS/cheevos.png</path>
+			<path>./ICONS OUTROS/cheevos.png</path>
 			<color>dddddd</color>
 			<zIndex>150</zIndex>
 			<linearSmooth>true</linearSmooth>
@@ -317,7 +342,7 @@
 			<origin>0 0</origin>
 	        <pos>0.876 0.475</pos>
             <maxSize>0.04 0.04</maxSize>
-			<path>./_inc/ICONS OUTROS/manual.png</path>
+			<path>./ICONS OUTROS/manual.png</path>
 			<color>dddddd</color>
 		</image>
 	
@@ -330,7 +355,7 @@
 			<origin>0 0</origin>
 	        <pos>0.915 0.475</pos>
             <maxSize>0.04 0.04</maxSize>
-			<path>./_inc/ICONS OUTROS/map.png</path>
+			<path>./ICONS OUTROS/map.png</path>
 			<color>dddddd</color>
 		</image>
 	
@@ -343,7 +368,7 @@
 			<origin>0 0</origin>
 	        <pos>0.950 0.475</pos>
             <maxSize>0.04 0.04</maxSize>
-			<path>./_inc/ICONS OUTROS/kid.png</path>
+			<path>./ICONS OUTROS/kid.png</path>
 			<color>dddddd</color>
 			<zIndex>100</zIndex>
 			<linearSmooth>true</linearSmooth>
@@ -359,7 +384,7 @@
 			<origin>0 0</origin>
 	        <pos>0.733 0.525</pos>
             <maxSize>0.04 0.04</maxSize>
-			<path>./_inc/ICONS OUTROS/hidden.png</path>
+			<path>./ICONS OUTROS/hidden.png</path>
 			<color>ff0000</color>
 			<zIndex>100</zIndex>
 			<linearSmooth>true</linearSmooth>
