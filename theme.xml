@@ -141,6 +141,9 @@
 <include name="detailed">./detailed.xml</include>
 <include name="gamecarousel">./gamecarousel.xml</include>
 <include name="video">./video.xml</include>
+<include name="Gamelist-completa">./Gamelist-completa.xml</include>
+
+
 
   
   </theme>
