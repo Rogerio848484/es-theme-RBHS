@@ -8,7 +8,7 @@
 <view name="basic">	
     <textlist name="gamelist">
 <!--  Tamanho da caixa das letras  -->		
-    <size>0.230 0.715</size>
+     <size>0.230 0.715</size>
 <!--  Fonte das letras  -->	
       <fontSize>0.020</fontSize>
 <!--  Posicao das letras  -->		 
@@ -18,11 +18,11 @@
 <!--  Espaco entre as palavras  -->	
 	<lineSpacing>1.8</lineSpacing> 
 <!--  Cor das letras  -->		 
-	<primaryColor>ffffff</primaryColor>
+	<primaryColor>ffff00</primaryColor>
 <!--  Cor do seletor  -->		 
-	<selectorColor>87CEFA</selectorColor>
+	<selectorColor>0000CD</selectorColor>
 <!--  Cor do jogo Selecionado  -->
-	<selectedColor>000000</selectedColor>	
+	<selectedColor>FFFFFF</selectedColor>	
 <!--  profundidade da arte / sequencia de amostragem da arte  -->
 	<zIndex>5</zIndex>	
 </textlist>
