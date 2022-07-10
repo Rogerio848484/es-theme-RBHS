@@ -11,10 +11,10 @@
 <imagegrid name="gamegrid">
 <pos>-0.0 0.645</pos>
 <size>1.00 0.320</size>
-<padding>0 0 0 0</padding>
 <scrollDirection>horizontal</scrollDirection>
 <autoLayout>5 1</autoLayout>
 <autoLayoutSelectedZoom>1.4</autoLayoutSelectedZoom>
+<padding>0 0 0 0</padding>
 <margin>0 0</margin>
 <color>00000000</color>
 <centerSelection>true</centerSelection>
@@ -69,7 +69,7 @@
 <image name="logo">
 <pos>0.50 0.10</pos>
 <origin>0.5 0.5</origin>
-<maxSize>0.40 0.40</maxSize>
+<maxSize>0.30 0.30</maxSize>
 <path>./ARTES/LOGOS/LOGOCLEAN/${system.theme}.png</path>	 
 <zIndex>400</zIndex>
 </image>
@@ -81,13 +81,30 @@
 <path>./ARTES/BACKGROUND VIDEOGAMES 1/${system.theme}.jpg</path>	 
 <color>363636</color>
 <zIndex>1</zIndex>
+<storyboard event="open">
+<animation property="scale" begin="0" from="0.95" to="1" duration="600" mode="linear"/>
+</storyboard>   
+<storyboard event="activateNext">
+<animation property="scale" begin="0" from="0.95" to="1" duration="600" mode="linear"/>
+</storyboard>    
+<storyboard event="activatePrev">
+<animation property="scale" begin="0" from="1.05" to="1" duration="600" mode="linear"/>
+</storyboard> 
 </image>
 	
 <image name="moldura_wheel" extra="true">
 <pos>0 0</pos>
 <size>1 1</size>
-<path>./ARTES/ARTES GAMELIST/MOLDURAS/moldura50%.png</path>
+<path>./ARTES/MOLDURA MENU PRINCIPAL/Moldura gamelist Horizontal Grid.png</path>
 <zIndex>15</zIndex>          
+</image>
+
+<image name="moldura_fanart" extra="true">
+<pos>0.7 0.4</pos>
+<origin>0.5 0.5</origin>
+<size>0.5 0.5</size>
+<path>./ARTES/ARTES GAMELIST/basic.png</path>
+<zIndex>15</zIndex>   
 </image>
 	
 <!----------------------------------------------------------->
@@ -97,14 +114,48 @@
 <image name="md_fanart">
 <pos>0.7 0.4</pos>
 <maxSize>0.5 0.5</maxSize>
-<zIndex>1</zIndex>         
+<zIndex>2</zIndex>   
+<storyboard event="open">
+<animation property="scale" begin="0" from="0.95" to="1" duration="600" mode="linear"/>
+</storyboard>   
+<storyboard event="activateNext">
+<animation property="scale" begin="0" from="0.95" to="1" duration="600" mode="linear"/>
+</storyboard>    
+<storyboard event="activatePrev">
+<animation property="scale" begin="0" from="0.95" to="1" duration="600" mode="linear"/>
+</storyboard> 
 </image> 
 
 <image name="md_thumbnail">
 <pos>0.2 0.38</pos>
 <origin>0.5 0.5</origin>
-<maxSize>0.25 0.25</maxSize>
-<zIndex>8</zIndex>         
+<maxSize>0.33 0.33</maxSize>
+<zIndex>8</zIndex> 
+<storyboard event="open">
+<animation property="x" begin="0" from="0.15" duration="1500" mode="linear"/>
+</storyboard>   
+<storyboard event="activateNext">
+<animation property="x" begin="0" from="0.15" duration="1500" mode="linear"/>
+</storyboard>    
+<storyboard event="activatePrev">
+<animation property="x" begin="0" from="0.25" duration="1500" mode="linear"/>
+</storyboard>         
+</image>  
+
+<image name="md_cartridge">
+<pos>0.29 0.45</pos>
+<origin>0.5 0.5</origin>
+<maxSize>0.20 0.20</maxSize>
+<zIndex>8</zIndex>     
+<storyboard event="open">
+<animation property="y" begin="0" from="0.5" duration="1000" mode="linear"/>
+</storyboard>   
+<storyboard event="activateNext">
+<animation property="y" begin="0" from="0.5" duration="1000" mode="linear"/>
+</storyboard>    
+<storyboard event="activatePrev">
+<animation property="y" begin="0" from="0.40" duration="1000" mode="linear"/>
+</storyboard>       
 </image>  
 	
 <!----------------------------------------------------------->
