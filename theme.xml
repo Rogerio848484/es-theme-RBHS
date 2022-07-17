@@ -149,8 +149,5 @@
 <include name="gamecarousel">./gamecarousel.xml</include>
 <include name="video">./video.xml</include>
 <include name="Gamelist Horizontal 05 logos">./gamelist - horizontal.xml</include>
-
-
-
   
   </theme>
