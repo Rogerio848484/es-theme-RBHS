@@ -3,14 +3,6 @@
 <theme defaultView="gamecarousel">
 <formatVersion>7</formatVersion>
 
- <feature supported="carousel">
-   <view name="system">
-	<sound name="directory">
-    <path>./music</path>
-	</sound>	  
-   </view>
-</feature>
-
 <!--------------------------------------------------------------------------------------->	
 <!-----------------------------------screen---------------------------------------------->
 <!--------------------------------------------------------------------------------------->
