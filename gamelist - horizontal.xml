@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+
+<customView name="Gamelist Horizontal 05 logos" inherits="gamecarousel">
+
+<gamecarousel name="gamecarousel">
+<zIndex>10</zIndex>	      
+<type>horizontal</type>
+<pos>0 0.2</pos>
+<size>1 1</size>
+<logoScale>1.4</logoScale>
+<logoSize>0.150 0.260</logoSize>
+<color>00000000</color>
+<maxLogoCount>13</maxLogoCount>
+<logoAlignment>center</logoAlignment>   
+<imageSource>marquee</imageSource>
+</gamecarousel> 
+
+
+<image name="pointer" extra="true">
+<visible>false</visible>
+</image>
+
+<image name="background" extra="true">
+<pos>0 0</pos>
+<size>1 1</size>
+<zIndex>1</zIndex>
+<path>./ARTES/BACKGROUNDGAMELIST/${system.theme}.jpg</path>
+
+</image>
+
+<image name="logo">
+<pos>0.5 0.5</pos>
+<origin>0.5 0.5</origin>
+<size>1 1</size>
+<zIndex>12</zIndex>
+<path>./ARTES/LOGOSGAMELIST/${system.theme}.png</path>
+</image>
+
+<image name="FUNDO_BLACK" extra="true">
+<pos>0 0</pos>
+<size>1 1</size>
+<zIndex>13</zIndex>
+<path>./ARTES/MOLDURAS VIDEO GAMELIST/BLACK.png</path>
+</image>
+
+<image name="md_fanart" extra="true">
+<pos>0.281 0.565</pos>
+<origin>0.50 0.50</origin>
+<maxSize>0.425 .425</maxSize>
+<zIndex>14</zIndex>
+</image>
+
+<image name="md_thumbnail" extra="true">
+<pos>0.74 0.60</pos>
+<origin>0.5 0.5</origin>
+<maxSize>0.65 .65</maxSize>
+<zIndex>13</zIndex>
+<storyboard>
+<animation property="scale" begin="0" from="1" to="1" duration="500" mode="linear"/>
+</storyboard>
+</image>
+
+<video name="md_video">
+<pos>0.2805 0.565</pos>
+<origin>0.5 0.5</origin>
+<effect>none</effect>
+<size>0.40 .55</size>
+<delay>1.5</delay>
+<zIndex>15</zIndex>
+</video>
+
+<image name="md_marquee">
+<pos>0.83 0.50</pos>
+<origin>0.5 0.5</origin>
+<maxSize>0.22 0.36</maxSize>
+<zIndex>20</zIndex>
+<storyboard>
+<animation property="scale" begin="0" from="1" to="1" duration="500" mode="linear"/>
+</storyboard>
+</image>
+
+</customView>
+ 
+ </theme>
