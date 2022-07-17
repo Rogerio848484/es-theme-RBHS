@@ -81,8 +81,8 @@
 </image>
 
 <image name="MOLDURA_VIDEO_GAMELIST" extra="true">
-<pos>0 0</pos>
-<size>1 1</size>
+<pos>-0.004 0</pos>
+<size>1.01 1.01</size>
 <zIndex>16</zIndex>
 <path>./ARTES/MOLDURAS VIDEO GAMELIST/${system.theme}.png</path>
 </image>
