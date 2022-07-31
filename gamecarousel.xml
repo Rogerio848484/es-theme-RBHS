@@ -4,6 +4,10 @@
 
 <view name="gamecarousel">
 
+<!----------------------------------------------------------->
+<!------------------------ CARROUSEL ------------------------>
+<!----------------------------------------------------------->
+
 <gamecarousel name="gamecarousel">
 <zIndex>10</zIndex>	      
 <type>vertical_wheel</type>
@@ -18,6 +22,18 @@
 <logoAlignment>center</logoAlignment>   
 <imageSource>marquee</imageSource>
 </gamecarousel> 
+
+<!----------------------------------------------------------->
+<!------------------------ HELPSYSTEM ----------------------->
+<!----------------------------------------------------------->
+
+<helpsystem name="help">
+<pos>0 0.965</pos>    
+</helpsystem>
+
+<!----------------------------------------------------------->
+<!---------------------- ARTES SISTEMA ---------------------->
+<!----------------------------------------------------------->
 
 <image name="pointer" extra="true">
 <pos>0.94 0.405</pos>
@@ -35,7 +51,6 @@
 <size>1 1</size>
 <zIndex>1</zIndex>
 <path>./ARTES/BACKGROUNDGAMELIST/${system.theme}.jpg</path>
-
 </image>
 
 <image name="background2" extra="true">
@@ -55,7 +70,6 @@
 <animation property="opacity" from="0" to="0" begin="0" duration="500" mode="linear"/>
 <animation property="opacity" from="0" to="1" begin="1600" duration="500" mode="linear"/>
 </storyboard>  
-
 </image>
 
 <image name="logo">
@@ -66,12 +80,27 @@
 <path>./ARTES/LOGOSGAMELIST/${system.theme}.png</path>
 </image>
 
-<image name="FUNDO_BLACK" extra="true">
+<!----------------------------------------------------------->
+<!----------------------- ARTES EXTRAS ---------------------->
+<!----------------------------------------------------------->
+
+<image name="fundo_black" extra="true">
 <pos>0 0</pos>
 <size>1 1</size>
 <zIndex>13</zIndex>
 <path>./ARTES/MOLDURAS VIDEO GAMELIST/BLACK.png</path>
 </image>
+
+<image name="moldura_video_gamelist" extra="true">
+<pos>-0.004 0</pos>
+<size>1.01 1.01</size>
+<zIndex>16</zIndex>
+<path>./ARTES/MOLDURAS VIDEO GAMELIST/${system.theme}.png</path>
+</image>
+
+<!----------------------------------------------------------->
+<!--------------------- ARTES GAMELIST ---------------------->
+<!----------------------------------------------------------->
 
 <image name="md_fanart" extra="true">
 <pos>0.281 0.565</pos>
@@ -80,15 +109,8 @@
 <zIndex>14</zIndex>
 </image>
 
-<image name="MOLDURA_VIDEO_GAMELIST" extra="true">
-<pos>-0.004 0</pos>
-<size>1.01 1.01</size>
-<zIndex>16</zIndex>
-<path>./ARTES/MOLDURAS VIDEO GAMELIST/${system.theme}.png</path>
-</image>
-
 <image name="md_thumbnail" extra="true">
-<pos>0.74 0.60</pos>
+<pos>0.74 0.58</pos>
 <origin>0.5 0.5</origin>
 <maxSize>0.65 .65</maxSize>
 <zIndex>13</zIndex>
@@ -100,10 +122,10 @@
 </image>
 
 <video name="md_video">
-<pos>0.2805 0.565</pos>
+<pos>0.2810 0.565</pos>
 <origin>0.5 0.5</origin>
 <effect>none</effect>
-<size>0.40 .55</size>
+<size>0.405 .55</size>
 <delay>1.5</delay>
 <zIndex>15</zIndex>
 </video>
@@ -129,4 +151,4 @@
 
 </view>
  
-  </theme>
+</theme>
