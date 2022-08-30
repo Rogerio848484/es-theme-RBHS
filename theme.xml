@@ -144,12 +144,11 @@
 <!---------------------------------------------------------------------->
 
 
-<include name="basic">./basic.xml</include>
-<include name="grid">./grid.xml</include>
-<include name="detailed">./detailed.xml</include>
-<include name="gamecarousel">./gamecarousel.xml</include>
-<include name="video">./video.xml</include>
-<include name="Gamelist CRAFTGAMES - PSX Horizontal Console CD">./Gamelist-PSX-CONSOLE-CD.xml</include>
-<include name="Gamelist Full Artes">./Gamelist-FULL-ARTES.xml</include>
+<include name="basic">./INCLUDES/OPCOES DE LISTA DE JOGOS PADRAO/basic.xml</include>
+<include name="grid">./INCLUDES/OPCOES DE LISTA DE JOGOS PADRAO/grid.xml</include>
+<include name="detailed">./INCLUDES/OPCOES DE LISTA DE JOGOS PADRAO/detailed.xml</include>
+<include name="gamecarousel">./INCLUDES/OPCOES DE LISTA DE JOGOS PADRAO/gamecarousel.xml</include>
+<include name="video">./INCLUDES/OPCOES DE LISTA DE JOGOS PADRAO/video.xml</include>
+<include name="gamelist detailed Capa3d+Cartucho">./INCLUDES/OPCOES DE LISTA DE JOGOS CUSTOM/gamelist_detailed_capa3d_cartucho.xml</include>
   
   </theme>
