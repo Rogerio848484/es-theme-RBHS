@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+
+<view name="video"> 
+   
+<!----------------------------------------------------------->
+<!------------------------ GAMELIST ------------------------->
+<!----------------------------------------------------------->
+
+<textlist name="gamelist">
+<pos>0.0185 0.18</pos>
+<size>0.2975 0.7999999</size>
+<primaryColor>ffffff</primaryColor>
+<selectedColor>ffff00</selectedColor>
+<selectorColor>868686</selectorColor>
+<fontSize>0.023</fontSize> 
+<lineSpacing>1.50</lineSpacing> 
+<alignment>left</alignment>
+<aligmentleft>true</aligmentleft>
+<horizontalMargin>0.0085</horizontalMargin>
+<zIndex>3000</zIndex> 
+</textlist>
+	
+<!----------------------------------------------------------->
+<!------------------------ HELPSYSTEM ----------------------->
+<!----------------------------------------------------------->
+	
+<helpsystem name="help">
+<pos>0 0.965</pos>    
+</helpsystem>
+
+<!----------------------------------------------------------->
+<!---------------------- ARTES SISTEMA ---------------------->
+<!----------------------------------------------------------->
+		
+<image name="background" extra="true">
+<origin>0 0</origin>
+<pos>0 0</pos>
+<size>1 1</size>
+<path>./ARTES/BACKGROUND VIDEOGAMES 2/${system.theme}.jpg</path>
+<zIndex>1</zIndex>      
+<color>4F4F4F</color>    
+</image>
+
+<image name="logo">
+<origin>0 0</origin>
+<pos>0.04 0.025</pos>
+<maxSize>0.25 0.12</maxSize>
+<path>./ARTES/LOGOS/LOGOCLEAN/${system.theme}.png</path>
+<zIndex>8</zIndex>          
+</image>
+
+<!----------------------------------------------------------->
+<!----------------------- ARTES EXTRAS ---------------------->
+<!----------------------------------------------------------->
+		
+<image name="Moldura_Video" extra="true">
+<origin>0 0</origin>
+<pos>0 0</pos>
+<size>1 1</size>
+<path>./ARTES/ARTES GAMELIST/gamelistlaunchbox.png</path>
+<zIndex>2</zIndex>          
+</image>
+	
+<image name="Controles" extra="true">
+<origin>0.5 0.5</origin>
+<pos>0.8 0.08</pos>
+<maxSize>0.15 0.15</maxSize>
+<path>./ARTES/CONTROLES/${system.theme}.png</path>
+<zIndex>900</zIndex>          
+</image>
+
+<!----------------------------------------------------------->
+<!--------------------- ARTES GAMELIST ---------------------->
+<!----------------------------------------------------------->
+
+<video name="md_video">
+<pos>0.500 0.40</pos>
+<size>0.335 0.45</size>
+<origin>0 0</origin>
+<delay>0</delay>
+<origin>0.5 0.5</origin>
+<effect>none</effect>
+<showSnapshotNoVideo>false</showSnapshotNoVideo>
+<showSnapshotDelay>false</showSnapshotDelay>
+<loops>99</loops>
+<zIndex>9</zIndex>
+<storyboard event="open">
+<animation property="scale" begin="0" from="0" to="1" duration="1000" mode="linear"/>
+<animation property="rotation" begin="0" from="-360" duration="1000" mode="linear"/>
+</storyboard>
+<storyboard event="activateNext">
+<animation property="scale" begin="0" from="0" to="1" duration="1000" mode="linear"/>
+<animation property="rotation" begin="0" from="-360" duration="1000" mode="linear"/>
+</storyboard>
+<storyboard event="activatePrev">
+<animation property="scale" begin="0" from="1.2" to="1" duration="800" mode="linear"/>
+<animation property="rotation" begin="0" from="360" duration="800" mode="linear"/>
+</storyboard>
+</video>
+		
+<image name="md_marquee">
+<pos>0.505 0.13</pos>
+<maxSize>0.25 0.25</maxSize>
+<storyboard event="open">
+<animation property="h" begin="0" from="0.2" duration="800" mode="bump"/>
+</storyboard>
+<storyboard event="activateNext">
+<animation property="h" begin="0" from="0.2" duration="800" mode="bump"/>
+</storyboard>
+<storyboard event="activatePrev">
+<animation property="h" begin="0" from="0.35" duration="800" mode="bump"/>
+</storyboard>
+</image>
+
+<image name="md_thumbnail">
+<pos>0.805 0.40</pos>
+<maxSize>0.20 0.45</maxSize>
+<storyboard event="open">
+<animation property="scale" begin="0" from="0" to="1" duration="1000" mode="linear"/>
+<animation property="rotation" begin="0" from="-360" duration="800" mode="linear"/>
+</storyboard>
+<storyboard event="activateNext">
+<animation property="scale" begin="0" from="0" to="1" duration="1000" mode="linear"/>
+<animation property="rotation" begin="0" from="-360" duration="800" mode="linear"/>
+</storyboard>
+<storyboard event="activatePrev">
+<animation property="scale" begin="0" from="1.5" to="1" duration="1000" mode="linear"/>
+<animation property="rotation" begin="0" from="360" duration="800" mode="linear"/>
+</storyboard>
+</image>
+
+<image name="md_cartridge">
+<pos>0.88 0.45</pos>
+<maxSize>0.10 0.10</maxSize>
+<storyboard event="open">
+<animation property="opacity" begin="0" from="0" to="0" duration="500" mode="linear"/>
+<animation property="opacity" begin="800" from="0" to="1" duration="500" mode="linear"/>
+<animation property="y" begin="800" from="0.4" duration="800" mode="linear"/>
+</storyboard>
+<storyboard event="activateNext">
+<animation property="opacity" begin="0" from="0" to="0" duration="500" mode="linear"/>
+<animation property="opacity" begin="800" from="0" to="1" duration="500" mode="linear"/>
+<animation property="y" begin="800" from="0.4" duration="800" mode="linear"/>
+</storyboard>
+<storyboard event="activatePrev">
+<animation property="opacity" begin="0" from="0" to="0" duration="500" mode="linear"/>
+<animation property="opacity" begin="800" from="0" to="1" duration="500" mode="linear"/>
+<animation property="y" begin="800" from="0.4" duration="800" mode="linear"/>
+</storyboard>
+</image>
+
+<!----------------------------------------------------------->
+<!-------------------- METADATA GAMELIST -------------------->
+<!----------------------------------------------------------->
+
+<text name="md_lbl_developer">
+<pos>.335 0.66</pos>
+<size>0.20 0.1</size>
+<fontSize>0.023</fontSize>
+<backgroundColor>00000000</backgroundColor>
+<glowColor>000000</glowColor>
+<zIndex>2000</zIndex>
+<glowSize>1</glowSize>
+<color>ffff00</color>		
+<fontPath>./fonts/Digital-Serial-Bold.ttf</fontPath>   	
+</text>
+
+<text name="md_developer">
+<pos>0.75 0.709</pos>
+<origin>0.5 0.5</origin>
+<fontSize>0.023</fontSize>
+<backgroundColor>00000000</backgroundColor>
+<color>FFFFFF</color>
+<glowColor>000000</glowColor>
+<zIndex>2000</zIndex>
+<glowSize>1</glowSize>
+<size>0.60 0.8</size>
+<fontPath>./fonts/Digital-Serial-Bold.ttf</fontPath>   	
+</text>
+
+<text name="md_lbl_releasedate">
+<pos>0.6565 0.66</pos>
+<fontSize>0.023</fontSize>
+<backgroundColor>00000000</backgroundColor>
+<glowColor>000000</glowColor>
+<zIndex>2000</zIndex>
+<glowSize>1</glowSize>
+<color>ffff00</color>		
+<fontPath>./fonts/Digital-Serial-Bold.ttf</fontPath>   	
+</text>
+		
+<datetime name="md_releasedate">
+<pos>1.03 0.6768</pos>
+<origin>0.5 0.5</origin>
+<fontSize>0.023</fontSize>
+<backgroundColor>00000000</backgroundColor>
+<color>FFFFFF</color>
+<glowColor>000000</glowColor>
+<zIndex>2000</zIndex>
+<glowSize>1</glowSize>
+<size>0.60 0.8</size>
+<fontPath>./fonts/Digital-Serial-Bold.ttf</fontPath>   	
+</datetime>
+		
+<text name="md_lbl_rating">
+<pos>0.655 0.695</pos>
+<fontSize>0.023</fontSize>
+<backgroundColor>00000000</backgroundColor>
+<glowColor>000000</glowColor>
+<zIndex>2000</zIndex>
+<glowSize>1</glowSize>
+<color>ffff00</color>		
+<fontPath>./fonts/Digital-Serial-Bold.ttf</fontPath>   	
+</text>
+		
+<rating name="md_rating">
+<pos>0.75 0.698</pos>
+<origin>0.1 0.1</origin>
+<backgroundColor>00000000</backgroundColor>
+<color>FFFFFF</color>
+<glowColor>000000</glowColor>
+<zIndex>2000</zIndex>
+<glowSize>1</glowSize>
+<alignment>left</alignment>
+<size>0.06 0.03</size>
+<filledPath>./ICONS OUTROS/star_filled.png</filledPath>
+<unfilledPath>./ICONS OUTROS/star_empty.png</unfilledPath>	
+</rating>
+		
+<text name="md_lbl_genre">
+<pos>.335 0.66</pos>
+<fontSize>0.023</fontSize>
+<backgroundColor>00000000</backgroundColor>
+<glowColor>000000</glowColor>
+<zIndex>2000</zIndex>
+<glowSize>1</glowSize> 
+<color>ffff00</color>		
+<fontPath>./fonts/Digital-Serial-Bold.ttf</fontPath>   	
+</text>
+		
+<text name="md_genre">
+<pos>0.45 0.628</pos>
+<size>0.60 0.10</size>
+<fontSize>0.023</fontSize>
+<backgroundColor>00000000</backgroundColor>
+<color>FFFFFF</color>
+<glowColor>000000</glowColor>
+<zIndex>2000</zIndex>
+<glowSize>1</glowSize>
+<fontPath>./fonts/Digital-Serial-Bold.ttf</fontPath>   	
+</text>
+
+<text name="md_description">
+<pos>0.335 0.7585</pos>
+<size>0.65 0.195</size>
+<fontSize>0.023</fontSize>
+<color>ffffff</color>
+<backgroundColor>00000000</backgroundColor>
+<glowColor>000000</glowColor>
+<zIndex>2000</zIndex>
+<glowSize>1</glowSize>
+<fontPath>./fonts/Digital-Serial-Bold.ttf</fontPath>   	
+</text>
+
+<!------------------------------------------------------------>
+<!-------------------------- FALSES -------------------------->
+<!------------------------------------------------------------>
+
+<text name="md_lbl_playcount,md_playcount,md_lbl_players,md_lbl_publisher, md_lbl_lastplayed,md_lastplayed,md_lbl_gametime">
+<visible>false</visible> 
+</text>
+
+<text name="md_flag,md_favorite,md_kidgame,md_hidden,md_players,md_lbl_playcount,logoText,md_lbl_lastplayed,md_lbl_gametime,md_gametime">
+<visible>false</visible> 
+</text>
+
+
+</view>
+   
+</theme>
