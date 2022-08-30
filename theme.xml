@@ -140,12 +140,12 @@
 <!---------------------------------------Lista de Jogos---------------------------------->
 <!--------------------------------------------------------------------------------------->
 
-<include name="basic">./basic.xml</include>
-<include name="grid">./grid.xml</include>
-<include name="detailed">./detailed.xml</include>
-<include name="gamecarousel">./gamecarousel.xml</include>
-<include name="video">./video.xml</include>
-<include name="gamelist detailed Capa3d Cartucho">./gamelist_detailed_Capa3d_Cartucho.xml</include>
+<include name="basic">./INCLUDES/OPCOES DE LISTA DE JOGOS PADRAO/basic.xml</include>
+<include name="grid">./INCLUDES/OPCOES DE LISTA DE JOGOS PADRAO/grid.xml</include>
+<include name="detailed">./INCLUDES/OPCOES DE LISTA DE JOGOS PADRAO/detailed.xml</include>
+<include name="gamecarousel">./INCLUDES/OPCOES DE LISTA DE JOGOS PADRAO/gamecarousel.xml</include>
+<include name="video">./INCLUDES/OPCOES DE LISTA DE JOGOS PADRAO/video.xml</include>
+<include name="gamelist detailed Capa3d Cartucho">./INCLUDES/OPCOES DE LISTA DE JOGOS CUSTOMIZADAS/gamelist_detailed_Capa3d_Cartucho.xml</include>
 
   
   </theme>
