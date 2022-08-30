@@ -82,20 +82,20 @@
 <!----------------------------------------------------------->
 
 <video name="md_video">
-	<pos>0.50 0.3573</pos>
-	<origin>0.5 0.5</origin>
-	<maxSize>0.380 0.3850</maxSize>
-	<loops>99</loops>
-	<delay>0</delay> 
-	<effect>none</effect>
-	<zIndex>20</zIndex> 
+<pos>0.50 0.3573</pos>
+<origin>0.5 0.5</origin>
+<maxSize>0.380 0.3850</maxSize>
+<loops>99</loops>
+<delay>0</delay> 
+<effect>none</effect>
+<zIndex>20</zIndex> 
 </video>
 
 <image name="md_thumbnail">
-	<pos>0.40 0.770</pos>
-    <origin>0.5 0.5</origin>
-	<maxSize>0.22 0.37</maxSize>
-    <zIndex>3</zIndex>         
+<pos>0.40 0.770</pos>
+<origin>0.5 0.5</origin>
+<maxSize>0.17 0.37</maxSize>
+<zIndex>3</zIndex>         
 </image> 
 
 <image name="md_cartridge">
