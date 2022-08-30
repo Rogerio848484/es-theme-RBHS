@@ -145,6 +145,7 @@
 <include name="detailed">./detailed.xml</include>
 <include name="gamecarousel">./gamecarousel.xml</include>
 <include name="video">./video.xml</include>
-<include name="Gamelist Horizontal 05 logos">./gamelist - horizontal.xml</include>
+<include name="gamelist detailed Capa3d Cartucho">./gamelist_detailed_Capa3d_Cartucho.xml</include>
+
   
   </theme>
