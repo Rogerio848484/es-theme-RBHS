@@ -2,7 +2,7 @@
 <theme>
 <formatVersion>7</formatVersion>
 
-<view name="detailed">	
+<customView name="gamelist detailed Capa3d+Cartucho" inherits="detailed">	
 
 
 <!----------------------------------------------------------->
@@ -70,10 +70,14 @@
 </image>
 
 <image name="arte-extra-fixa-gamelist" extra="true">
+<visible>false</visible>
+</image> 
+
+<image name="arte-extra-fixa-gamelist2" extra="true">
 <origin>0 0</origin>
 <pos>0 0</pos>
 <maxSize>1 1</maxSize>
-<path>./ARTES/ARTES GAMELIST/RQ_50%.png</path>
+<path>./ARTES/ARTES GAMELIST/RQ_50%_v2.png</path>
 <zIndex>1</zIndex> 
 </image> 
 
@@ -91,17 +95,21 @@
 <zIndex>20</zIndex> 
 </video>
 
-<image name="md_thumbnail">
-<pos>0.40 0.770</pos>
+<image name="md_image">
+<pos>0.50 0.770</pos>
 <origin>0.5 0.5</origin>
-<maxSize>0.17 0.37</maxSize>
+<maxSize>0.35 0.38</maxSize>
 <zIndex>3</zIndex>         
 </image> 
 
+<image name="md_thumbnail">
+<visible>false</visible>
+</image> 
+
 <image name="md_cartridge">
-<pos>0.5978 0.7670</pos>
+<pos>0.612 0.865</pos>
 <origin>0.5 0.5</origin>
-<maxSize>0.17 0.32</maxSize>
+<maxSize>0.12 0.25</maxSize>
 <zIndex>3</zIndex>         
 </image> 
 
@@ -378,6 +386,6 @@
 <visible>false</visible> 
 </text>
 
-</view>
+</customView>
   
 </theme>
