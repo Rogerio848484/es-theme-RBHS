@@ -18,7 +18,7 @@ Tema voltado para pessoas que estão migrando do Hyperspin para o Retrobat.
 
 ### GAMELIST DETAILED
 
-![](https://i.ibb.co/tmGHc7r/Whats-App-Image-2022-07-17-at-19-59-56.jpg)
+
 
 ### GAMELIST VIDEO
 
