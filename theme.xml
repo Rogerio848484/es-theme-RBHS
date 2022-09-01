@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<theme defaultView="gamecarousel">
+<theme defaultView="detailed">
 <formatVersion>7</formatVersion>
  		
 <!---------------------------------------------------------------------->
@@ -137,7 +137,6 @@
 <include name="Eletronicas" displayName="Eletronicas">./INCLUDES/OPCOES DE MUSICAS/MUSICAS ELETRONICAS.xml</include>
 <include name="Games" displayName="Games">./INCLUDES/OPCOES DE MUSICAS/MUSICAS GAMES.xml</include>
 </subset>
-
 
 <!---------------------------------------------------------------------->
 <!-------------------- LISTA DE JOGOS / GAMELIST ----------------------->
