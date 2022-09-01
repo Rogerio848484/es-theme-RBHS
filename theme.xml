@@ -108,8 +108,8 @@
 <!---------------------------------------------------------------------->
 
 <subset name="Main Menu" displayName="Opções de Main Menu">
-<include name="MENU 01 - Azulejos" displayName="MENU 01 - Azulejos">./Menu 01 - Azulejos.xml</include>
-<include name="MENU 02 - Roleta" displayName="MENU 02 - Roleta Direita">./MENU 02 - Roleta Direita.xml</include>
+<include name="MENU 01 - Azulejos" displayName="MENU 01 - Azulejos">./VIEWS/MENU PRINCIPAL/Menu 01 - Azulejos.xml</include>
+<include name="MENU 02 - Roleta" displayName="MENU 02 - Roleta Direita">./VIEWS/MENU PRINCIPAL/MENU 02 - Roleta Direita.xml</include>
 </subset>
 
 <subset name="Wheel" displayName="Opções de Wheel">
