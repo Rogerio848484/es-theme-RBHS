@@ -65,7 +65,7 @@
 <fontPath>./fonts/Digital-Serial-Bold.ttf</fontPath>
 <selectorGradientType>horizontal</selectorGradientType>
 <fontSize>0.025</fontSize>
-<color>DCDCDC</color>
+<color>DCDCDC</color> 
 </menuText>
 
 <menuTextSmall name="menutextsmall">
@@ -142,7 +142,6 @@
 <!---------------------------------------------------------------------->
 <!-------------------- LISTA DE JOGOS / GAMELIST ----------------------->
 <!---------------------------------------------------------------------->
-
 
 <include name="basic">./INCLUDES/OPCOES DE LISTA DE JOGOS PADRAO/basic.xml</include>
 <include name="grid">./INCLUDES/OPCOES DE LISTA DE JOGOS PADRAO/grid.xml</include>
