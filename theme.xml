@@ -49,4 +49,4 @@
 <include name="video">./VIEWS/OPCOES DE LISTA DE JOGOS PADRAO/video.xml</include>
 <include name="gamelist detailed Capa3d+Cartucho">./VIEWS/OPCOES DE LISTA DE JOGOS CUSTOM/gamelist_detailed_capa3d_cartucho.xml</include>
   
-  </theme>
+ </theme>
