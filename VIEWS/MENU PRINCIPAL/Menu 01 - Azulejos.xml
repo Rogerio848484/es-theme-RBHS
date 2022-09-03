@@ -9,41 +9,41 @@
 
 <view name="screen">
 <text name="clock">
-		<fontSize>0.034</fontSize>
-		<color>ffffff</color>
-		<glowColor>000000</glowColor>
-		<pos>0.89 0.92</pos>
-		<size>0.10 0.058</size>
-		<fontPath>./fonts/Digital-Serial-Bold.ttf</fontPath>
-		<verticalAlignment>right</verticalAlignment>
-		</text>
+<fontSize>0.034</fontSize>
+<color>ffffff</color>
+<glowColor>000000</glowColor>
+<pos>0.89 0.903</pos>
+<size>0.10 0.058</size>
+<fontPath>./fonts/Digital-Serial-Bold.ttf</fontPath>
+<verticalAlignment>right</verticalAlignment>
+</text>
 	
-     <controllerActivity name="controllerActivity">
-      <pos>0.01 0.010</pos>
-      <size>0.085 0.025</size>
-      <itemSpacing>0.003</itemSpacing>
-      <imagePath>./icons/gamepad.svg</imagePath>
-      <color>FFFFFF1A</color>
-      <activityColor>ff00001A</activityColor>
-      <hotkeyColor>ffffff1A</hotkeyColor>
-    </controllerActivity>
+<controllerActivity name="controllerActivity">
+<pos>0.01 0.010</pos>
+<size>0.085 0.025</size>
+<itemSpacing>0.003</itemSpacing>
+<imagePath>./icons/gamepad.svg</imagePath>
+<color>FFFFFF1A</color>
+<activityColor>ff00001A</activityColor>
+<hotkeyColor>ffffff1A</hotkeyColor>
+</controllerActivity>
 
-    <batteryIndicator name="batteryIndicator">
-      <pos>0.955 0.0125</pos>
-      <size>0.033 0.033</size>
-      <incharge>./battery/incharge.svg</incharge>
-      <full>./battery/full.svg</full>
-      <at75>./battery/75.svg</at75>
-      <at50>./battery/50.svg</at50>
-      <at25>./battery/25.svg</at25>
-      <empty>./battery/empty.svg</empty>
-      <color>FFFFFFA0</color>
-      </batteryIndicator>
-      <batteryIndicator name="batteryIndicator" tinyScreen="true">
-      <pos>0.915 0.013</pos>
-      <size>0.07 0.07</size>
-      </batteryIndicator>
-    </view>
+<batteryIndicator name="batteryIndicator">
+<pos>0.955 0.0125</pos>
+<size>0.033 0.033</size>
+<incharge>./battery/incharge.svg</incharge>
+<full>./battery/full.svg</full>
+<at75>./battery/75.svg</at75>
+<at50>./battery/50.svg</at50>
+<at25>./battery/25.svg</at25>
+<empty>./battery/empty.svg</empty>
+<color>FFFFFFA0</color>
+</batteryIndicator>
+<batteryIndicator name="batteryIndicator" tinyScreen="true">
+<pos>0.915 0.013</pos>
+<size>0.07 0.07</size>
+</batteryIndicator>
+</view>
 
 <!---------------------------------------------------------------------->
 <!-------------------------------- MENU -------------------------------->
@@ -110,7 +110,8 @@
 <view name="system">
 
 <image name="background" extra="true">
-<pos>0 0</pos>
+<pos>0.5 0.5</pos>
+<origin>0.5 0.5</origin>
 <size>1 1</size>
 <path>./ARTES/BACKGROUND VIDEOGAMES 1/${system.theme}.png</path>
 <path>./ARTES/BACKGROUND VIDEOGAMES 1/${system.theme}.jpg</path>
@@ -123,7 +124,8 @@
 </image>
 
 <video name="background_video" extra="true">
-<pos>0 0</pos>
+<pos>0.5 0.5</pos>
+<origin>0.5 0.5</origin>
 <size>1 1</size>
 <delay>2</delay>
 <path>./VIDEOS/${system.theme}.mp4</path>
@@ -131,14 +133,14 @@
 <path>./VIDEOS/${system.theme}.avi</path>
 <zIndex>1</zIndex>
 <storyboard>
-<animation property="scale" from="0.8" to="1" begin="0" duration="1000" mode="linear"/>
+<animation property="scale" from="0.9" to="1" begin="0" duration="600" mode="linear"/>
 </storyboard>  
 </video>
 
 <image name="moldura" extra="true">
 <pos>0 0</pos>
 <size>1 1</size>
-<path>./ARTES/MOLDURA MENU PRINCIPAL/black.png</path>
+<path>./ARTES/MOLDURA MENU PRINCIPAL/black2.png</path>
 <zIndex>2</zIndex>
 </image>
 
@@ -238,11 +240,11 @@
 <helpsystem name="help">
 <fontPath>./fonts/Digital-Serial-Bold.ttf</fontPath>
 <fontSize>0.034</fontSize>
-<pos>0 0.965</pos>    
+<pos>0 0.9135</pos>    
 <textColor>ffffff</textColor>
 <iconColor>ffffff</iconColor>
 </helpsystem>
 
 </view>
  
-  </theme>
+</theme>
