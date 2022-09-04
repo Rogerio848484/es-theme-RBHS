@@ -20,6 +20,13 @@
 <include name="Rectangle" displayName="Wheel Rectangle">./INCLUDES/OPCOES DE WHEEL/WHEEL RECTANGLE.xml</include>
 </subset>
 
+<subset name="Color" displayName="Opcoes Cores Help, System, Clock">
+<include name="blue" displayName="Blue">./INCLUDES/OPCOES COLOR HELPSYSTEM SYSTEM CLOCK/blue.xml</include>
+<include name="candy" displayName="Candy">./INCLUDES/OPCOES COLOR HELPSYSTEM SYSTEM CLOCK/candy.xml</include>
+<include name="green" displayName="Green">./INCLUDES/OPCOES COLOR HELPSYSTEM SYSTEM CLOCK/green.xml</include>
+<include name="pink" displayName="Pink">./INCLUDES/OPCOES COLOR HELPSYSTEM SYSTEM CLOCK/pink.xml</include>
+</subset>
+
 <subset name="Rodape" displayName="Opções de Rodape">
 <include name="Rodape Off" displayName="Rodape Off"/>
 <include name="Rodape 01" displayName="Rodape 01">./INCLUDES/OPCOES DE RODAPE/RODAPE 01.xml</include>
