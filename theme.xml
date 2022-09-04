@@ -22,9 +22,20 @@
 
 <subset name="Color" displayName="Opcoes Cores Help, System, Clock">
 <include name="blue" displayName="Blue">./INCLUDES/OPCOES COLOR HELPSYSTEM SYSTEM CLOCK/blue.xml</include>
+<include name="darkblue" displayName="DarkBlue">./INCLUDES/OPCOES COLOR HELPSYSTEM SYSTEM CLOCK/darkblue.xml</include>
 <include name="candy" displayName="Candy">./INCLUDES/OPCOES COLOR HELPSYSTEM SYSTEM CLOCK/candy.xml</include>
 <include name="green" displayName="Green">./INCLUDES/OPCOES COLOR HELPSYSTEM SYSTEM CLOCK/green.xml</include>
+<include name="greenalt" displayName="Green-Alt">./INCLUDES/OPCOES COLOR HELPSYSTEM SYSTEM CLOCK/green-alt.xml</include>
+<include name="grey" displayName="Grey">./INCLUDES/OPCOES COLOR HELPSYSTEM SYSTEM CLOCK/grey.xml</include>
+<include name="orange" displayName="Orange">./INCLUDES/OPCOES COLOR HELPSYSTEM SYSTEM CLOCK/orange.xml</include>
 <include name="pink" displayName="Pink">./INCLUDES/OPCOES COLOR HELPSYSTEM SYSTEM CLOCK/pink.xml</include>
+<include name="plus" displayName="Plus">./INCLUDES/OPCOES COLOR HELPSYSTEM SYSTEM CLOCK/plus.xml</include>
+<include name="purple" displayName="Purple">./INCLUDES/OPCOES COLOR HELPSYSTEM SYSTEM CLOCK/purple.xml</include>
+<include name="purple-alt" displayName="Purple-alt">./INCLUDES/OPCOES COLOR HELPSYSTEM SYSTEM CLOCK/purple-alt.xml</include>
+<include name="red" displayName="Red">./INCLUDES/OPCOES COLOR HELPSYSTEM SYSTEM CLOCK/red.xml</include>
+<include name="violet" displayName="Violet">./INCLUDES/OPCOES COLOR HELPSYSTEM SYSTEM CLOCK/violet.xml</include>
+<include name="white" displayName="White">./INCLUDES/OPCOES COLOR HELPSYSTEM SYSTEM CLOCK/white.xml</include>
+<include name="yellow" displayName="Yellow">./INCLUDES/OPCOES COLOR HELPSYSTEM SYSTEM CLOCK/yellow.xml</include>
 </subset>
 
 <subset name="Rodape" displayName="Opções de Rodape">
