@@ -20,7 +20,7 @@
 <include name="Rectangle" displayName="Wheel Rectangle">./INCLUDES/OPCOES DE WHEEL/WHEEL RECTANGLE.xml</include>
 </subset>
 
-<subset name="Color" displayName="Opcoes Cores Help, System, Clock">
+<subset name="Color" displayName="Opções Cores Help, System, Clock">
 <include name="blue" displayName="Blue">./INCLUDES/OPCOES COLOR HELPSYSTEM SYSTEM CLOCK/blue.xml</include>
 <include name="darkblue" displayName="DarkBlue">./INCLUDES/OPCOES COLOR HELPSYSTEM SYSTEM CLOCK/darkblue.xml</include>
 <include name="candy" displayName="Candy">./INCLUDES/OPCOES COLOR HELPSYSTEM SYSTEM CLOCK/candy.xml</include>
@@ -36,6 +36,18 @@
 <include name="violet" displayName="Violet">./INCLUDES/OPCOES COLOR HELPSYSTEM SYSTEM CLOCK/violet.xml</include>
 <include name="white" displayName="White">./INCLUDES/OPCOES COLOR HELPSYSTEM SYSTEM CLOCK/white.xml</include>
 <include name="yellow" displayName="Yellow">./INCLUDES/OPCOES COLOR HELPSYSTEM SYSTEM CLOCK/yellow.xml</include>
+</subset>
+
+<subset name="Icones" displayName="Opções Icones Botões"> 
+<include subset="iconset" name="icon Default">./INCLUDES/OPCOES OPCOES ICONSETS/default.xml</include>
+<include subset="iconset" name="icon PSX">./INCLUDES/OPCOES ICONSETS/psx.xml</include>
+<include subset="iconset" name="icon SNES">./INCLUDES/OPCOES ICONSETS/snes.xml</include>
+<include subset="iconset" name="icon XBOX">./INCLUDES/OPCOES ICONSETS/xbox.xml</include>
+<include subset="iconset" name="icon ARCADE">./INCLUDES/OPCOES ICONSETS/arcade.xml</include>
+<include subset="iconset" name="icon Xbox One">./INCLUDES/OPCOES ICONSETS/xboxone.xml</include>
+<include subset="iconset" name="icon Switch">./INCLUDES/OPCOES ICONSETS/switch.xml</include>
+<include subset="iconset" name="icon PSX ALT">./INCLUDES/OPCOES ICONSETS/psx1.xml</include>
+<include subset="iconset" name="icon SNES ALT">./INCLUDES/OPCOES ICONSETS/snesalt.xml</include>
 </subset>
 
 <subset name="Rodape" displayName="Opções de Rodape">
