@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <theme>
    <formatVersion>7</formatVersion>
+   
+   <view name="menu">
+
+	<menuText name="menutext"> 
+		<fontPath>./_inc/Roboto-Medium.ttf</fontPath>
+		<fontSize>0.03</fontSize>
+		<color>DCDCDC</color>
+		<separatorColor>333333FF</separatorColor>
+		<selectorColor>ff6600</selectorColor>
+		<selectedColor>000000</selectedColor>
+	</menuText>
+	<menuText name="menutitle">
+    <fontPath>./fonts/Digital-Serial-Bold.ttf</fontPath>
+    <color>ff6600</color>
+    <fontSize>0.029</fontSize>
+    </menuText>
+	
+ </view> 
 
     <view name="basic, detailed, video, grid, gamecarousel, system">
       <helpsystem name="help">
@@ -173,5 +191,33 @@
 		<color>ff6600</color>
 	</text>
 	</view>
+	
+	<view name="basic">
+         <textlist name="gamelist">
+         <selectorColor>ff6600</selectorColor> 
+	     <selectedColor>000000</selectedColor>     
+         <primaryColor>ffffff</primaryColor>
+         <secondaryColor>ffffff</secondaryColor>
+           </textlist>
+   </view>
+   
+      <view name="detailed">
+         <textlist name="gamelist">
+         <selectorColor>ff6600</selectorColor> 
+	     <selectedColor>000000</selectedColor>     
+         <primaryColor>ffffff</primaryColor>
+         <secondaryColor>ffffff</secondaryColor>
+           </textlist>
+   </view>
+   
+   
+      <view name="video">
+         <textlist name="gamelist">
+         <selectorColor>ff6600</selectorColor> 
+	     <selectedColor>000000</selectedColor>     
+         <primaryColor>ffffff</primaryColor>
+         <secondaryColor>ffffff</secondaryColor>
+           </textlist>
+   </view>
 
 </theme>

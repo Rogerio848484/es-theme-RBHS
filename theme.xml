@@ -121,40 +121,20 @@
 <include name="Rectangle" displayName="Wheel Rectangle">./INCLUDES/OPCOES DE WHEEL/WHEEL RECTANGLE.xml</include>
 </subset>
 
-<subset name="Color" displayName="Opções Cores Help, System, Clock">
-<include name="blue" displayName="Blue">./INCLUDES/OPCOES COLOR HELPSYSTEM SYSTEM CLOCK/blue.xml</include>
-<include name="darkblue" displayName="DarkBlue">./INCLUDES/OPCOES COLOR HELPSYSTEM SYSTEM CLOCK/darkblue.xml</include>
-<include name="candy" displayName="Candy">./INCLUDES/OPCOES COLOR HELPSYSTEM SYSTEM CLOCK/candy.xml</include>
-<include name="green" displayName="Green">./INCLUDES/OPCOES COLOR HELPSYSTEM SYSTEM CLOCK/green.xml</include>
-<include name="greenalt" displayName="Green-Alt">./INCLUDES/OPCOES COLOR HELPSYSTEM SYSTEM CLOCK/green-alt.xml</include>
-<include name="grey" displayName="Grey">./INCLUDES/OPCOES COLOR HELPSYSTEM SYSTEM CLOCK/grey.xml</include>
-<include name="orange" displayName="Orange">./INCLUDES/OPCOES COLOR HELPSYSTEM SYSTEM CLOCK/orange.xml</include>
-<include name="pink" displayName="Pink">./INCLUDES/OPCOES COLOR HELPSYSTEM SYSTEM CLOCK/pink.xml</include>
-<include name="plus" displayName="Plus">./INCLUDES/OPCOES COLOR HELPSYSTEM SYSTEM CLOCK/plus.xml</include>
-<include name="purple" displayName="Purple">./INCLUDES/OPCOES COLOR HELPSYSTEM SYSTEM CLOCK/purple.xml</include>
-<include name="purple-alt" displayName="Purple-alt">./INCLUDES/OPCOES COLOR HELPSYSTEM SYSTEM CLOCK/purple-alt.xml</include>
-<include name="red" displayName="Red">./INCLUDES/OPCOES COLOR HELPSYSTEM SYSTEM CLOCK/red.xml</include>
-<include name="violet" displayName="Violet">./INCLUDES/OPCOES COLOR HELPSYSTEM SYSTEM CLOCK/violet.xml</include>
-<include name="white" displayName="White">./INCLUDES/OPCOES COLOR HELPSYSTEM SYSTEM CLOCK/white.xml</include>
-<include name="yellow" displayName="Yellow">./INCLUDES/OPCOES COLOR HELPSYSTEM SYSTEM CLOCK/yellow.xml</include>
-</subset>
-
-<subset name="Cores Menu" displayName="Opções de Cores Menu"> 
-<include name="plus" displayName="plus">./INCLUDES/OPCOES CORES MENU/plus.xml</include>
-<include name="purple" displayName="purple">./INCLUDES/OPCOES CORES MENU/purple.xml</include>
-<include name="red" displayName="red">./INCLUDES/OPCOES CORES MENU/red.xml</include>
-<include name="Aqua" displayName="Aqua">./INCLUDES/OPCOES CORES MENU/blue.xml</include>
-<include name="orange" displayName="orange">./INCLUDES/OPCOES CORES MENU/orange.xml</include>
-<include name="green" displayName="green">./INCLUDES/OPCOES CORES MENU/green.xml</include>
-<include name="yellow" displayName="yellow">./INCLUDES/OPCOES CORES MENU/yellow.xml</include>
-<include name="pink" displayName="pink">./INCLUDES/OPCOES CORES MENU/pink.xml</include>
-<include name="grey" displayName="grey">./INCLUDES/OPCOES CORES MENU/grey.xml</include>
-<include name="Dark Blue" displayName="Dark Blue">./INCLUDES/OPCOES CORES MENU/darkblue.xml</include>
-<include name="violet" displayName="violet">./INCLUDES/OPCOES CORES MENU/violet.xml</include>
-<include name="red-alt" displayName="red-alt">./INCLUDES/OPCOES CORES MENU/red-alt.xml</include>
-<include name="yellow-alt" displayName="yellow-alt">./INCLUDES/OPCOES CORES MENU/yellow-alt.xml</include>
-<include name="green-alt" displayName="green-alt">./INCLUDES/OPCOES CORES MENU/green-alt.xml</include>
-<include name="purple-alt" displayName="purple-alt">./INCLUDES/OPCOES CORES MENU/purple-alt.xml</include>
+<subset name="Color Theme" displayName="Opções Cores Tema">
+<include name="blue" displayName="Blue">./INCLUDES/OPCOES COLOR THEME/blue.xml</include>
+<include name="darkblue" displayName="DarkBlue">./INCLUDES/OPCOES COLOR THEME/darkblue.xml</include>
+<include name="candy" displayName="Candy">./INCLUDES/OPCOES COLOR THEME/candy.xml</include>
+<include name="green" displayName="Green">./INCLUDES/OPCOES COLOR THEME/green.xml</include>
+<include name="grey" displayName="Grey">./INCLUDES/OPCOES COLOR THEME/grey.xml</include>
+<include name="orange" displayName="Orange">./INCLUDES/OPCOES COLOR THEME/orange.xml</include>
+<include name="pink" displayName="Pink">./INCLUDES/OPCOES COLOR THEME/pink.xml</include>
+<include name="plus" displayName="Plus">./INCLUDES/OPCOES COLOR THEME/plus.xml</include>
+<include name="purple" displayName="Purple">./INCLUDES/OPCOES COLOR THEME/purple.xml</include>
+<include name="red" displayName="Red">./INCLUDES/OPCOES COLOR THEME/red.xml</include>
+<include name="violet" displayName="Violet">./INCLUDES/OPCOES COLOR THEME/violet.xml</include>
+<include name="white" displayName="White">./INCLUDES/OPCOES COLOR THEME/white.xml</include>
+<include name="yellow" displayName="Yellow">./INCLUDES/OPCOES COLOR THEME/yellow.xml</include>
 </subset>
 
 <subset name="Icones" displayName="Opções Icones Botões"> 

@@ -24,12 +24,6 @@
 	<lineSpacing>1.5</lineSpacing> 
 <!--  Barra Seletora   -->		
 	<selectorImagePath></selectorImagePath>
-<!--  Cor das letras  -->		 
-	<primaryColor>ffff00</primaryColor>
-<!--  Cor do seletor  -->		 
-	<selectorColor>4682B4</selectorColor>
-<!--  Cor do jogo Selecionado  -->
-	<selectedColor>FFFFFF</selectedColor>	
 <!--  profundidade da arte / sequencia de amostragem da arte  -->
 	<zIndex>5</zIndex>	
 </textlist>		 

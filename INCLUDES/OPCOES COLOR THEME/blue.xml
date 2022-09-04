@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <theme>
    <formatVersion>7</formatVersion>
+   
+   <view name="menu">
+   <menuText name="menutext"> 
+   <fontPath>./_inc/Roboto-Medium.ttf</fontPath>
+   <fontSize>0.03</fontSize>
+   <color>DCDCDC</color>
+   <separatorColor>333333FF</separatorColor>
+   <selectorColor>0099ff</selectorColor>
+   <selectedColor>000000</selectedColor>
+	</menuText>
+	<menuText name="menutitle">
+    <fontPath>./fonts/Digital-Serial-Bold.ttf</fontPath>
+    <color>0099ff</color>
+    <fontSize>0.029</fontSize>
+    </menuText>
+    </view> 
 
     <view name="basic, detailed, video, grid, gamecarousel, system">
 	
@@ -177,5 +193,51 @@
 	<color>0099ff</color>
 	</text>
 	</view>
+	
+	<view name="basic">
+         <textlist name="gamelist">
+         <selectorColor>0099ff</selectorColor> 
+	     <selectedColor>000000</selectedColor>     
+         <primaryColor>ffffff</primaryColor>
+         <secondaryColor>ffffff</secondaryColor>
+         </textlist>
+   </view>
+   
+      <view name="detailed">
+         <textlist name="gamelist">
+         <selectorColor>0099ff</selectorColor> 
+	     <selectedColor>000000</selectedColor>     
+         <primaryColor>ffffff</primaryColor>
+         <secondaryColor>ffffff</secondaryColor>
+           </textlist>
+   </view>
+   
+   
+      <view name="video">
+         <textlist name="gamelist">
+         <selectorColor>0099ff</selectorColor> 
+	     <selectedColor>000000</selectedColor>     
+         <primaryColor>ffffff</primaryColor>
+         <secondaryColor>ffffff</secondaryColor>
+           </textlist>
+   </view>
+   
+   <view name="grid">
+         <textlist name="gamelist">
+         <selectorColor>0099ff</selectorColor> 
+	     <selectedColor>000000</selectedColor>     
+         <primaryColor>ffffff</primaryColor>
+         <secondaryColor>ffffff</secondaryColor>
+           </textlist>
+   </view>
+   
+   <view name="gamecarousel">
+         <textlist name="gamelist">
+         <selectorColor>0099ff</selectorColor> 
+	     <selectedColor>000000</selectedColor>     
+         <primaryColor>ffffff</primaryColor>
+         <secondaryColor>ffffff</secondaryColor>
+           </textlist>
+   </view>
 
 </theme>
