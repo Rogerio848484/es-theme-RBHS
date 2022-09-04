@@ -1,0 +1,69 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+
+<!--    All Color Menu -->
+<view name="menu">
+
+	<menuText name="menufooter">
+		<fontPath>./_inc/Roboto-Medium.ttf</fontPath>
+		<fontSize>0.025</fontSize>
+		<color>ffffff1A</color>
+	</menuText>
+	<menuText name="menutext"> 
+		<fontPath>./_inc/Roboto-Medium.ttf</fontPath>
+		<fontSize>0.03</fontSize>
+		<color>666666</color>
+		<separatorColor>333333FF</separatorColor>
+		<selectorColor>00ff33</selectorColor>
+		<selectedColor>000000</selectedColor>
+	</menuText>
+	<menuTextSmall name="menutextsmall">
+		<fontPath>./_inc/Roboto-Medium.ttf</fontPath>
+		<color>ffffff</color>
+		<fontSize>0.028</fontSize>
+	</menuTextSmall>
+	<menuText name="menutitle">
+		<fontPath>./_inc/Roboto-Medium.ttf</fontPath>
+		<fontSize>0.04</fontSize>
+		<color>ffffff</color>
+	</menuText>
+	<menuBackground name="menubg">
+		<path>./_inc/back1.png</path>
+		<fadePath>./_inc/fade.png</fadePath>
+		<color>000000CC</color>
+	</menuBackground>
+ </view> 
+	
+	
+   <view name="basic">
+         <textlist name="gamelist">
+         <selectorColor>00ff33</selectorColor> 
+	     <selectedColor>000000</selectedColor>     
+         <primaryColor>ffffff</primaryColor>
+         <secondaryColor>ffffff</secondaryColor>
+           </textlist>
+   </view>
+   
+      <view name="detailed">
+         <textlist name="gamelist">
+         <selectorColor>00ff33</selectorColor> 
+	     <selectedColor>000000</selectedColor>     
+         <primaryColor>ffffff</primaryColor>
+         <secondaryColor>ffffff</secondaryColor>
+           </textlist>
+   </view>
+   
+   
+      <view name="video">
+         <textlist name="gamelist">
+         <selectorColor>00ff33</selectorColor> 
+	     <selectedColor>000000</selectedColor>     
+         <primaryColor>ffffff</primaryColor>
+         <secondaryColor>ffffff</secondaryColor>
+           </textlist>
+   </view>
+
+
+</theme>

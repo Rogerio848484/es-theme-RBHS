@@ -38,6 +38,24 @@
 <include name="yellow" displayName="Yellow">./INCLUDES/OPCOES COLOR HELPSYSTEM SYSTEM CLOCK/yellow.xml</include>
 </subset>
 
+<subset name="Cores Menu" displayName="Opções de Cores Menu"> 
+<include name="plus" displayName="plus">./INCLUDES/OPCOES CORES MENU/plus.xml</include>
+<include name="purple" displayName="purple">./INCLUDES/OPCOES CORES MENU/purple.xml</include>
+<include name="red" displayName="red">./INCLUDES/OPCOES CORES MENU/red.xml</include>
+<include name="Aqua" displayName="Aqua">./INCLUDES/OPCOES CORES MENU/blue.xml</include>
+<include name="orange" displayName="orange">./INCLUDES/OPCOES CORES MENU/orange.xml</include>
+<include name="green" displayName="green">./INCLUDES/OPCOES CORES MENU/green.xml</include>
+<include name="yellow" displayName="yellow">./INCLUDES/OPCOES CORES MENU/yellow.xml</include>
+<include name="pink" displayName="pink">./INCLUDES/OPCOES CORES MENU/pink.xml</include>
+<include name="grey" displayName="grey">./INCLUDES/OPCOES CORES MENU/grey.xml</include>
+<include name="Dark Blue" displayName="Dark Blue">./INCLUDES/OPCOES CORES MENU/darkblue.xml</include>
+<include name="violet" displayName="violet">./INCLUDES/OPCOES CORES MENU/violet.xml</include>
+<include name="red-alt" displayName="red-alt">./INCLUDES/OPCOES CORES MENU/red-alt.xml</include>
+<include name="yellow-alt" displayName="yellow-alt">./INCLUDES/OPCOES CORES MENU/yellow-alt.xml</include>
+<include name="green-alt" displayName="green-alt">./INCLUDES/OPCOES CORES MENU/green-alt.xml</include>
+<include name="purple-alt" displayName="purple-alt">./INCLUDES/OPCOES CORES MENU/purple-alt.xml</include>
+</subset>
+
 <subset name="Icones" displayName="Opções Icones Botões"> 
 <include subset="iconset" name="icon Default">./INCLUDES/OPCOES OPCOES ICONSETS/default.xml</include>
 <include subset="iconset" name="icon PSX">./INCLUDES/OPCOES ICONSETS/psx.xml</include>
