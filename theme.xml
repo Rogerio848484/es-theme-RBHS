@@ -99,6 +99,13 @@
 <include name="Rodape 02" displayName="Rodape 02">./INCLUDES/OPCOES DE RODAPE/RODAPE 02.xml</include>
 </subset>
 
+<subset name="Logo Semi-Transparente" displayName="Opções Opacidade Logo"> 
+<include name="100%" displayName="100%">./INCLUDES/OPCOES OPACIDADE LOGO/100%.xml</include>
+<include name="75%" displayName="75%">./INCLUDES/OPCOES OPACIDADE LOGO/75%.xml</include>
+<include name="50%" displayName="50%">./INCLUDES/OPCOES OPACIDADE LOGO/50%.xml</include>
+<include name="25%" displayName="25%">./INCLUDES/OPCOES OPACIDADE LOGO/25%.xml</include>
+</subset>
+
 <subset name="Opções de Video" displayName="Opções de Video">
 <include name="Video Off" displayName="Off"/>
 <include name="Video Sistemas" displayName="Video Sistemas">./INCLUDES/OPCOES DE VIDEO/VIDEO SISTEMAS.xml</include>

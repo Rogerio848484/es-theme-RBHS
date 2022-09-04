@@ -1,0 +1,14 @@
+<theme>
+   <formatVersion>7</formatVersion>
+
+<view name="system">
+
+<image name="logo">
+<storyboard>
+<animation mode="linear" begin="0" from="1" to="1" duration="500" property="opacity"/>
+</storyboard>
+</image>
+
+</view>
+
+</theme>
