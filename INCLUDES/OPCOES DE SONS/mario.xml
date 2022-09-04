@@ -1,0 +1,43 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+
+<view name="system">
+      <carousel name="systemcarousel">
+	  <scrollSound>./INCLUDES/OPCOES DE SONS/mario.wav</scrollSound>
+      </carousel>    
+</view> 
+
+<view name="basic">
+      <textlist name="gamelist">
+	  <scrollSound>./INCLUDES/OPCOES DE SONS/mario.wav</scrollSound>
+      </textlist>
+</view> 
+
+<view name="detailed">
+       <textlist name="gamelist">
+	   <scrollSound>./INCLUDES/OPCOES DE SONS/mario.wav</scrollSound>
+       </textlist>
+</view> 
+     
+<view name="video">
+       <textlist name="gamelist">
+	   <scrollSound>./INCLUDES/OPCOES DE SONS/mario.wav</scrollSound>
+       </textlist>
+ </view> 
+ 
+<view name="grid">
+ 	  <imagegrid name="gamegrid">
+	  <scrollSound>./INCLUDES/OPCOES DE SONS/mario.wav</scrollSound>      		
+      </imagegrid> 
+</view>
+
+<view name="gamecarousel">
+      <gamecarousel name="gamecarousel">
+      <scrollSound>./INCLUDES/OPCOES DE SONS/mario.wav</scrollSound>  
+      </gamecarousel> 
+</view>
+
+	 
+</theme>

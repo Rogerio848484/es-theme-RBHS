@@ -68,6 +68,31 @@
 <include subset="iconset" name="icon SNES ALT">./INCLUDES/OPCOES ICONSETS/snesalt.xml</include>
 </subset>
 
+<subset name="Sons" displayName="Opções de Sons"> 
+<include name="off" displayName="off">./INCLUDES/OPCOES DE SONS/off.xml</include>
+<include name="hyperspin" displayName="hyperspin">./INCLUDES/OPCOES DE SONS/hyperspin.xml</include>
+<include name="roleta" displayName="roleta">./INCLUDES/OPCOES DE SONS/roleta.xml</include>
+<include name="classic" displayName="classic">./INCLUDES/OPCOES DE SONS/classic.xml</include>
+<include name="Button" displayName="Button">./INCLUDES/OPCOES DE SONS/Button.xml</include>
+<include name="cursor" displayName="cursor">./INCLUDES/OPCOES DE SONS/cursor.xml</include>
+<include name="Golf" displayName="Golf">./INCLUDES/OPCOES DE SONS/Golf.xml</include>
+<include name="Keiba" displayName="Keiba">./INCLUDES/OPCOES DE SONS/Keiba.xml</include>
+<include name="mario" displayName="mario">./INCLUDES/OPCOES DE SONS/mario.xml</include>
+<include name="Message" displayName="Message">./INCLUDES/OPCOES DE SONS/Message.xml</include>
+<include name="Monopoly" displayName="Monopoly">./INCLUDES/OPCOES DE SONS/Monopoly.xml</include>
+<include name="Phone" displayName="Phone">./INCLUDES/OPCOES DE SONS/Phone.xml</include>
+<include name="Save" displayName="Save">./INCLUDES/OPCOES DE SONS/Save.xml</include>
+<include name="slide" displayName="slide">./INCLUDES/OPCOES DE SONS/slide.xml</include>
+<include name="Spin" displayName="Spin">./INCLUDES/OPCOES DE SONS/Spin.xml</include>
+<include name="Yoshi" displayName="Yoshi">./INCLUDES/OPCOES DE SONS/Yoshi.xml</include>
+<include name="moneda" displayName="moneda">./INCLUDES/OPCOES DE SONS/Yoshi2.xml</include>
+<include name="ring" displayName="ring">./INCLUDES/OPCOES DE SONS/ring.xml</include>
+<include name="zumb" displayName="zumb">./INCLUDES/OPCOES DE SONS/zumb.xml</include>
+<include name="tone" displayName="tone">./INCLUDES/OPCOES DE SONS/tone.xml</include>
+<include name="iata" displayName="iata">./INCLUDES/OPCOES DE SONS/giata.xml</include>
+<include name="scroll" displayName="scroll">./INCLUDES/OPCOES DE SONS/scroll.xml</include>
+</subset>
+
 <subset name="Rodape" displayName="Opções de Rodape">
 <include name="Rodape Off" displayName="Rodape Off"/>
 <include name="Rodape 01" displayName="Rodape 01">./INCLUDES/OPCOES DE RODAPE/RODAPE 01.xml</include>
