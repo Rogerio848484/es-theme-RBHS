@@ -12,7 +12,7 @@
 <fontSize>0.034</fontSize>
 <color>ffffff</color>
 <glowColor>000000</glowColor>
-<pos>0.89 0.903</pos>
+<pos>0.89 0.9545</pos>
 <size>0.10 0.058</size>
 <fontPath>./fonts/Digital-Serial-Bold.ttf</fontPath>
 <verticalAlignment>right</verticalAlignment>
@@ -140,7 +140,7 @@
 <image name="moldura" extra="true">
 <pos>0 0</pos>
 <size>1 1</size>
-<path>./ARTES/MOLDURA MENU PRINCIPAL/black2.png</path>
+<path>./ARTES/MOLDURA MENU PRINCIPAL/black.png</path>
 <zIndex>2</zIndex>
 </image>
 
@@ -240,7 +240,7 @@
 <helpsystem name="help">
 <fontPath>./fonts/Digital-Serial-Bold.ttf</fontPath>
 <fontSize>0.034</fontSize>
-<pos>0 0.9135</pos>    
+<pos>0 0.965</pos>    
 <textColor>ffffff</textColor>
 <iconColor>ffffff</iconColor>
 </helpsystem>
