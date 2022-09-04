@@ -34,7 +34,7 @@
 	<view name="video"> 
 	
     <textlist name="gamelist">
-	<selectorImagePath>./XMLS/BARRALISTA/barraverdeescuro.png</selectorImagePath>
+	<selectorImagePath>./INCLUDES/OPCOES COLOR HELPSYSTEM SYSTEM CLOCK/BARRALISTA/barraverdeescuro.png</selectorImagePath>
 	</textlist>
 	
 	<text name="md_lbl_developer">
