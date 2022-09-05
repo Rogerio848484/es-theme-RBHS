@@ -171,6 +171,14 @@
 </storyboard>  
 </image>
 
+<!----------------------------------------------------------->
+<!-------------------------- FALSES ------------------------->
+<!----------------------------------------------------------->
+
+<text name=" md_lbl_players,md_lbl_publisher,md_publisher,md_lbl_developer,md_developer,logoText,md_developer,md_lbl_releasedate,md_releasedate,md_lbl_rating,md_lbl_genre,md_genre,md_description,md_lbl_playcount,md_lbl_lastplayed, md_lbl_gametime,md_lbl_playcount,md_lbl_lastplayed,md_lbl_gametime,md_playcount,md_lastplayed,md_gametime,md_players">
+<visible>false</visible>
+</text> 
+
 </view>
  
 </theme>

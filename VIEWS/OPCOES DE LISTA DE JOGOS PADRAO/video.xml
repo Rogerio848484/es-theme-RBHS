@@ -161,7 +161,6 @@
 <glowColor>000000</glowColor>
 <zIndex>2000</zIndex>
 <glowSize>1</glowSize>
-<fontPath>./fonts/Digital-Serial-Bold.ttf</fontPath>   	
 </text>
 
 <text name="md_developer">
@@ -174,7 +173,6 @@
 <zIndex>2000</zIndex>
 <glowSize>1</glowSize>
 <size>0.60 0.8</size>
-<fontPath>./fonts/Digital-Serial-Bold.ttf</fontPath>   	
 </text>
 
 <text name="md_lbl_releasedate">
@@ -184,7 +182,6 @@
 <glowColor>000000</glowColor>
 <zIndex>2000</zIndex>
 <glowSize>1</glowSize>
-<fontPath>./fonts/Digital-Serial-Bold.ttf</fontPath>   	
 </text>
 		
 <datetime name="md_releasedate">
@@ -197,7 +194,6 @@
 <zIndex>2000</zIndex>
 <glowSize>1</glowSize>
 <size>0.60 0.8</size>
-<fontPath>./fonts/Digital-Serial-Bold.ttf</fontPath>   	
 </datetime>
 		
 <text name="md_lbl_rating">
@@ -207,7 +203,6 @@
 <glowColor>000000</glowColor>
 <zIndex>2000</zIndex>
 <glowSize>1</glowSize>
-<fontPath>./fonts/Digital-Serial-Bold.ttf</fontPath>   	
 </text>
 		
 <rating name="md_rating">
@@ -231,7 +226,6 @@
 <glowColor>000000</glowColor>
 <zIndex>2000</zIndex>
 <glowSize>1</glowSize> 
-<fontPath>./fonts/Digital-Serial-Bold.ttf</fontPath>   	
 </text>
 		
 <text name="md_genre">
@@ -243,7 +237,6 @@
 <glowColor>000000</glowColor>
 <zIndex>2000</zIndex>
 <glowSize>1</glowSize>
-<fontPath>./fonts/Digital-Serial-Bold.ttf</fontPath>   	
 </text>
 
 <text name="md_description">
@@ -254,7 +247,6 @@
 <glowColor>000000</glowColor>
 <zIndex>2000</zIndex>
 <glowSize>1</glowSize>
-<fontPath>./fonts/Digital-Serial-Bold.ttf</fontPath>   	
 </text>
 
 <!------------------------------------------------------------>

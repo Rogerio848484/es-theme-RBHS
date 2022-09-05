@@ -12,8 +12,6 @@
 <textlist name="gamelist">
 <!--  Tamanho da caixa das letras  -->		
     <size>0.283 0.81</size>
-<!--  Fonte das letras  -->	
-    <fontPath>./fonts/Digital-Serial-Bold.ttf</fontPath>
 <!--  Tamanho das letras  -->
     <fontSize>0.020</fontSize>
 <!--  Posicao das letras  -->		 
@@ -33,7 +31,6 @@
 <!----------------------------------------------------------->
 
 <helpsystem name="help">
-<fontPath>./fonts/Digital-Serial-Bold.ttf</fontPath>
 <fontSize>0.034</fontSize>
 <pos>0 0.965</pos>    
 <iconColor>ffffff</iconColor>
@@ -112,13 +109,11 @@
 <!--  Publicador =texto principal= -->	  
 <text name="md_lbl_publisher,md_lbl_developer,md_lbl_releasedate,md_lbl_genre,md_lbl_players,md_lbl_playcount,md_lbl_lastplayed,md_lbl_gametime">
 <fontSize>0.025</fontSize>
-<fontPath>./fonts/Digital-Serial-Bold.ttf</fontPath>	
 <size>0.15 0.035</size>
 </text>
 
 <text name="md_publisher,md_developer,md_releasedate,md_genre,md_players,md_playcount,md_lastplayed,md_gametime">
 <fontSize>0.025</fontSize>
-<fontPath>./fonts/Digital-Serial-Bold.ttf</fontPath>	 
 <size>0.15 0.035</size>
 </text>
 
@@ -231,7 +226,6 @@
 <size>0.12 0.035</size>
 <fontSize>0.030</fontSize>
 <zIndex>15</zIndex> 
-<fontPath>./fonts/Digital-Serial-Bold.ttf</fontPath>   		 
 </text>
 
 <!-- Avaliacao do jogo =apresentacao=-->		
@@ -250,7 +244,6 @@
 <fontSize>0.019</fontSize>
 <alignment>left</alignment>   
 <zIndex>15</zIndex>   
-<fontPath>./fonts/Digital-Serial-Bold.ttf</fontPath>   		 
 </text>	 	
 
 <!-- Bandeira regiao do jogo, ja tem no EmulatonStation, pois nao coloquei em nenhuma pasta do tema -->

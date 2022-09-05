@@ -174,6 +174,40 @@
 <include name="scroll" displayName="scroll">./INCLUDES/OPCOES DE SONS/scroll.xml</include>
 </subset>
 
+<subset name="Fontes" displayName="Opções de Fontes"> 
+<include subset="Font" name="American">./INCLUDES/OPCOES DE FONTES/American.xml</include>
+<include subset="Font" name="Beauty">./INCLUDES/OPCOES DE FONTES/Beauty.xml</include>
+<include subset="Font" name="Bold">./INCLUDES/OPCOES DE FONTES/Bold.xml</include>
+<include subset="Font" name="Calligraphy">./INCLUDES/OPCOES DE FONTES/Calligraphy.xml</include>
+<include subset="Font" name="Digib">./INCLUDES/OPCOES DE FONTES/Digib.xml</include>
+<include subset="Font" name="Digital-Serial-Bold">./INCLUDES/OPCOES DE FONTES/Digital-Serial-Bold.xml</include>
+<include subset="Font" name="Doo">./INCLUDES/OPCOES DE FONTES/Doo.xml</include>
+<include subset="Font" name="Fiker">./INCLUDES/OPCOES DE FONTES/Fiker.xml</include>
+<include subset="Font" name="Franchise">./INCLUDES/OPCOES DE FONTES/Franchise.xml</include>
+<include subset="Font" name="Free">./INCLUDES/OPCOES DE FONTES/Free.xml</include>
+<include subset="Font" name="good">./INCLUDES/OPCOES DE FONTES/good.xml</include>
+<include subset="Font" name="GROBOLD">./INCLUDES/OPCOES DE FONTES/GROBOLD.xml</include>
+<include subset="Font" name="Homizio">./INCLUDES/OPCOES DE FONTES/Homizio.xml</include>
+<include subset="Font" name="impact">./INCLUDES/OPCOES DE FONTES/impact.xml</include>
+<include subset="Font" name="kenyan">./INCLUDES/OPCOES DE FONTES/kenyan.xml</include>
+<include subset="Font" name="light">./INCLUDES/OPCOES DE FONTES/light.xml</include>
+<include subset="Font" name="Mario">./INCLUDES/OPCOES DE FONTES/Mario.xml</include>
+<include subset="Font" name="mod">./INCLUDES/OPCOES DE FONTES/mod.xml</include>
+<include subset="Font" name="Mono">./INCLUDES/OPCOES DE FONTES/Mono.xml</include>
+<include subset="Font" name="OpenSans-Bold">./INCLUDES/OPCOES DE FONTES/OpenSans-Bold.xml</include>
+<include subset="Font" name="OpenSans-Light">./INCLUDES/OPCOES DE FONTES/OpenSans-Light.xml</include>
+<include subset="Font" name="PORKYS">./INCLUDES/OPCOES DE FONTES/PORKYS.xml</include>
+<include subset="Font" name="pricedown">./INCLUDES/OPCOES DE FONTES/pricedown.xml</include>
+<include subset="Font" name="rg">./INCLUDES/OPCOES DE FONTES/rg.xml</include>
+<include subset="Font" name="Royalacid">./INCLUDES/OPCOES DE FONTES/Royalacid.xml</include>
+<include subset="Font" name="segoeuil">./INCLUDES/OPCOES DE FONTES/segoeuil.xml</include>
+<include subset="Font" name="Shaka_Pow">./INCLUDES/OPCOES DE FONTES/Shaka_Pow.xml</include>
+<include subset="Font" name="Sketch3D">./INCLUDES/OPCOES DE FONTES/Sketch3D.xml</include>
+<include subset="Font" name="Ubuntu-Medium">./INCLUDES/OPCOES DE FONTES/Ubuntu-Medium.xml</include>
+<include subset="Font" name="ubuntu_condensed">./INCLUDES/OPCOES DE FONTES/ubuntu_condensed.xml</include>
+<include subset="Font" name="zelek">./INCLUDES/OPCOES DE FONTES/Sketch3D.xml</include>
+</subset>
+
 <subset name="Rodape" displayName="Opções de Rodape">
 <include name="Rodape Off" displayName="Rodape Off"/>
 <include name="Rodape 01" displayName="Rodape 01">./INCLUDES/OPCOES DE RODAPE/RODAPE 01.xml</include>

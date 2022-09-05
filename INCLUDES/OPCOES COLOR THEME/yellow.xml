@@ -24,7 +24,7 @@
    <view name="basic">
          <textlist name="gamelist">
          <selectorColor>ffff00</selectorColor> 
-	     <selectedColor>ffff00</selectedColor>     
+	     <selectedColor>000000</selectedColor>     
          <primaryColor>ffffff</primaryColor>
          <secondaryColor>ffffff</secondaryColor>
            </textlist>
@@ -43,7 +43,7 @@
       <view name="video">
          <textlist name="gamelist">
          <selectorColor>ffff00</selectorColor> 
-	     <selectedColor>ffffff</selectedColor>     
+	     <selectedColor>FFFF00</selectedColor>     
          <primaryColor>ffffff</primaryColor>
          <secondaryColor>ffffff</secondaryColor>
            </textlist>
