@@ -11,15 +11,13 @@
 <textlist name="gamelist">
 <pos>0.0185 0.18</pos>
 <size>0.2975 0.7999999</size>
-<primaryColor>ffffff</primaryColor>
-<selectedColor>ffff00</selectedColor>
-<selectorColor>868686</selectorColor>
 <fontSize>0.023</fontSize> 
 <lineSpacing>1.50</lineSpacing> 
 <alignment>left</alignment>
 <aligmentleft>true</aligmentleft>
 <horizontalMargin>0.0085</horizontalMargin>
-<zIndex>3000</zIndex> 
+<zIndex>9000</zIndex> 
+<primaryColor>ffffff</primaryColor>
 </textlist>
 	
 <!----------------------------------------------------------->
@@ -163,7 +161,6 @@
 <glowColor>000000</glowColor>
 <zIndex>2000</zIndex>
 <glowSize>1</glowSize>
-<color>ffff00</color>		
 <fontPath>./fonts/Digital-Serial-Bold.ttf</fontPath>   	
 </text>
 
@@ -187,7 +184,6 @@
 <glowColor>000000</glowColor>
 <zIndex>2000</zIndex>
 <glowSize>1</glowSize>
-<color>ffff00</color>		
 <fontPath>./fonts/Digital-Serial-Bold.ttf</fontPath>   	
 </text>
 		
@@ -211,7 +207,6 @@
 <glowColor>000000</glowColor>
 <zIndex>2000</zIndex>
 <glowSize>1</glowSize>
-<color>ffff00</color>		
 <fontPath>./fonts/Digital-Serial-Bold.ttf</fontPath>   	
 </text>
 		
@@ -236,7 +231,6 @@
 <glowColor>000000</glowColor>
 <zIndex>2000</zIndex>
 <glowSize>1</glowSize> 
-<color>ffff00</color>		
 <fontPath>./fonts/Digital-Serial-Bold.ttf</fontPath>   	
 </text>
 		
@@ -256,7 +250,6 @@
 <pos>0.335 0.7585</pos>
 <size>0.65 0.195</size>
 <fontSize>0.023</fontSize>
-<color>ffffff</color>
 <backgroundColor>00000000</backgroundColor>
 <glowColor>000000</glowColor>
 <zIndex>2000</zIndex>

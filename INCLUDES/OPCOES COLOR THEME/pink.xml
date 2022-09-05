@@ -82,7 +82,7 @@
 	<view name="video"> 
 	
     <textlist name="gamelist">
-	<selectorImagePath>./INCLUDES/OPCOES COLOR HELPSYSTEM SYSTEM CLOCK/BARRALISTA/barrarosa.png</selectorImagePath>
+	<selectorImagePath>./INCLUDES/OPCOES COLOR THEME/BARRALISTA/barrarosa.png</selectorImagePath>
 	</textlist>
 	
 	<text name="md_lbl_developer">

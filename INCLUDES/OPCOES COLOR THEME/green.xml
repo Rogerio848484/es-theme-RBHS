@@ -44,7 +44,7 @@
       <view name="video">
          <textlist name="gamelist">
          <selectorColor>00ff33</selectorColor> 
-	     <selectedColor>000000</selectedColor>     
+	     <selectedColor>00ff33</selectedColor>     
          <primaryColor>ffffff</primaryColor>
          <secondaryColor>ffffff</secondaryColor>
            </textlist>
@@ -82,7 +82,7 @@
 	<view name="video"> 
 	
     <textlist name="gamelist">
-	<selectorImagePath>./INCLUDES/OPCOES COLOR HELPSYSTEM SYSTEM CLOCK/BARRALISTA/barraverde.png</selectorImagePath>
+	<selectorImagePath>./INCLUDES/OPCOES COLOR THEME/BARRALISTA/barraverde.png</selectorImagePath>
 	</textlist>
 	
 	<text name="md_lbl_developer">

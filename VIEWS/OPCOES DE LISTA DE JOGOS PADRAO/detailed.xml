@@ -125,7 +125,6 @@
 <text name="md_lbl_publisher">
 <pos>0.705 0.16</pos>
 <zIndex>15</zIndex>     
-<color>ffff00</color>	
 </text>
 
 <!--  Publicador =apresentacao= -->	  
@@ -139,7 +138,6 @@
 <text name="md_lbl_developer">
 <pos>0.705 0.195</pos>
 <zIndex>15</zIndex>        
-<color>ffff00</color>	
 </text>
 
 <!--  Desenvolvedora do jogo =apresentacao= -->	  
@@ -153,7 +151,6 @@
 <text name="md_lbl_releasedate">
 <pos>0.705 0.23</pos>
 <zIndex>15</zIndex> 
-<color>ffff00</color>	
 </text>
 	  
 <!--  Data de lancamento =apresentacao= -->
@@ -167,7 +164,6 @@
 <text name="md_lbl_genre">
 <pos>0.705 0.265</pos>
 <zIndex>15</zIndex>  
-<color>ffff00</color>			
 </text>
 
 <!--  genero do jogo =apresentacao= -->	  
@@ -181,7 +177,6 @@
 <text name="md_lbl_players">
 <pos>0.705 0.30</pos>
 <zIndex>15</zIndex>    
-<color>ffff00</color>	
 </text>
 
 <!--  Numero de jogadores =apresentacao= -->	  
@@ -195,7 +190,6 @@
 <text name="md_lbl_playcount">
 <pos>0.705 0.335</pos>
 <zIndex>15</zIndex>  
-<color>ffff00</color>		
 </text>
 
 <!--  Vezes jogadas =apresentacao= -->	
@@ -209,7 +203,6 @@
 <text name="md_lbl_lastplayed">
 <pos>0.705 0.37</pos>
 <zIndex>15</zIndex>  
-<color>ffff00</color>	
 </text>
 
 <!--  ultima vez jogado =apresentacao= -->	  
@@ -223,7 +216,6 @@
 <text name="md_lbl_gametime">
 <pos>0.705 0.405</pos>
 <zIndex>15</zIndex>    
-<color>ffff00</color>		
 </text>
 
 <!--  tempo jogado =apresentacao= -->	
@@ -239,7 +231,6 @@
 <size>0.12 0.035</size>
 <fontSize>0.030</fontSize>
 <zIndex>15</zIndex> 
-<color>ffff00</color>		
 <fontPath>./fonts/Digital-Serial-Bold.ttf</fontPath>   		 
 </text>
 
@@ -259,7 +250,6 @@
 <fontSize>0.019</fontSize>
 <alignment>left</alignment>   
 <zIndex>15</zIndex>   
-<color>ffff00</color>	
 <fontPath>./fonts/Digital-Serial-Bold.ttf</fontPath>   		 
 </text>	 	
 
