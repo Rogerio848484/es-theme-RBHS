@@ -214,6 +214,7 @@
 <include subset="Font" name="Ubuntu-Medium">./INCLUDES/OPCOES DE FONTES/Ubuntu-Medium.xml</include>
 <include subset="Font" name="ubuntu_condensed">./INCLUDES/OPCOES DE FONTES/ubuntu_condensed.xml</include>
 <include subset="Font" name="zelek">./INCLUDES/OPCOES DE FONTES/Sketch3D.xml</include>
+<include subset="Font" name="zrnic">./INCLUDES/OPCOES DE FONTES/zrnic.xml</include>
 </subset>
 
 <subset name="Rodape" displayName="Opções de Rodape">
