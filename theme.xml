@@ -113,6 +113,14 @@
 <include name="MENU 02 - Roleta" displayName="MENU 02 - Roleta Direita">./VIEWS/MENU PRINCIPAL/MENU 02 - Roleta Direita.xml</include>
 </subset>
 
+<subset name="Background" displayName="Opções de Background">
+<include name="OFF" displayName="OFF"/>
+<include name="Fanart 01" displayName="Fanart 01">./INCLUDES/OPCOES DE BACKGROUND/FANART 01.xml</include>
+<include name="Videogames 01" displayName="Videogames 01">./INCLUDES/OPCOES DE BACKGROUND/VIDEOGAMES 01.xml</include>
+<include name="Fanart 02" displayName="Fanart 02">./INCLUDES/OPCOES DE BACKGROUND/FANART 02.xml</include>
+<include name="Videogames 02" displayName="Videogames 02">./INCLUDES/OPCOES DE BACKGROUND/VIDEOGAMES 02.xml</include>
+</subset>
+
 <subset name="Wheel" displayName="Opções de Wheel">
 <include name="Off" displayName="Wheel Off"/>
 <include name="clean" displayName="Wheel Clean">./INCLUDES/OPCOES DE WHEEL/WHEEL CLEAN.xml</include>

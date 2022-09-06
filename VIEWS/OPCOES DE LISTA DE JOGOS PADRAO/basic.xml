@@ -31,7 +31,7 @@
 <origin>0.5 0.5</origin> 
 <pos>0.132 0.100</pos>
 <maxSize>0.220 0.150</maxSize>
-<path>./../../ARTES/LOGOS/LOGOCLEAN/${system.theme}.png</path>
+<path>./ARTES/LOGOS/LOGOCLEAN/${system.theme}.png</path>
 <linearSmooth>true</linearSmooth>
 <zIndex>30</zIndex>
 </image>
@@ -41,7 +41,7 @@
 <origin>0 0</origin>
 <pos>0 0</pos>
 <maxSize>1 1</maxSize>
-<path>./../../ARTES/ARTES GAMELIST/Basic Fundo.png</path>
+<path>./ARTES/ARTES GAMELIST/Basic Fundo.png</path>
 <zIndex>2</zIndex> 
 </image> 
 
@@ -50,7 +50,7 @@
 <origin>0 0</origin>
 <pos>0 0</pos>
 <size>1 1</size>
-<path>./../../ARTES/BACKGROUND VIDEOGAMES 1/${system.theme}.jpg</path>
+<path>./ARTES/BACKGROUND VIDEOGAMES 1/${system.theme}.jpg</path>
 <zIndex>1</zIndex> 
 <color>A9A9A9</color>
 </image> 

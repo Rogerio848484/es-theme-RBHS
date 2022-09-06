@@ -44,7 +44,7 @@
 <origin>0.5 0.5</origin> 
 <pos>0.153 0.0790</pos>
 <maxSize>0.220 0.150</maxSize>
-<path>./../../ARTES/LOGOS/LOGOCLEAN/${system.theme}.png</path>
+<path>./ARTES/LOGOS/LOGOCLEAN/${system.theme}.png</path>
 <linearSmooth>true</linearSmooth>
 <zIndex>30</zIndex>
 </image>
@@ -53,7 +53,7 @@
 <origin>0.5 0.5</origin> 
 <pos>0.5 0.5</pos>
 <size>1 1</size>
-<path>./../../ARTES/BACKGROUND VIDEOGAMES 1/${system.theme}.jpg</path>
+<path>./ARTES/BACKGROUND VIDEOGAMES 1/${system.theme}.jpg</path>
 <color>363636</color>
 <linearSmooth>true</linearSmooth>
 <zIndex>1</zIndex>
@@ -63,7 +63,7 @@
 <origin>0 0</origin>
 <pos>0 0</pos>
 <maxSize>1 1</maxSize>
-<path>./../../ARTES/ARTES GAMELIST/RQ_50%.png</path>
+<path>./ARTES/ARTES GAMELIST/RQ_50%.png</path>
 <zIndex>1</zIndex> 
 </image> 
 
@@ -232,7 +232,7 @@
 <rating name="md_rating">      
 <pos>0.772 0.07500</pos>
 <maxSize>0.100 0.030</maxSize>
-<filledPath>./../../ICONS OUTROS/star_filled.png</filledPath>
+<filledPath>./ICONS OUTROS/star_filled.png</filledPath>
 <unfilledPath>./../..ICONS OUTROS/star_empty.png</unfilledPath>	
 <zIndex>15</zIndex>
 </rating>	 
@@ -259,7 +259,7 @@
 <origin>0 0</origin>
 <pos>0.758 0.4630</pos>
 <maxSize>0.065 0.065</maxSize>      
-<path>./../../ICONS OUTROS/favorite.png</path>
+<path>./ICONS OUTROS/favorite.png</path>
 <zIndex>999</zIndex>
 </image> 
 	
@@ -272,7 +272,7 @@
 <origin>0 0</origin>
 <pos>0.80 0.47</pos>
 <maxSize>0.055 0.055</maxSize>
-<path>./../../ICONS OUTROS/savestate.png</path>
+<path>./ICONS OUTROS/savestate.png</path>
 <color>dddddd</color>
 <zIndex>150</zIndex>
 </image>
@@ -287,7 +287,7 @@
 <origin>0 0</origin>
 <pos>0.837 0.468</pos>
 <maxSize>0.055 0.055</maxSize>
-<path>./../../ICONS OUTROS/cheevos.png</path>
+<path>./ICONS OUTROS/cheevos.png</path>
 <color>dddddd</color>
 <zIndex>150</zIndex>
 <linearSmooth>true</linearSmooth>
@@ -303,7 +303,7 @@
 <origin>0 0</origin>
 <pos>0.876 0.469</pos>
 <maxSize>0.055 0.055</maxSize>
-<path>./../../ICONS OUTROS/manual.png</path>
+<path>./ICONS OUTROS/manual.png</path>
 <color>dddddd</color>
 </image>
 	
@@ -316,7 +316,7 @@
 <origin>0 0</origin>
 <pos>0.915 0.468</pos>
 <maxSize>0.055 0.055</maxSize>
-<path>./../../ICONS OUTROS/map.png</path>
+<path>./ICONS OUTROS/map.png</path>
 <color>dddddd</color>
 </image>
 	
@@ -329,7 +329,7 @@
 <origin>0 0</origin>
 <pos>0.9550 0.468</pos>
 <maxSize>0.055 0.055</maxSize>
-<path>./../../ICONS OUTROS/kid.png</path>
+<path>./ICONS OUTROS/kid.png</path>
 <color>dddddd</color>
 <zIndex>100</zIndex>
 <linearSmooth>true</linearSmooth>
@@ -344,7 +344,7 @@
 <origin>0 0</origin>
 <pos>0.733 0.525</pos>
 <maxSize>0.04 0.04</maxSize>
-<path>./../../ICONS OUTROS/hidden.png</path>
+<path>./ICONS OUTROS/hidden.png</path>
 <color>ff0000</color>
 <zIndex>100</zIndex>
 <linearSmooth>true</linearSmooth>
