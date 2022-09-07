@@ -190,6 +190,7 @@
 <include subset="Font" name="Anthony">./INCLUDES/OPCOES DE FONTES/Anthony.xml</include>
 <include subset="Font" name="Beauty">./INCLUDES/OPCOES DE FONTES/Beauty.xml</include>
 <include subset="Font" name="Bold">./INCLUDES/OPCOES DE FONTES/Bold.xml</include>
+<include subset="Font" name="Brothery">./INCLUDES/OPCOES DE FONTES/Brothery.xml</include>
 <include subset="Font" name="Calligraphy">./INCLUDES/OPCOES DE FONTES/Calligraphy.xml</include>
 <include subset="Font" name="Digib">./INCLUDES/OPCOES DE FONTES/Digib.xml</include>
 <include subset="Font" name="Digital-Serial-Bold">./INCLUDES/OPCOES DE FONTES/Digital-Serial-Bold.xml</include>
