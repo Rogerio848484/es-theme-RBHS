@@ -195,9 +195,13 @@
 <include subset="Font" name="Digib">./INCLUDES/OPCOES DE FONTES/Digib.xml</include>
 <include subset="Font" name="Digital-Serial-Bold">./INCLUDES/OPCOES DE FONTES/Digital-Serial-Bold.xml</include>
 <include subset="Font" name="Doo">./INCLUDES/OPCOES DE FONTES/Doo.xml</include>
+<include subset="Font" name="El Mayor">./INCLUDES/OPCOES DE FONTES/El Mayor.xml</include>
 <include subset="Font" name="Fiker">./INCLUDES/OPCOES DE FONTES/Fiker.xml</include>
+<include subset="Font" name="Fornire">./INCLUDES/OPCOES DE FONTES/Fornire.xml</include>
 <include subset="Font" name="Franchise">./INCLUDES/OPCOES DE FONTES/Franchise.xml</include>
+<include subset="Font" name="FridayBeach">./INCLUDES/OPCOES DE FONTES/FridayBeach.xml</include>
 <include subset="Font" name="Free">./INCLUDES/OPCOES DE FONTES/Free.xml</include>
+<include subset="Font" name="Happy">./INCLUDES/OPCOES DE FONTES/Happy.xml</include>
 <include subset="Font" name="Good">./INCLUDES/OPCOES DE FONTES/good.xml</include>
 <include subset="Font" name="GROBOLD">./INCLUDES/OPCOES DE FONTES/GROBOLD.xml</include>
 <include subset="Font" name="Homizio">./INCLUDES/OPCOES DE FONTES/Homizio.xml</include>
