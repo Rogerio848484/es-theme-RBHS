@@ -31,12 +31,12 @@
 <batteryIndicator name="batteryIndicator">
 <pos>0.955 0.0125</pos>
 <size>0.033 0.033</size>
-<incharge>./ARTES/battery/incharge.svg</incharge>
-<full>./ARTES/battery/full.svg</full>
-<at75>./ARTES/battery/75.svg</at75>
-<at50>./ARTES/battery/50.svg</at50>
-<at25>./ARTES/battery/25.svg</at25>
-<empty>./ARTES/battery/empty.svg</empty>
+<incharge>./ARTES/BATTERY/incharge.svg</incharge>
+<full>./ARTES/BATTERY/full.svg</full>
+<at75>./ARTES/BATTERY/75.svg</at75>
+<at50>./ARTES/BATTERY/50.svg</at50>
+<at25>./ARTES/BATTERY/25.svg</at25>
+<empty>./ARTES/BATTERY/empty.svg</empty>
 <color>FFFFFFA0</color>
 </batteryIndicator>
 <batteryIndicator name="batteryIndicator" tinyScreen="true">

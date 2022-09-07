@@ -215,8 +215,8 @@
 <glowSize>1</glowSize>
 <alignment>left</alignment>
 <size>0.06 0.03</size>
-<filledPath>./ICONS OUTROS/star_filled.png</filledPath>
-<unfilledPath>./ICONS OUTROS/star_empty.png</unfilledPath>	
+<filledPath>./ARTES/ICONS OUTROS/star_filled.png</filledPath>
+<unfilledPath>./ARTES/ICONS OUTROS/star_empty.png</unfilledPath>	
 </rating>
 		
 <text name="md_lbl_genre">

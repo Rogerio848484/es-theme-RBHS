@@ -237,8 +237,8 @@
 <rating name="md_rating">      
 <pos>0.772 0.07500</pos>
 <maxSize>0.100 0.030</maxSize>
-<filledPath>./ICONS OUTROS/star_filled.png</filledPath>
-<unfilledPath>./ICONS OUTROS/star_empty.png</unfilledPath>	
+<filledPath>./ARTES/ICONS OUTROS/star_filled.png</filledPath>
+<unfilledPath>./ARTES/ICONS OUTROS/star_empty.png</unfilledPath>	
 <zIndex>15</zIndex>
 </rating>	 
 
@@ -264,7 +264,7 @@
 <origin>0 0</origin>
 <pos>0.758 0.4630</pos>
 <maxSize>0.065 0.065</maxSize>      
-<path>./ICONS OUTROS/favorite.png</path>
+<path>./ARTES/ICONS OUTROS/favorite.png</path>
 <zIndex>999</zIndex>
 </image> 
 	
@@ -277,7 +277,7 @@
 <origin>0 0</origin>
 <pos>0.80 0.47</pos>
 <maxSize>0.055 0.055</maxSize>
-<path>./ICONS OUTROS/savestate.png</path>
+<path>./ARTES/ICONS OUTROS/savestate.png</path>
 <color>dddddd</color>
 <zIndex>150</zIndex>
 </image>
@@ -292,7 +292,7 @@
 <origin>0 0</origin>
 <pos>0.837 0.468</pos>
 <maxSize>0.055 0.055</maxSize>
-<path>./ICONS OUTROS/cheevos.png</path>
+<path>./ARTES/ICONS OUTROS/cheevos.png</path>
 <color>dddddd</color>
 <zIndex>150</zIndex>
 <linearSmooth>true</linearSmooth>
@@ -308,7 +308,7 @@
 <origin>0 0</origin>
 <pos>0.876 0.469</pos>
 <maxSize>0.055 0.055</maxSize>
-<path>./ICONS OUTROS/manual.png</path>
+<path>./ARTES/ICONS OUTROS/manual.png</path>
 <color>dddddd</color>
 </image>
 	
@@ -321,7 +321,7 @@
 <origin>0 0</origin>
 <pos>0.915 0.468</pos>
 <maxSize>0.055 0.055</maxSize>
-<path>./ICONS OUTROS/map.png</path>
+<path>./ARTES/ICONS OUTROS/map.png</path>
 <color>dddddd</color>
 </image>
 	
@@ -334,7 +334,7 @@
 <origin>0 0</origin>
 <pos>0.9550 0.468</pos>
 <maxSize>0.055 0.055</maxSize>
-<path>./ICONS OUTROS/kid.png</path>
+<path>./ARTES/ICONS OUTROS/kid.png</path>
 <color>dddddd</color>
 <zIndex>100</zIndex>
 <linearSmooth>true</linearSmooth>
@@ -349,7 +349,7 @@
 <origin>0 0</origin>
 <pos>0.733 0.525</pos>
 <maxSize>0.04 0.04</maxSize>
-<path>./ICONS OUTROS/hidden.png</path>
+<path>./ARTES/ICONS OUTROS/hidden.png</path>
 <color>ff0000</color>
 <zIndex>100</zIndex>
 <linearSmooth>true</linearSmooth>
