@@ -32,11 +32,11 @@ Tema voltado para pessoas que estão migrando do Hyperspin para o Retrobat.
 
 ![](https://i.ibb.co/r5w3s6g/Whats-App-Image-2022-07-17-at-20-10-08.jpg)
 
-### GAMELIST DETAILDE CAPA 3D + CARTUCHO
+### GAMELIST DETAILED CAPA 3D + CARTUCHO
 
 ![](https://i.ibb.co/8PC1SyP/Whats-App-Image-2022-09-07-at-14-54-51.jpg)
 
-### GAMELIST DETAILDE CAPA 2D + CARTUCHO
+### GAMELIST DETAILED CAPA 2D + CARTUCHO
 ![](https://i.ibb.co/cJqvCvS/Whats-App-Image-2022-09-07-at-14-56-26.jpg)
 
 ### Créditos:
