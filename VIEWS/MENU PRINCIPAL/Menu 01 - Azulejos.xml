@@ -3,11 +3,59 @@
 <theme>
 <formatVersion>7</formatVersion>
 
+<view name="system">
+
 <!---------------------------------------------------------------------->
-<!------------------------------- SYSTEM ------------------------------->
+<!-------------------------------- CAROUSEL ---------------------------->
 <!---------------------------------------------------------------------->
 
-<view name="system">
+<carousel name="systemcarousel">
+<type>grid</type>
+<pos>0 0.29</pos>
+<size>1 1</size>
+<zIndex>4</zIndex>         
+<logoScale>1.5</logoScale> 
+<logoSize>0.125 0.25</logoSize>
+<color>00000000</color>
+<logoAlignment>center</logoAlignment>
+<maxLogoCount>5</maxLogoCount>
+</carousel>
+
+<image name="logo">
+<path>./../../ARTES/LOGOS/LOGOCLEAN/${system.theme}.png</path>
+</image>
+
+<!---------------------------------------------------------------------->
+<!------------------------------ HELP / INFO --------------------------->
+<!---------------------------------------------------------------------->
+
+<text name="systemInfo">
+<pos>0.16 0.199</pos>
+<origin>0.5 0.5</origin>
+<backgroundColor>00000000</backgroundColor>
+<color>ffffff</color>
+<glowColor>000000</glowColor>
+<rotation>-4.5</rotation> 
+<fontPath>./../../fonts/Digital-Serial-Bold.ttf</fontPath>
+<fontSize>0.034</fontSize>
+<zIndex>9</zIndex>	  
+<storyboard>
+<animation property="opacity" from="0" to="1" begin="100" duration="100" mode="EaseOut"/>
+<animation property="y" from="0.14" begin="100" duration="400" mode="linear"/>
+</storyboard>  
+</text> 
+
+<helpsystem name="help">
+<fontPath>./../../fonts/Digital-Serial-Bold.ttf</fontPath>
+<fontSize>0.034</fontSize>
+<pos>0 0.965</pos>    
+<textColor>ffffff</textColor>
+<iconColor>ffffff</iconColor>
+</helpsystem>
+
+<!---------------------------------------------------------------------->
+<!-------------------------- ARTES DE SISTEMAS ------------------------->
+<!---------------------------------------------------------------------->
 
 <image name="background" extra="true">
 <pos>0.5 0.5</pos>
@@ -37,20 +85,6 @@
 </storyboard>  
 </video>
 
-<image name="moldura" extra="true">
-<pos>0 0</pos>
-<size>1 1</size>
-<path>./../../ARTES/MOLDURA MENU PRINCIPAL/black.png</path>
-<zIndex>3</zIndex>
-</image>
-
-<image name="selector" extra="true">
-<pos>0 0</pos>
-<size>1 1</size>
-<path>./../../ARTES/MOLDURA MENU PRINCIPAL/selector.png</path>
-<zIndex>4</zIndex>
-</image>
-
 <image name="controle" extra="true">
 <pos>0.87 0.438</pos>
 <origin>0.5 0.5</origin>
@@ -71,7 +105,7 @@
 <maxSize>0.2 0.2</maxSize>
 <path>./../../ARTES/LOGOS/WHEEL CIRCULAR/${system.theme}.png</path>
 <path>./../../ARTES/LOGOS/WHEEL CIRCULAR/${system.theme}.jpg</path>
-<path>./../../ARTES/LOGOS/WHEEL CIRCULAR/${system.theme}.wepp</path>
+<path>./../../ARTES/LOGOS/WHEEL CIRCULAR/${system.theme}.webp</path>
 <path>./../../ARTES/LOGOS/WHEEL CIRCULAR/${system.theme}.bmp</path>
 <zIndex>6</zIndex>
 <storyboard>
@@ -86,7 +120,7 @@
 <maxSize>0.35 0.35</maxSize>
 <path>./../../ARTES/CHAR/${system.theme}.png</path>
 <path>./../../ARTES/CHAR/${system.theme}.jpg</path>
-<path>./../../ARTES/CHAR/${system.theme}.wepp</path>
+<path>./../../ARTES/CHAR/${system.theme}.webp</path>
 <path>./../../ARTES/CHAR/${system.theme}.bmp</path>
 <zIndex>7</zIndex>
 <storyboard>
@@ -100,50 +134,28 @@
 <maxSize>0.2 0.2</maxSize>
 <path>./../../ARTES/LOGOS/LOGOCLEAN/${system.theme}.png</path>
 <path>./../../ARTES/LOGOS/LOGOCLEAN/${system.theme}.jpg</path>
-<path>./../../ARTES/LOGOS/LOGOCLEAN/${system.theme}.wepp</path>
+<path>./../../ARTES/LOGOS/LOGOCLEAN/${system.theme}.webp</path>
 <path>./../../ARTES/LOGOS/LOGOCLEAN/${system.theme}.bmp</path>
 <zIndex>8</zIndex>
 </image>
 
-<carousel name="systemcarousel">
-<type>grid</type>
-<pos>0 0.29</pos>
-<size>1 1</size>
-<zIndex>4</zIndex>         
-<logoScale>1.5</logoScale> 
-<logoSize>0.125 0.25</logoSize>
-<color>00000000</color>
-<logoAlignment>center</logoAlignment>
-<maxLogoCount>5</maxLogoCount>
-</carousel>
+<!---------------------------------------------------------------------->
+<!------------------------------ ARTES FIXAS --------------------------->
+<!---------------------------------------------------------------------->
 
-<image name="logo">
-<path>./../../ARTES/LOGOS/LOGOCLEAN/${system.theme}.png</path>
+<image name="moldura" extra="true">
+<pos>0 0</pos>
+<size>1 1</size>
+<path>./../../ARTES/MOLDURA MENU PRINCIPAL/black.png</path>
+<zIndex>3</zIndex>
 </image>
 
-<text name="systemInfo">
-<pos>0.16 0.199</pos>
-<origin>0.5 0.5</origin>
-<backgroundColor>00000000</backgroundColor>
-<color>ffffff</color>
-<glowColor>000000</glowColor>
-<rotation>-4.5</rotation> 
-<fontPath>./../../fonts/Digital-Serial-Bold.ttf</fontPath>
-<fontSize>0.034</fontSize>
-<zIndex>9</zIndex>	  
-<storyboard>
-<animation property="opacity" from="0" to="1" begin="100" duration="100" mode="EaseOut"/>
-<animation property="y" from="0.14" begin="100" duration="400" mode="linear"/>
-</storyboard>  
-</text> 
-
-<helpsystem name="help">
-<fontPath>./../../fonts/Digital-Serial-Bold.ttf</fontPath>
-<fontSize>0.034</fontSize>
-<pos>0 0.965</pos>    
-<textColor>ffffff</textColor>
-<iconColor>ffffff</iconColor>
-</helpsystem>
+<image name="selector" extra="true">
+<pos>0 0</pos>
+<size>1 1</size>
+<path>./../../ARTES/MOLDURA MENU PRINCIPAL/selector.png</path>
+<zIndex>4</zIndex>
+</image>
 
 </view>
  

@@ -3,81 +3,11 @@
 <theme>
 <formatVersion>7</formatVersion>
 
-<!---------------------------------------------------------------------->
-<!------------------------------- SYSTEM ------------------------------->
-<!---------------------------------------------------------------------->
-
 <view name="system">
 
-<image name="background" extra="true">
-<pos>0 0</pos>
-<size>1 1</size>
-<path>./../../ARTES/BACKGROUND FANART 1/${system.theme}.png</path>
-<path>./../../ARTES/BACKGROUND FANART 1/${system.theme}.jpg</path>
-<path>./../../ARTES/BACKGROUND FANART 1/${system.theme}.webp</path>
-<path>./../../ARTES/BACKGROUND FANART 1/${system.theme}.bmp</path>
-<zIndex>1</zIndex>
-<storyboard>
-<animation property="scale" from="1" to="1.05" begin="0" duration="1000" mode="linear"/>
-</storyboard>  
-</image>
-
-<video name="background_video" extra="true">
-<pos>0.17 0.76</pos>
-<origin>0.5 0.5</origin>
-<maxSize>0.30 0.30</maxSize>
-<path>./../../VIDEOS/${system.theme}.mp4</path>
-<path>./../../VIDEOS/${system.theme}.flv</path>
-<path>./../../VIDEOS/${system.theme}.avi</path>
-<delay>2</delay>
-<zIndex>4</zIndex>
-<storyboard>
-<animation property="scale" from="0.8" to="1" begin="0" duration="1000" mode="linear"/>
-</storyboard>  
-</video>
-
-<image name="Sombra" extra="true">
-<pos>0 0</pos>
-<size>1 1</size>
-<path>./../../ARTES/ARTES ROLETA/SOMBRA.png</path>
-<zIndex>3</zIndex>
-</image>
-
-<image name="pointer" extra="true">
-<pos>0.94 0.405</pos>
-<maxSize>0.2 0.2</maxSize>
-<path>./../../ARTES/ARTES ROLETA/POINTER DIREITA/default.png</path>
-<path>./../../ARTES/ARTES ROLETA/POINTER DIREITA/${system.theme}.png</path>
-<zIndex>3</zIndex>
-<storyboard repeat="forever">
-<animation property="x" from="0.97" to="0.94" duration="100" autoreverse="true" begin="4000" repeat="1"/>
-</storyboard>
-</image>
-
-<image name="caratula" extra="true">
-<pos>0 0</pos>
-<size>1 1</size>
-<path>./../../ARTES/ARTES ROLETA/caratula.png</path>
-<zIndex>3</zIndex>
-<storyboard>
-<animation property="opacity" from="0" to="0" begin="0" duration="500" mode="linear"/>
-<animation property="opacity" from="0" to="1" begin="1800" duration="1000" mode="linear"/>
-</storyboard>
-</image>
-
-<image name="lototype" extra="true">
-<pos>0.50 0.11</pos>
-<origin>0.5 0.5</origin>
-<maxSize>0.250 0.20</maxSize>
-<path>./../../ARTES/LOGOS/LOGOCLEAN/${system.theme}.png</path>
-<path>./../../ARTES/LOGOS/LOGOCLEAN/${system.theme}.jpg</path>
-<path>./../../ARTES/LOGOS/LOGOCLEAN/${system.theme}.webp</path>
-<path>./../../ARTES/LOGOS/LOGOCLEAN/${system.theme}.bmp</path>
-<zIndex>5</zIndex>
-<storyboard>
-<animation mode="easyIn" duration="2500" begin="1000" property="scale" repeat="forever" autoreverse="true" from="0.97" to="1"/>
-</storyboard> 
-</image>
+<!---------------------------------------------------------------------->
+<!----------------------------- CAROUSEL  ------------------------------>
+<!---------------------------------------------------------------------->
 
 <carousel name="systemcarousel">
 <zIndex>43</zIndex>	      
@@ -98,6 +28,10 @@
 <path>./../../ARTES/LOGOS/LOGOCLEAN/${system.theme}.png</path>
 </image>
 
+<!---------------------------------------------------------------------->
+<!---------------------------- HELP / INFO  ---------------------------->
+<!---------------------------------------------------------------------->
+
 <text name="systemInfo">
 <pos>0.20 0.55</pos>
 <origin>0.5 0.5</origin>
@@ -105,7 +39,6 @@
 <color>ffffff</color>
 <glowColor>000000</glowColor>
 <rotation>-4.5</rotation> 
-<fontPath>./fonts/Digital-Serial-Bold.ttf</fontPath>
 <fontSize>0.034</fontSize>
 <zIndex>6</zIndex>	  
 <storyboard>
@@ -115,12 +48,89 @@
 </text> 
 
 <helpsystem name="help">
-<fontPath>./fonts/Digital-Serial-Bold.ttf</fontPath>
 <fontSize>0.034</fontSize>
 <pos>0 0.965</pos>    
 <textColor>ffffff</textColor>
 <iconColor>ffffff</iconColor>
 </helpsystem>
+
+<!---------------------------------------------------------------------->
+<!--------------------------- ARTES DE SISTEMAS------------------------->
+<!---------------------------------------------------------------------->
+
+<image name="background" extra="true">
+<pos>0 0</pos>
+<size>1 1</size>
+<path>./../../ARTES/BACKGROUND FANART 1/${system.theme}.png</path>
+<path>./../../ARTES/BACKGROUND FANART 1/${system.theme}.jpg</path>
+<path>./../../ARTES/BACKGROUND FANART 1/${system.theme}.webp</path>
+<path>./../../ARTES/BACKGROUND FANART 1/${system.theme}.bmp</path>
+<zIndex>1</zIndex>
+<storyboard>
+<animation property="scale" from="1" to="1.05" begin="0" duration="1000" mode="linear"/>
+</storyboard>  
+</image>
+
+<image name="pointer" extra="true">
+<pos>0.94 0.405</pos>
+<maxSize>0.2 0.2</maxSize>
+<path>./../../ARTES/ARTES ROLETA/POINTER DIREITA/default.png</path>
+<path>./../../ARTES/ARTES ROLETA/POINTER DIREITA/${system.theme}.png</path>
+<zIndex>5</zIndex>
+<storyboard repeat="forever">
+<animation property="x" from="0.97" to="0.94" duration="100" autoreverse="true" begin="4000" repeat="1"/>
+</storyboard>
+</image>
+
+<image name="lototype" extra="true">
+<pos>0.50 0.11</pos>
+<origin>0.5 0.5</origin>
+<maxSize>0.250 0.20</maxSize>
+<path>./../../ARTES/LOGOS/LOGOCLEAN/${system.theme}.png</path>
+<path>./../../ARTES/LOGOS/LOGOCLEAN/${system.theme}.jpg</path>
+<path>./../../ARTES/LOGOS/LOGOCLEAN/${system.theme}.webp</path>
+<path>./../../ARTES/LOGOS/LOGOCLEAN/${system.theme}.bmp</path>
+<zIndex>5</zIndex>
+<storyboard>
+<animation mode="easyIn" duration="2500" begin="1000" property="scale" repeat="forever" autoreverse="true" from="0.97" to="1"/>
+</storyboard> 
+</image>
+
+<video name="background_video" extra="true">
+<pos>0.17 0.76</pos>
+<origin>0.5 0.5</origin>
+<maxSize>0.30 0.30</maxSize>
+<path>./../../VIDEOS/${system.theme}.mp4</path>
+<path>./../../VIDEOS/${system.theme}.flv</path>
+<path>./../../VIDEOS/${system.theme}.avi</path>
+<delay>2</delay>
+<zIndex>4</zIndex>
+<storyboard>
+<animation property="scale" from="0.8" to="1" begin="0" duration="1000" mode="linear"/>
+</storyboard>  
+</video>
+
+<!---------------------------------------------------------------------->
+<!--------------------------- ARTES FIXAS  ----------------------------->
+<!---------------------------------------------------------------------->
+
+<image name="Sombra" extra="true">
+<pos>0 0</pos>
+<size>1 1</size>
+<path>./../../ARTES/ARTES ROLETA/SOMBRA.png</path>
+<zIndex>3</zIndex>
+</image>
+
+<image name="caratula" extra="true">
+<pos>0 0</pos>
+<size>1 1</size>
+<path>./../../ARTES/ARTES ROLETA/caratula.png</path>
+<zIndex>3</zIndex>
+<storyboard>
+<animation property="opacity" from="0" to="0" begin="0" duration="500" mode="linear"/>
+<animation property="opacity" from="0" to="1" begin="1800" duration="1000" mode="linear"/>
+</storyboard>
+</image>
 
 </view>
  
