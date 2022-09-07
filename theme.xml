@@ -183,8 +183,11 @@
 </subset>
 
 <subset name="Fontes" displayName="Opções de Fontes"> 
+<include subset="Font" name="Adelaide">./INCLUDES/OPCOES DE FONTES/adelaide.xml</include>
 <include subset="Font" name="Algerian">./INCLUDES/OPCOES DE FONTES/algerian.xml</include>
+<include subset="Font" name="Allenia">./INCLUDES/OPCOES DE FONTES/allenia.xml</include>
 <include subset="Font" name="American">./INCLUDES/OPCOES DE FONTES/American.xml</include>
+<include subset="Font" name="Anthony">./INCLUDES/OPCOES DE FONTES/Anthony.xml</include>
 <include subset="Font" name="Beauty">./INCLUDES/OPCOES DE FONTES/Beauty.xml</include>
 <include subset="Font" name="Bold">./INCLUDES/OPCOES DE FONTES/Bold.xml</include>
 <include subset="Font" name="Calligraphy">./INCLUDES/OPCOES DE FONTES/Calligraphy.xml</include>
