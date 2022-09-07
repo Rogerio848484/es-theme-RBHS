@@ -88,10 +88,10 @@
 <zIndex>3</zIndex>         
 </image> 
 
-<image name="md_cartridge">
-<pos>0.5978 0.7670</pos>
+<image name="md_image">
+<pos>0.5977 0.7690</pos>
 <origin>0.5 0.5</origin>
-<maxSize>0.17 0.32</maxSize>
+<maxSize>0.17 0.37</maxSize>
 <zIndex>3</zIndex>         
 </image> 
 

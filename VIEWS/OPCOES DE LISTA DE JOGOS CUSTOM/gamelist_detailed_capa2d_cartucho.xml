@@ -2,7 +2,7 @@
 <theme>
 <formatVersion>7</formatVersion>
 
-<customView name="gamelist detailed Capa3d+Cartucho" inherits="detailed">	
+<customView name="gamelist detailed Capa2d+Cartucho" inherits="detailed">	
 
 
 <!----------------------------------------------------------->
@@ -20,6 +20,9 @@
     <alignment>left</alignment> 
 <!--  Espaco entre as palavras  -->	
 	<lineSpacing>1.5</lineSpacing> 
+<!--  Barra Seletora   -->		
+	<selectorImagePath></selectorImagePath>
+<!--  profundidade da arte / sequencia de amostragem da arte  -->
 	<zIndex>5</zIndex>	
 </textlist>		 
 
@@ -56,10 +59,6 @@
 <zIndex>1</zIndex>
 </image>
 
-<image name="arte-extra-fixa-gamelist" extra="true">
-<visible>false</visible>
-</image> 
-
 <image name="arte-extra-fixa-gamelist2" extra="true">
 <origin>0 0</origin>
 <pos>0 0</pos>
@@ -82,15 +81,11 @@
 <zIndex>20</zIndex> 
 </video>
 
-<image name="md_image">
+<image name="md_thumbnail">
 <pos>0.40 0.770</pos>
 <origin>0.5 0.5</origin>
 <maxSize>0.17 0.37</maxSize>
 <zIndex>3</zIndex>         
-</image> 
-
-<image name="md_thumbnail">
-<visible>false</visible>
 </image> 
 
 <image name="md_cartridge">
@@ -105,6 +100,10 @@
 <maxSize>0.215 0.102</maxSize>
 <origin>0.5 0.5</origin>
 <zIndex>30</zIndex>
+</image>
+
+<image name="md_image">
+<visible>false</visible>
 </image>
 
 <!----------------------------------------------------------->
