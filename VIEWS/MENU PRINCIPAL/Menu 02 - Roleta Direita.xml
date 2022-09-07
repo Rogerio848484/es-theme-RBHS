@@ -71,7 +71,7 @@
 <maxSize>0.250 0.20</maxSize>
 <path>./../../ARTES/LOGOS/LOGOCLEAN/${system.theme}.png</path>
 <path>./../../ARTES/LOGOS/LOGOCLEAN/${system.theme}.jpg</path>
-<path>./../../ARTES/LOGOS/LOGOCLEAN/${system.theme}.wepp</path>
+<path>./../../ARTES/LOGOS/LOGOCLEAN/${system.theme}.webp</path>
 <path>./../../ARTES/LOGOS/LOGOCLEAN/${system.theme}.bmp</path>
 <zIndex>5</zIndex>
 <storyboard>
