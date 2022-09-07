@@ -234,7 +234,6 @@
 <include name="Video Off" displayName="Off"/>
 <include name="Video Sistemas" displayName="Video Sistemas">./INCLUDES/OPCOES DE VIDEO/VIDEO SISTEMAS.xml</include>
 <include name="Video Aleatorio" displayName="Video Aleatorio">./INCLUDES/OPCOES DE VIDEO/VIDEO ALEATORIO.xml</include>
-<include name="Video Static" displayName="Video Estatico">./INCLUDES/OPCOES DE VIDEO/VIDEO ESTATICO.xml</include>
 </subset>
 
 <subset name="Opções de Musicas" displayName="Opções de Musicas">
