@@ -10,10 +10,9 @@
 <view name="screen">
 
 <text name="clock">
-<fontSize>0.034</fontSize>
 <color>ffffff</color>
 <glowColor>000000</glowColor>
-<pos>0.89 0.9545</pos>
+<pos>0.89 0.961</pos>
 <size>0.10 0.058</size>
 <verticalAlignment>right</verticalAlignment>
 </text>
@@ -51,27 +50,17 @@
 
 <view name="menu">
 <menuText name="menutitle">
-<fontPath>./fonts/Digital-Serial-Bold.ttf</fontPath>
-<color>00FF00</color>
-<fontSize>0.029</fontSize>
 </menuText>
 
 <menuText name="menufooter">
-<fontPath>./fonts/Digital-Serial-Bold.ttf</fontPath>
-<fontSize>0.02</fontSize>
 </menuText>
 
 <menuText name="menutext">
-<fontPath>./fonts/Digital-Serial-Bold.ttf</fontPath>
 <selectorGradientType>horizontal</selectorGradientType>
-<fontSize>0.025</fontSize>
 <color>DCDCDC</color> 
 </menuText>
 
 <menuTextSmall name="menutextsmall">
-<fontPath>./fonts/Digital-Serial-Bold.ttf</fontPath>
-<color>3366ff</color>
-<fontSize>0.03</fontSize>
 </menuTextSmall>
 
 <menuBackground name="menubg">
@@ -225,6 +214,13 @@
 <include subset="Font" name="Zelek">./INCLUDES/OPCOES DE FONTES/Sketch3D.xml</include>
 <include subset="Font" name="Zrnic">./INCLUDES/OPCOES DE FONTES/zrnic.xml</include>
 </subset>
+
+<subset name="Tamanho das Fontes" displayName="Opções de Tamanho das Fontes"> 
+<include subset="Pequena" name="Fonte Pequena">./INCLUDES/OPCOES TAMANHO FONTES/pequena.xml</include>
+<include subset="Medio" name="Fonte Media">./INCLUDES/OPCOES TAMANHO FONTES/media.xml</include>
+<include subset="Grande" name="Fonte Grande">./INCLUDES/OPCOES TAMANHO FONTES/grande.xml</include>
+</subset>
+
 
 <subset name="Rodape" displayName="Opções de Rodape">
 <include name="Rodape Off" displayName="Rodape Off"/>

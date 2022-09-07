@@ -10,20 +10,12 @@
 <!----------------------------------------------------------->
    
 <textlist name="gamelist">
-<!--  Tamanho da caixa das letras  -->		
-    <size>0.283 0.81</size>
-<!--  Tamanho das letras  -->
-    <fontSize>0.020</fontSize>
-<!--  Posicao das letras  -->		 
-	<pos>0.0132 0.161</pos>
-<!--  Alinhamento das letras  -->		 
-    <alignment>left</alignment> 
-<!--  Espaco entre as palavras  -->	
-	<lineSpacing>1.5</lineSpacing> 
-<!--  Barra Seletora   -->		
-	<selectorImagePath></selectorImagePath>
-<!--  profundidade da arte / sequencia de amostragem da arte  -->
-	<zIndex>5</zIndex>	
+<size>0.283 0.81</size>
+<pos>0.0132 0.161</pos>
+<alignment>left</alignment> 
+<lineSpacing>1.5</lineSpacing> 
+<selectorImagePath></selectorImagePath>
+<zIndex>5</zIndex>	
 </textlist>		 
 
 <!----------------------------------------------------------->
@@ -31,8 +23,7 @@
 <!----------------------------------------------------------->
 
 <helpsystem name="help">
-<fontSize>0.034</fontSize>
-<pos>0 0.965</pos>    
+<pos>0 0.97</pos>    
 <iconColor>ffffff</iconColor>
 </helpsystem>
 
@@ -108,12 +99,10 @@
 
 <!--  Publicador =texto principal= -->	  
 <text name="md_lbl_publisher,md_lbl_developer,md_lbl_releasedate,md_lbl_genre,md_lbl_players,md_lbl_playcount,md_lbl_lastplayed,md_lbl_gametime">
-<fontSize>0.025</fontSize>
 <size>0.15 0.035</size>
 </text>
 
 <text name="md_publisher,md_developer,md_releasedate,md_genre,md_players,md_playcount,md_lastplayed,md_gametime">
-<fontSize>0.025</fontSize>
 <size>0.15 0.035</size>
 </text>
 
@@ -224,7 +213,6 @@
 <text name="md_lbl_rating">
 <pos>0.798 0.030</pos>
 <size>0.12 0.035</size>
-<fontSize>0.030</fontSize>
 <zIndex>15</zIndex> 
 </text>
 
@@ -241,7 +229,6 @@
 <text name="md_description">
 <pos>0.705 0.58</pos>
 <size>0.283 0.38</size>
-<fontSize>0.019</fontSize>
 <alignment>left</alignment>   
 <zIndex>15</zIndex>   
 </text>	 	

@@ -11,7 +11,6 @@
 <textlist name="gamelist">
 <pos>0.0185 0.18</pos>
 <size>0.2975 0.7999999</size>
-<fontSize>0.023</fontSize> 
 <lineSpacing>1.50</lineSpacing> 
 <alignment>left</alignment>
 <aligmentleft>true</aligmentleft>
@@ -100,7 +99,7 @@
 		
 <image name="md_marquee">
 <pos>0.505 0.13</pos>
-<maxSize>0.25 0.25</maxSize>
+<maxSize>0.25 0.15</maxSize>
 <storyboard event="open">
 <animation property="h" begin="0" from="0.2" duration="800" mode="bump"/>
 </storyboard>
@@ -136,7 +135,25 @@
 <text name="md_lbl_developer">
 <pos>.335 0.66</pos>
 <size>0.20 0.1</size>
-<fontSize>0.023</fontSize>
+<backgroundColor>00000000</backgroundColor>
+<glowColor>000000</glowColor>
+<zIndex>2000</zIndex>
+<glowSize>1</glowSize>
+</text>
+
+<text name="md_lbl_publisher">
+<pos>0.6565 0.66</pos>
+<size>0.20 0.1</size>
+<backgroundColor>00000000</backgroundColor>
+<glowColor>000000</glowColor>
+<zIndex>2000</zIndex>
+<glowSize>1</glowSize>
+</text>
+
+<text name="md_publisher">
+<pos>0.73 0.6605</pos>
+<size>0.20 0.1</size>
+<color>FFFFFF</color>
 <backgroundColor>00000000</backgroundColor>
 <glowColor>000000</glowColor>
 <zIndex>2000</zIndex>
@@ -146,7 +163,6 @@
 <text name="md_developer">
 <pos>0.75 0.709</pos>
 <origin>0.5 0.5</origin>
-<fontSize>0.023</fontSize>
 <backgroundColor>00000000</backgroundColor>
 <color>FFFFFF</color>
 <glowColor>000000</glowColor>
@@ -157,7 +173,6 @@
 
 <text name="md_lbl_releasedate">
 <pos>0.6565 0.66</pos>
-<fontSize>0.023</fontSize>
 <backgroundColor>00000000</backgroundColor>
 <glowColor>000000</glowColor>
 <zIndex>2000</zIndex>
@@ -165,9 +180,8 @@
 </text>
 		
 <datetime name="md_releasedate">
-<pos>1.03 0.6768</pos>
+<pos>1.03 0.681</pos>
 <origin>0.5 0.5</origin>
-<fontSize>0.023</fontSize>
 <backgroundColor>00000000</backgroundColor>
 <color>FFFFFF</color>
 <glowColor>000000</glowColor>
@@ -176,32 +190,8 @@
 <size>0.60 0.8</size>
 </datetime>
 		
-<text name="md_lbl_rating">
-<pos>0.655 0.695</pos>
-<fontSize>0.023</fontSize>
-<backgroundColor>00000000</backgroundColor>
-<glowColor>000000</glowColor>
-<zIndex>2000</zIndex>
-<glowSize>1</glowSize>
-</text>
-		
-<rating name="md_rating">
-<pos>0.75 0.698</pos>
-<origin>0.1 0.1</origin>
-<backgroundColor>00000000</backgroundColor>
-<color>FFFFFF</color>
-<glowColor>000000</glowColor>
-<zIndex>2000</zIndex>
-<glowSize>1</glowSize>
-<alignment>left</alignment>
-<size>0.06 0.03</size>
-<filledPath>./ARTES/ICONS OUTROS/star_filled.png</filledPath>
-<unfilledPath>./ARTES/ICONS OUTROS/star_empty.png</unfilledPath>	
-</rating>
-		
 <text name="md_lbl_genre">
 <pos>.335 0.66</pos>
-<fontSize>0.023</fontSize>
 <backgroundColor>00000000</backgroundColor>
 <glowColor>000000</glowColor>
 <zIndex>2000</zIndex>
@@ -211,7 +201,6 @@
 <text name="md_genre">
 <pos>0.45 0.628</pos>
 <size>0.60 0.10</size>
-<fontSize>0.023</fontSize>
 <backgroundColor>00000000</backgroundColor>
 <color>FFFFFF</color>
 <glowColor>000000</glowColor>
@@ -222,7 +211,6 @@
 <text name="md_description">
 <pos>0.335 0.7585</pos>
 <size>0.65 0.195</size>
-<fontSize>0.023</fontSize>
 <backgroundColor>00000000</backgroundColor>
 <glowColor>000000</glowColor>
 <zIndex>2000</zIndex>
@@ -233,7 +221,7 @@
 <!-------------------------- FALSES -------------------------->
 <!------------------------------------------------------------>
 
-<text name="md_lbl_playcount,md_playcount,md_lbl_players,md_lbl_publisher, md_lbl_lastplayed,md_lastplayed,md_lbl_gametime">
+<text name="md_lbl_rating,md_rating,md_lbl_playcount,md_playcount,md_lbl_players,md_lbl_lastplayed,md_lastplayed,md_lbl_gametime">
 <visible>false</visible> 
 </text>
 

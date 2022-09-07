@@ -6,27 +6,19 @@
 
 <!-- lista dos jogos -->
 <view name="basic">	
-    <textlist name="gamelist">
-<!--  Tamanho da caixa das letras  -->		
-     <size>0.230 0.715</size>
-<!--  Fonte das letras  -->	
-      <fontSize>0.020</fontSize>
-<!--  Posicao das letras  -->		 
-	<pos>0.015 0.218</pos>
-<!--  Alinhamento das letras  -->		 
-    <alignment>left</alignment> 
-<!--  Espaco entre as palavras  -->	
-	<lineSpacing>1.8</lineSpacing> 
-<!--  Cor das letras  -->		 
-	<zIndex>5</zIndex>	
+
+<textlist name="gamelist">
+<size>0.230 0.715</size>
+<pos>0.015 0.218</pos>
+<alignment>left</alignment> 
+<lineSpacing>1.8</lineSpacing> 
+<zIndex>5</zIndex>	
 </textlist>
  
-<!--  Exibe menu de ajuda: Selecionar, voltar, etc...  -->	 
 <helpsystem name="help">
-<pos>0 0.965</pos>  
+<pos>0 0.97</pos>  
 </helpsystem>
-	 
-<!-- Logo por Sistema, aproveita as Wheels dos sistemas -->	
+
 <image name="logo">
 <origin>0.5 0.5</origin> 
 <pos>0.132 0.100</pos>
@@ -36,7 +28,6 @@
 <zIndex>30</zIndex>
 </image>
 
-<!-- Arte extra Fixa Gamelist-->		
 <image name="arte-extra-fixa-gamelist" extra="true">
 <origin>0 0</origin>
 <pos>0 0</pos>
@@ -44,8 +35,7 @@
 <path>./ARTES/ARTES GAMELIST/Basic Fundo.png</path>
 <zIndex>2</zIndex> 
 </image> 
-
-<!-- Arte extra Fixa Gamelist-->		
+	
 <image name="background" extra="true">
 <origin>0 0</origin>
 <pos>0 0</pos>

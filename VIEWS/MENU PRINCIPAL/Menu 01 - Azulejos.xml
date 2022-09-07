@@ -36,8 +36,6 @@
 <color>ffffff</color>
 <glowColor>000000</glowColor>
 <rotation>-4.5</rotation> 
-<fontPath>./../../fonts/Digital-Serial-Bold.ttf</fontPath>
-<fontSize>0.034</fontSize>
 <zIndex>9</zIndex>	  
 <storyboard>
 <animation property="opacity" from="0" to="1" begin="100" duration="100" mode="EaseOut"/>
@@ -46,8 +44,6 @@
 </text> 
 
 <helpsystem name="help">
-<fontPath>./../../fonts/Digital-Serial-Bold.ttf</fontPath>
-<fontSize>0.034</fontSize>
 <pos>0 0.965</pos>    
 <textColor>ffffff</textColor>
 <iconColor>ffffff</iconColor>
