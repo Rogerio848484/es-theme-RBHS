@@ -4,27 +4,27 @@
 <view name="system,basic,detailed,video,grid,gamecarousel">
 
 <text name="info1,info2,info3,info4,info5,info6,info7,info8,info9,info10,info11,info12,info13,info14,info15,info16,info17,info18,info19,info20,info21,info22,logoText,gamelist,md_lbl_developer,md_developer,md_lbl_releasedate,md_releasedate,md_lbl_rating,md_lbl_genre,md_genre,md_description,md_lbl_playcount,md_lbl_lastplayed, md_lbl_gametime,md_lbl_lastplayed,md_lbl_gametime,md_playcount,md_lastplayed,md_gametime,md_players,md_lbl_publisher,md_publisher,md_name,md_lbl_players,md_lbl_players">
-<fontSize>0.025</fontSize>
+<fontSize>0.020</fontSize>
 </text> 
 
 <text name="systemInfo">
-<fontSize>0.035</fontSize>
+<fontSize>0.028</fontSize>
 </text> 
 
 <helpsystem name="help">
-<fontSize>0.025</fontSize>
+<fontSize>0.020</fontSize>
 </helpsystem>
 
 <text name="md_description">
-<fontSize>0.019</fontSize>
+<fontSize>0.0152</fontSize>
 </text> 
 
 <text name="md_lbl_rating">
-<fontSize>0.035</fontSize>
+<fontSize>0.028</fontSize>
 </text> 
 
 <textlist name="gamelist">
-<fontSize>0.02</fontSize>
+<fontSize>0.016</fontSize>
 </textlist>	
 
 </view>
@@ -32,23 +32,24 @@
 <view name="screen">
 
 <text name="clock">
-<fontSize>0.025</fontSize>
+<fontSize>0.016</fontSize>
+<pos>0.895 0.9673</pos>
 </text> 
 
 </view>
 
 <view name="menu">
 <menuText name="menutitle">
-<fontSize>0.029</fontSize>
+<fontSize>0.0232</fontSize>
 </menuText>
 <menuText name="menufooter">
-<fontSize>0.02</fontSize>
+<fontSize>0.016</fontSize>
 </menuText>
 <menuText name="menutext">
-<fontSize>0.025</fontSize>
+<fontSize>0.016</fontSize>
 </menuText>
 <menuTextSmall name="menutextsmall">
-<fontSize>0.03</fontSize>
+<fontSize>0.024</fontSize>
 </menuTextSmall>
 </view>
 
