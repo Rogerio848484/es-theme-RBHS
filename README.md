@@ -18,8 +18,7 @@ Tema voltado para pessoas que estão migrando do Hyperspin para o Retrobat.
 
 ### GAMELIST DETAILED
 
-![](https://i.ibb.co/sb4q5rB/Whats-App-Image-2022-09-05-at-22-28-01.jpg)
-
+![](https://i.ibb.co/c2c1SfT/Whats-App-Image-2022-09-07-at-14-53-11-1.jpg)
 
 ### GAMELIST VIDEO
 
@@ -32,6 +31,13 @@ Tema voltado para pessoas que estão migrando do Hyperspin para o Retrobat.
 ### GAMELIST GRID
 
 ![](https://i.ibb.co/r5w3s6g/Whats-App-Image-2022-07-17-at-20-10-08.jpg)
+
+### GAMELIST DETAILED CAPA 3D + CARTUCHO
+
+![](https://i.ibb.co/8PC1SyP/Whats-App-Image-2022-09-07-at-14-54-51.jpg)
+
+### GAMELIST DETAILED CAPA 2D + CARTUCHO
+![](https://i.ibb.co/cJqvCvS/Whats-App-Image-2022-09-07-at-14-56-26.jpg)
 
 ### Créditos:
 
