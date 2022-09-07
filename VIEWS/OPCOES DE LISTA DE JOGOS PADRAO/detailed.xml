@@ -233,7 +233,7 @@
 <pos>0.772 0.07500</pos>
 <maxSize>0.100 0.030</maxSize>
 <filledPath>./../../ICONS OUTROS/star_filled.png</filledPath>
-<unfilledPath>./../..ICONS OUTROS/star_empty.png</unfilledPath>	
+<unfilledPath>./../../ICONS OUTROS/star_empty.png</unfilledPath>	
 <zIndex>15</zIndex>
 </rating>	 
 
