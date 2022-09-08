@@ -4,7 +4,6 @@
 
 <!---------------------------basic------------------------------------- -->
 
-<!-- lista dos jogos -->
 <view name="basic">	
 
 <textlist name="gamelist">
