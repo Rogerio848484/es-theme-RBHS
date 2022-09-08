@@ -217,8 +217,7 @@
 
 <subset name="Tamanho das Fontes" displayName="Opções de Tamanho das Fontes"> 
 <include subset="Pequena" name="Fonte Pequena">./INCLUDES/OPCOES TAMANHO FONTES/pequena.xml</include>
-<include subset="Medio" name="Fonte Media">./INCLUDES/OPCOES TAMANHO FONTES/media.xml</include>
-<include subset="Grande" name="Fonte Grande">./INCLUDES/OPCOES TAMANHO FONTES/grande.xml</include>
+<include subset="Media" name="Fonte Media">./INCLUDES/OPCOES TAMANHO FONTES/media.xml</include>
 </subset>
 
 
