@@ -9,8 +9,8 @@
 <!----------------------------------------------------------->
 
 <textlist name="gamelist">
-<pos>0.0185 0.18</pos>
-<size>0.2975 0.7999999</size>
+<pos>0.0184 0.18</pos>
+<size>0.2975 0.79</size>
 <lineSpacing>1.50</lineSpacing> 
 <alignment>left</alignment>
 <aligmentleft>true</aligmentleft>
@@ -24,7 +24,7 @@
 <!----------------------------------------------------------->
 	
 <helpsystem name="help">
-<pos>0 0.965</pos>    
+<pos>0 0.97</pos>    
 </helpsystem>
 
 <!----------------------------------------------------------->
@@ -73,8 +73,8 @@
 <!----------------------------------------------------------->
 
 <video name="md_video">
-<pos>0.500 0.40</pos>
-<size>0.335 0.45</size>
+<pos>0.500 0.402</pos>
+<maxSize>0.335 0.45</maxSize>
 <origin>0 0</origin>
 <delay>0</delay>
 <origin>0.5 0.5</origin>
@@ -209,8 +209,8 @@
 </text>
 
 <text name="md_description">
-<pos>0.335 0.7585</pos>
-<size>0.65 0.195</size>
+<pos>0.335 0.765</pos>
+<size>0.645 0.195</size>
 <backgroundColor>00000000</backgroundColor>
 <glowColor>000000</glowColor>
 <zIndex>2000</zIndex>

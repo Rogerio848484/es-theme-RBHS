@@ -32,7 +32,8 @@
 <view name="screen">
 
 <text name="clock">
-<fontSize>0.025</fontSize>
+<fontSize>0.0245</fontSize>
+<pos>0.895 0.96</pos>
 </text> 
 
 </view>
