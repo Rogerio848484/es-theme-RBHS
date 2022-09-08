@@ -26,11 +26,12 @@ Tema voltado para pessoas que estão migrando do Hyperspin para o Retrobat.
 
 ### GAMELIST GAMECAROUSEL
 
-![](https://i.ibb.co/qncKVjm/Whats-App-Image-2022-07-17-at-20-00-23.jpg)
+![](https://i.ibb.co/hKQHZT9/Whats-App-Image-2022-09-07-at-21-19-05.jpg)
+![](https://i.ibb.co/vVW9rTH/Whats-App-Image-2022-09-07-at-21-20-15.jpg)
 
 ### GAMELIST GRID
 
-![](https://i.ibb.co/r5w3s6g/Whats-App-Image-2022-07-17-at-20-10-08.jpg)
+![](https://i.ibb.co/CnZhMPP/Whats-App-Image-2022-09-07-at-21-22-50.jpg)
 
 ### GAMELIST DETAILED CAPA 3D + CARTUCHO
 
