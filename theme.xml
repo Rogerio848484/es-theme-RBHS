@@ -216,15 +216,15 @@
 </subset>
 
 <subset name="Tamanho das Fontes" displayName="Opções de Tamanho das Fontes"> 
-<include subset="Pequena" name="Fonte Pequena">./INCLUDES/OPCOES TAMANHO FONTES/pequena.xml</include>
 <include subset="Media" name="Fonte Media">./INCLUDES/OPCOES TAMANHO FONTES/media.xml</include>
+<include subset="Pequena" name="Fonte Pequena">./INCLUDES/OPCOES TAMANHO FONTES/pequena.xml</include>
 </subset>
 
 
 <subset name="Rodape" displayName="Opções de Rodape">
-<include name="Rodape Off" displayName="Rodape Off"/>
 <include name="Rodape 01" displayName="Rodape 01">./INCLUDES/OPCOES DE RODAPE/RODAPE 01.xml</include>
 <include name="Rodape 02" displayName="Rodape 02">./INCLUDES/OPCOES DE RODAPE/RODAPE 02.xml</include>
+<include name="Rodape Off" displayName="Rodape Off"/>
 </subset>
 
 <subset name="Opacidade Logo" displayName="Opções Opacidade Logo"> 
@@ -235,9 +235,9 @@
 </subset>
 
 <subset name="Opções de Video" displayName="Opções de Video">
-<include name="Video Off" displayName="Off"/>
-<include name="Video Sistemas" displayName="Video Sistemas">./INCLUDES/OPCOES DE VIDEO/VIDEO SISTEMAS.xml</include>
 <include name="Video Aleatorio" displayName="Video Aleatorio">./INCLUDES/OPCOES DE VIDEO/VIDEO ALEATORIO.xml</include>
+<include name="Video Sistemas" displayName="Video Sistemas">./INCLUDES/OPCOES DE VIDEO/VIDEO SISTEMAS.xml</include>
+<include name="Video Off" displayName="Off"/>
 </subset>
 
 <subset name="Opções de Musicas" displayName="Opções de Musicas">
