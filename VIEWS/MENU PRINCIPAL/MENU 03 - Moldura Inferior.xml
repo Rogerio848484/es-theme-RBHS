@@ -50,6 +50,10 @@
 <image name="logo">
 <path>./../../ARTES/LOGOS/WHEEL CIRCULAR/${system.theme}.png</path>	
 </image>
+
+<video name="background_video" extra="true">
+<visible>false</visible>
+</video>
  
 </view>
 
