@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+
+<customView name="gamelist Gamecarousel Capa3d+Video" inherits="gamecarousel">
+
+<!----------------------------------------------------------->
+<!------------------------ CARROUSEL ------------------------>
+<!----------------------------------------------------------->
+
+<gamecarousel name="gamecarousel">
+<zIndex>10</zIndex>	      
+<type>vertical_wheel</type>
+<pos>0.33 0</pos>
+<size>1 1</size>
+<logoScale>1.4</logoScale>
+<logoSize>0.150 0.260</logoSize>
+<color>00000000</color>
+<maxLogoCount>13</maxLogoCount>
+<logoRotation>-18</logoRotation>
+<logoRotationOrigin>2.0 0.2</logoRotationOrigin>
+<logoAlignment>center</logoAlignment>   
+<imageSource>marquee</imageSource>
+</gamecarousel> 
+
+<!----------------------------------------------------------->
+<!------------------------ HELPSYSTEM ----------------------->
+<!----------------------------------------------------------->
+
+<helpsystem name="help">
+<pos>0 0.97</pos>    
+</helpsystem>
+
+<!----------------------------------------------------------->
+<!---------------------- ARTES SISTEMA ---------------------->
+<!----------------------------------------------------------->
+
+<image name="pointer" extra="true">
+<pos>0.94 0.405</pos>
+<maxSize>0.2 0.2</maxSize>
+<path>./ARTES/ARTES ROLETA/POINTER DIREITA/default.png</path>
+<path>./ARTES/ARTES ROLETA/POINTER DIREITA/${system.theme}.png</path>
+<zIndex>3</zIndex>
+<storyboard repeat="forever">
+<animation property="x" from="0.97" to="0.94" duration="100" autoreverse="true" begin="2500" repeat="1"/>
+</storyboard>
+</image>
+
+<image name="background" extra="true">
+<pos>0 0</pos>
+<size>1 1</size>
+<zIndex>1</zIndex>
+<path>./ARTES/BACKGROUNDGAMELIST/${system.theme}.jpg</path>
+</image>
+
+<image name="background2" extra="true">
+<visible>false</visible>
+</image>
+
+<image name="logo">
+<pos>0.5 0.5</pos>
+<origin>0.5 0.5</origin>
+<size>1 1</size>
+<zIndex>12</zIndex>
+<path>./ARTES/LOGOSGAMELIST/${system.theme}.png</path>
+</image>
+
+<!----------------------------------------------------------->
+<!----------------------- ARTES EXTRAS ---------------------->
+<!----------------------------------------------------------->
+
+<image name="fundo_black" extra="true">
+<pos>0 0</pos>
+<size>1 1</size>
+<zIndex>13</zIndex>
+<path>./ARTES/MOLDURAS VIDEO GAMELIST/BLACK.png</path>
+</image>
+
+<image name="moldura_video_gamelist" extra="true">
+<pos>-0.004 0</pos>
+<size>1.01 1.01</size>
+<zIndex>16</zIndex>
+<path>./ARTES/MOLDURAS VIDEO GAMELIST/${system.theme}.png</path>
+</image>
+
+<!----------------------------------------------------------->
+<!--------------------- ARTES GAMELIST ---------------------->
+<!----------------------------------------------------------->
+
+<image name="md_fanart" extra="true">
+<visible>false</visible>
+</image>
+
+<image name="md_image" extra="true">
+<pos>0.60 0.665</pos>
+<origin>0.5 0.5</origin>
+<maxSize>0.25 .400</maxSize>
+<zIndex>13</zIndex>
+<storyboard>
+<animation property="opacity" from="1" to="1" begin="0" duration="500" mode="linear"/>
+</storyboard>  
+</image>
+
+<image name="md_cartridge">
+<pos>0.68 0.75</pos>
+<origin>0.5 0.5</origin>
+<maxSize>0.15 .20</maxSize>
+<zIndex>14</zIndex>
+<storyboard event="open"> 
+<animation property="opacity" from="1" to="1" begin="0" duration="500" mode="linear"/>
+</storyboard>  
+<storyboard event="activatePrev"> 
+<animation property="opacity" from="1" to="1" begin="0" duration="500" mode="linear"/>
+</storyboard> 
+<storyboard event="activateNext"> 
+<animation property="opacity" from="1" to="1" begin="0" duration="500" mode="linear"/>
+</storyboard>  
+</image>
+
+<video name="md_video">
+<pos>0.2810 0.565</pos>
+<origin>0.5 0.5</origin>
+<effect>none</effect>
+<size>0.405 .55</size>
+<delay>0</delay>
+<zIndex>15</zIndex>
+</video>
+
+<image name="md_marquee" extra="true">
+<pos>0.29 0.84</pos>
+<origin>0.5 0.5</origin>
+<maxSize>0.25 0.40</maxSize>
+<zIndex>20</zIndex>
+<storyboard>
+<animation property="opacity" from="1" to="1" begin="0" duration="500" mode="linear"/>
+</storyboard>  
+</image>
+
+<!----------------------------------------------------------->
+<!-------------------------- FALSES ------------------------->
+<!----------------------------------------------------------->
+
+<text name=" md_lbl_players,md_lbl_publisher,md_publisher,md_lbl_developer,md_developer,logoText,md_developer,md_lbl_releasedate,md_releasedate,md_lbl_rating,md_lbl_genre,md_genre,md_description,md_lbl_playcount,md_lbl_lastplayed, md_lbl_gametime,md_lbl_playcount,md_lbl_lastplayed,md_lbl_gametime,md_playcount,md_lastplayed,md_gametime,md_players">
+<visible>false</visible>
+</text> 
+
+</customView>
+ 
+</theme>
