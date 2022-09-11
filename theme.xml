@@ -113,6 +113,8 @@
 <include name="Off" displayName="Wheel Off"/>
 <include name="clean" displayName="Wheel Clean">./INCLUDES/OPCOES DE WHEEL/WHEEL CLEAN.xml</include>
 <include name="Carbon" displayName="Wheel Carbon">./INCLUDES/OPCOES DE WHEEL/WHEEL CARBON.xml</include>
+<include name="Silver" displayName="Wheel Silver">./INCLUDES/OPCOES DE WHEEL/WHEEL SILVER.xml</include>
+<include name="Circular" displayName="Wheel Circular">./INCLUDES/OPCOES DE WHEEL/WHEEL CIRCULAR.xml</include>
 <include name="Long" displayName="Wheel Long">./INCLUDES/OPCOES DE WHEEL/WHEEL LONG.xml</include>
 <include name="Rectangle" displayName="Wheel Rectangle">./INCLUDES/OPCOES DE WHEEL/WHEEL RECTANGLE.xml</include>
 </subset>

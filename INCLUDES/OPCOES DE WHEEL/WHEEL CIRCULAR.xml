@@ -1,0 +1,17 @@
+<theme>
+   <formatVersion>7</formatVersion>
+
+<view name="system">
+
+
+<image name="logo">
+<path>./ARTES/LOGOS/WHEEL CIRCULAR/${system.theme}.png</path>
+</image>
+
+<carousel name="systemcarousel">
+<maxLogoCount>11</maxLogoCount>
+</carousel>
+
+</view>
+
+</theme>

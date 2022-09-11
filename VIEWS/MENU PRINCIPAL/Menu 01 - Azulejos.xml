@@ -13,7 +13,7 @@
 <type>grid</type>
 <pos>0 0.29</pos>
 <size>1 1</size>
-<zIndex>4</zIndex>         
+<zIndex>50</zIndex>         
 <logoScale>1.5</logoScale> 
 <logoSize>0.125 0.25</logoSize>
 <color>00000000</color>
