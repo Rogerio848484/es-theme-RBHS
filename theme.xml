@@ -171,6 +171,7 @@
 </subset>
 
 <subset name="Fontes" displayName="Opções de Fontes"> 
+<include subset="Font" name="Zrnic">./INCLUDES/OPCOES DE FONTES/zrnic.xml</include>
 <include subset="Font" name="Adelaide">./INCLUDES/OPCOES DE FONTES/adelaide.xml</include>
 <include subset="Font" name="Algerian">./INCLUDES/OPCOES DE FONTES/algerian.xml</include>
 <include subset="Font" name="Allenia">./INCLUDES/OPCOES DE FONTES/allenia.xml</include>
@@ -212,7 +213,6 @@
 <include subset="Font" name="Ubuntu_condensed">./INCLUDES/OPCOES DE FONTES/ubuntu_condensed.xml</include>
 <include subset="Font" name="Verdana">./INCLUDES/OPCOES DE FONTES/verdana.xml</include>
 <include subset="Font" name="Zelek">./INCLUDES/OPCOES DE FONTES/Sketch3D.xml</include>
-<include subset="Font" name="Zrnic">./INCLUDES/OPCOES DE FONTES/zrnic.xml</include>
 </subset>
 
 <subset name="Tamanho das Fontes" displayName="Opções de Tamanho das Fontes"> 
