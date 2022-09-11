@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+
+<view name="system">
+
+<text name="systemInfo">
+<pos>0 0.60</pos>
+<backgroundColor>00000000</backgroundColor>
+<color>ffffff</color>
+<rotation>-4.5</rotation> 
+<static>true</static>
+<zIndex>20000</zIndex>	  
+</text> 
+
+<image name="background" extra="true">
+<pos>0 0</pos>
+<size>1 1</size>
+<path>./../../ARTES/BACKGROUND FANART 1/${system.theme}.jpg</path>
+<zIndex>1</zIndex>
+</image>
+
+<image name="moldura inferior" extra="true">
+<pos>0 0.175</pos>
+<size>1 .78</size>
+<path>./../../ARTES/MOLDURA MENU PRINCIPAL/moldurainferior50%.png</path>
+<zIndex>2</zIndex>
+</image>
+    
+<helpsystem name="help"> 
+<pos>0 0.97</pos>    
+</helpsystem>
+	  
+<carousel name="systemcarousel">
+<type>grid</type>
+<pos>0 0.29</pos>
+<size>1 1</size>
+<zIndex>5000</zIndex>         
+<logoScale>1.30</logoScale> 
+<logoSize>0.125 0.25</logoSize>
+<color>00000000</color>
+<logoAlignment>center</logoAlignment>
+<maxLogoCount>7</maxLogoCount>
+</carousel>
+	  
+<image name="logo">
+<path>./../../ARTES/LOGOS/WHEEL CIRCULAR/${system.theme}.png</path>	
+</image>
+ 
+</view>
+
+</theme>
