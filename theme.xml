@@ -223,7 +223,6 @@
 <include subset="Pequena" name="Fonte Pequena">./INCLUDES/OPCOES TAMANHO FONTES/pequena.xml</include>
 </subset>
 
-
 <subset name="Rodape" displayName="Opções de Rodape">
 <include name="Rodape 01" displayName="Rodape 01">./INCLUDES/OPCOES DE RODAPE/RODAPE 01.xml</include>
 <include name="Rodape 02" displayName="Rodape 02">./INCLUDES/OPCOES DE RODAPE/RODAPE 02.xml</include>
