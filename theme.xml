@@ -100,7 +100,6 @@
 <include name="MENU 01 - Azulejos" displayName="MENU 01 - Azulejos">./VIEWS/MENU PRINCIPAL/Menu 01 - Azulejos.xml</include>
 <include name="MENU 02 - Roleta" displayName="MENU 02 - Roleta Direita">./VIEWS/MENU PRINCIPAL/MENU 02 - Roleta Direita.xml</include>
 <include name="MENU 03 - Moldura Inferior" displayName="MENU 03 - Moldura Inferior">./VIEWS/MENU PRINCIPAL/MENU 03 - Moldura Inferior.xml</include>
-
 </subset>
 
 <subset name="Background" displayName="Opções de Background">
