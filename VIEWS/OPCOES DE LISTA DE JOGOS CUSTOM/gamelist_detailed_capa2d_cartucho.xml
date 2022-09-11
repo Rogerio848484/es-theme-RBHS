@@ -340,6 +340,18 @@
 <zIndex>100</zIndex>
 <linearSmooth>true</linearSmooth>
 </image>
+
+<image name="md_favorite, md_map, md_manual, md_savestate, md_cheevos, md_hidden, md_kidgame">
+<storyboard>  
+<animation property="opacity" from="0.6" to="1"  duration="350" mode="easeInOut" autoreverse="true" repeat="forever"/>   
+</storyboard>
+</image>
+
+<image name="md_favorite, md_map, md_manual, md_savestate, md_cheevos, md_hidden, md_kidgame">
+<storyboard>  
+<animation property="opacity" from="0.6" to="1"  duration="350" mode="easeInOut" autoreverse="true" repeat="forever"/>   
+</storyboard>
+</image>
 	
 <text name="logoText">
 <visible>false</visible> 
