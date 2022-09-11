@@ -96,13 +96,13 @@
 <!-------------------------- OPÇÕES DO MENU ---------------------------->
 <!---------------------------------------------------------------------->
 
-<subset name="Main Menu" displayName="Opções de Main Menu">
+<subset name="Main Menu" displayName="Main Menu Options">
 <include name="MENU 01 - Azulejos" displayName="MENU 01 - Azulejos">./VIEWS/MENU PRINCIPAL/Menu 01 - Azulejos.xml</include>
 <include name="MENU 02 - Roleta" displayName="MENU 02 - Roleta Direita">./VIEWS/MENU PRINCIPAL/MENU 02 - Roleta Direita.xml</include>
 <include name="MENU 03 - Moldura Inferior" displayName="MENU 03 - Moldura Inferior">./VIEWS/MENU PRINCIPAL/MENU 03 - Moldura Inferior.xml</include>
 </subset>
 
-<subset name="Background" displayName="Opções de Background">
+<subset name="Background" displayName="Background Options">
 <include name="OFF" displayName="OFF"/>
 <include name="Fanart 01" displayName="Fanart 01">./INCLUDES/OPCOES DE BACKGROUND/FANART 01.xml</include>
 <include name="Videogames 01" displayName="Videogames 01">./INCLUDES/OPCOES DE BACKGROUND/VIDEOGAMES 01.xml</include>
@@ -110,7 +110,7 @@
 <include name="Videogames 02" displayName="Videogames 02">./INCLUDES/OPCOES DE BACKGROUND/VIDEOGAMES 02.xml</include>
 </subset>
 
-<subset name="Wheel" displayName="Opções de Wheel">
+<subset name="Wheel" displayName="Wheel Options">
 <include name="Off" displayName="Wheel Off"/>
 <include name="clean" displayName="Wheel Clean">./INCLUDES/OPCOES DE WHEEL/WHEEL CLEAN.xml</include>
 <include name="Carbon" displayName="Wheel Carbon">./INCLUDES/OPCOES DE WHEEL/WHEEL CARBON.xml</include>
@@ -120,7 +120,7 @@
 <include name="Rectangle" displayName="Wheel Rectangle">./INCLUDES/OPCOES DE WHEEL/WHEEL RECTANGLE.xml</include>
 </subset>
 
-<subset name="Color Theme" displayName="Opções Cores Tema">
+<subset name="Color Theme" displayName="Theme Colour Options">
 <include name="blue" displayName="Blue">./INCLUDES/OPCOES COLOR THEME/blue.xml</include>
 <include name="darkblue" displayName="DarkBlue">./INCLUDES/OPCOES COLOR THEME/darkblue.xml</include>
 <include name="candy" displayName="Candy">./INCLUDES/OPCOES COLOR THEME/candy.xml</include>
@@ -136,7 +136,7 @@
 <include name="yellow" displayName="Yellow">./INCLUDES/OPCOES COLOR THEME/yellow.xml</include>
 </subset>
 
-<subset name="Icones" displayName="Opções Icones Botões"> 
+<subset name="Icones" displayName="Button Icon Options"> 
 <include subset="iconset" name="icon Default">./INCLUDES/OPCOES OPCOES ICONSETS/default.xml</include>
 <include subset="iconset" name="icon PSX">./INCLUDES/OPCOES ICONSETS/psx.xml</include>
 <include subset="iconset" name="icon SNES">./INCLUDES/OPCOES ICONSETS/snes.xml</include>
@@ -148,7 +148,7 @@
 <include subset="iconset" name="icon SNES ALT">./INCLUDES/OPCOES ICONSETS/snesalt.xml</include>
 </subset>
 
-<subset name="Sons" displayName="Opções de Sons"> 
+<subset name="Sons" displayName="Sound Options"> 
 <include name="off" displayName="off">./INCLUDES/OPCOES DE SONS/off.xml</include>
 <include name="hyperspin" displayName="hyperspin">./INCLUDES/OPCOES DE SONS/hyperspin.xml</include>
 <include name="roleta" displayName="roleta">./INCLUDES/OPCOES DE SONS/roleta.xml</include>
@@ -173,7 +173,7 @@
 <include name="scroll" displayName="scroll">./INCLUDES/OPCOES DE SONS/scroll.xml</include>
 </subset>
 
-<subset name="Fontes" displayName="Opções de Fontes"> 
+<subset name="Fontes" displayName="Font Options"> 
 <include subset="Font" name="Zrnic">./INCLUDES/OPCOES DE FONTES/zrnic.xml</include>
 <include subset="Font" name="Adelaide">./INCLUDES/OPCOES DE FONTES/adelaide.xml</include>
 <include subset="Font" name="Algerian">./INCLUDES/OPCOES DE FONTES/algerian.xml</include>
@@ -218,31 +218,31 @@
 <include subset="Font" name="Zelek">./INCLUDES/OPCOES DE FONTES/Sketch3D.xml</include>
 </subset>
 
-<subset name="Tamanho das Fontes" displayName="Opções de Tamanho das Fontes"> 
+<subset name="Tamanho das Fontes" displayName="Font Size Options"> 
 <include subset="Media" name="Fonte Media">./INCLUDES/OPCOES TAMANHO FONTES/media.xml</include>
 <include subset="Pequena" name="Fonte Pequena">./INCLUDES/OPCOES TAMANHO FONTES/pequena.xml</include>
 </subset>
 
-<subset name="Rodape" displayName="Opções de Rodape">
+<subset name="Rodape" displayName="Footer Options">
 <include name="Rodape 01" displayName="Rodape 01">./INCLUDES/OPCOES DE RODAPE/RODAPE 01.xml</include>
 <include name="Rodape 02" displayName="Rodape 02">./INCLUDES/OPCOES DE RODAPE/RODAPE 02.xml</include>
 <include name="Rodape Off" displayName="Rodape Off"/>
 </subset>
 
-<subset name="Opacidade Logo" displayName="Opções Opacidade Logo"> 
+<subset name="Opacidade Logo" displayName="Logo Opacity Options"> 
 <include name="100%" displayName="100%">./INCLUDES/OPCOES OPACIDADE LOGO/100%.xml</include>
 <include name="75%" displayName="75%">./INCLUDES/OPCOES OPACIDADE LOGO/75%.xml</include>
 <include name="50%" displayName="50%">./INCLUDES/OPCOES OPACIDADE LOGO/50%.xml</include>
 <include name="25%" displayName="25%">./INCLUDES/OPCOES OPACIDADE LOGO/25%.xml</include>
 </subset>
 
-<subset name="Opções de Video" displayName="Opções de Video">
+<subset name="Opções de Video" displayName="Video Options">
 <include name="Video Aleatorio" displayName="Video Aleatorio">./INCLUDES/OPCOES DE VIDEO/VIDEO ALEATORIO.xml</include>
 <include name="Video Sistemas" displayName="Video Sistemas">./INCLUDES/OPCOES DE VIDEO/VIDEO SISTEMAS.xml</include>
 <include name="Video Off" displayName="Off"/>
 </subset>
 
-<subset name="Opções de Musicas" displayName="Opções de Musicas">
+<subset name="Opções de Musicas" displayName="Music Options">
 <include name="Eletronicas" displayName="Eletronicas">./INCLUDES/OPCOES DE MUSICAS/MUSICAS ELETRONICAS.xml</include>
 <include name="Games" displayName="Games">./INCLUDES/OPCOES DE MUSICAS/MUSICAS GAMES.xml</include>
 </subset>
