@@ -15,6 +15,7 @@ Tema voltado para pessoas que estão migrando do Hyperspin para o Retrobat.
 
 ### MENUS 03 - MOLDURA INFERIOR
 ![](https://i.ibb.co/Bn2Rbdx/Whats-App-Image-2022-09-11-at-14-03-57.jpg)
+![](https://i.ibb.co/N6hzpJq/Whats-App-Image-2022-09-11-at-14-06-23.jpg)
 
 ### GAMELIST BASIC
 
