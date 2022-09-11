@@ -250,20 +250,36 @@
 </image>
 
 <!--  Informa se o jogo 'e favorito = pode escolher o lugar no tema -->	
-<image name="md_favorite, md_notfavorite">
+<image name="md_notfavorite" extra="true">
+<origin>0 0</origin>
+<pos>0.758 0.4630</pos>
+<color>80808090</color>
+<maxSize>0.065 0.065</maxSize>      
+<path>./ARTES/ICONS OUTROS/favorite.png</path>
+<zIndex>999</zIndex>
+</image> 
+
+<image name="md_favorite">
 <origin>0 0</origin>
 <pos>0.758 0.4630</pos>
 <maxSize>0.065 0.065</maxSize>      
 <path>./ARTES/ICONS OUTROS/favorite.png</path>
 <zIndex>999</zIndex>
+<color>dddddd</color>
 </image> 
-	
-<image name="md_notfavorite"> 
-<color>80808090</color>
-</image>	
+
 
 <!--  Informa se o jogo tem ou nao um SaveState = pode escolher o lugar no tema -->
-<image name="md_savestate,md_nosavestate">
+<image name="md_nosavestate" extra="true">
+<origin>0 0</origin>
+<pos>0.80 0.47</pos>
+<maxSize>0.055 0.055</maxSize>
+<path>./ARTES/ICONS OUTROS/savestate.png</path>
+<color>80808090</color>
+<zIndex>150</zIndex>
+</image>
+
+<image name="md_savestate">
 <origin>0 0</origin>
 <pos>0.80 0.47</pos>
 <maxSize>0.055 0.055</maxSize>
@@ -271,14 +287,20 @@
 <color>dddddd</color>
 <zIndex>150</zIndex>
 </image>
-    
-<image name="md_nosavestate">
-<color>80808090</color>
-</image>	
-
+ 
 <!--  Informa se o jogo tem ou nao uma Conquista no Retroarchievments = pode escolher o lugar no tema -->		
 		
-<image name="md_cheevos,md_notcheevos">
+<image name="md_notcheevos" extra="true">
+<origin>0 0</origin>
+<pos>0.837 0.468</pos>
+<maxSize>0.055 0.055</maxSize>
+<path>./ARTES/ICONS OUTROS/cheevos.png</path>
+<color>80808090</color>
+<zIndex>150</zIndex>
+<linearSmooth>true</linearSmooth>
+</image>
+
+<image name="md_cheevos">
 <origin>0 0</origin>
 <pos>0.837 0.468</pos>
 <maxSize>0.055 0.055</maxSize>
@@ -287,40 +309,54 @@
 <zIndex>150</zIndex>
 <linearSmooth>true</linearSmooth>
 </image>
-		
-<image name="md_notcheevos"> 
+
+<!-- PDF from gamelist -->
+<!--  Informa se o jogo tem ou nao o manual = pode escolher o lugar no tema -->
+<image name="md_nomanual" extra="true">
+<origin>0 0</origin>
+<pos>0.876 0.469</pos>
+<maxSize>0.055 0.055</maxSize>
+<path>./ARTES/ICONS OUTROS/manual.png</path>
 <color>80808090</color>
 </image>
-		
-		<!-- PDF from gamelist -->
-<!--  Informa se o jogo tem ou nao o manual = pode escolher o lugar no tema -->
-<image name="md_manual,md_nomanual">
+
+<image name="md_manual">
 <origin>0 0</origin>
 <pos>0.876 0.469</pos>
 <maxSize>0.055 0.055</maxSize>
 <path>./ARTES/ICONS OUTROS/manual.png</path>
 <color>dddddd</color>
 </image>
-	
-<image name="md_nomanual">
-<color>80808090</color>
-</image>
 		
 <!--  Informa se o jogo tem ou nao o mapa = pode escolher o lugar no tema -->	
-<image name="md_map,md_nomap">
+<image name="md_map,md_nomap" extra="true">
+<origin>0 0</origin>
+<pos>0.915 0.468</pos>
+<maxSize>0.055 0.055</maxSize>
+<path>./ARTES/ICONS OUTROS/map.png</path>
+<color>80808090</color>
+</image>
+
+<image name="md_map">
 <origin>0 0</origin>
 <pos>0.915 0.468</pos>
 <maxSize>0.055 0.055</maxSize>
 <path>./ARTES/ICONS OUTROS/map.png</path>
 <color>dddddd</color>
 </image>
-	
-<image name="md_nomap">
-<color>80808090</color>
-</image>
 
 <!--  Informa se o jogo 'e classificado como infantil = nao sei pra que serve = pode escolher o lugar no tema -->
-<image name="md_kidgame, md_notkidgame"> 
+<image name="md_notkidgame" extra="true"> 
+<origin>0 0</origin>
+<pos>0.9550 0.468</pos>
+<maxSize>0.055 0.055</maxSize>
+<path>./ARTES/ICONS OUTROS/kid.png</path>
+<color>80808090</color>
+<zIndex>100</zIndex>
+<linearSmooth>true</linearSmooth>
+</image>
+
+<image name="md_kidgame"> 
 <origin>0 0</origin>
 <pos>0.9550 0.468</pos>
 <maxSize>0.055 0.055</maxSize>
@@ -329,34 +365,7 @@
 <zIndex>100</zIndex>
 <linearSmooth>true</linearSmooth>
 </image>
-		
-<image name="md_notkidgame"> 
-<color>80808090</color>
-</image>
 
-<!--  Informa se o jogo foi escondido = entendi nada = nao sei pra que serve = pode escolher o lugar no tema -->
-<image name="md_hidden">
-<origin>0 0</origin>
-<pos>0.733 0.525</pos>
-<maxSize>0.04 0.04</maxSize>
-<path>./ARTES/ICONS OUTROS/hidden.png</path>
-<color>ff0000</color>
-<zIndex>100</zIndex>
-<linearSmooth>true</linearSmooth>
-</image>
-
-<image name="md_favorite, md_map, md_manual, md_savestate, md_cheevos, md_hidden, md_kidgame">
-<storyboard>  
-<animation property="opacity" from="0.6" to="1"  duration="350" mode="easeInOut" autoreverse="true" repeat="forever"/>   
-</storyboard>
-</image>
-
-<image name="md_favorite, md_map, md_manual, md_savestate, md_cheevos, md_hidden, md_kidgame">
-<storyboard>  
-<animation property="opacity" from="0.6" to="1"  duration="350" mode="easeInOut" autoreverse="true" repeat="forever"/>   
-</storyboard>
-</image>
-	
 <text name="logoText">
 <visible>false</visible> 
 </text>
