@@ -321,7 +321,7 @@
 </image>
 		
 <!--  Informa se o jogo tem ou nao o mapa = pode escolher o lugar no tema -->	
-<image name="md_map,md_nomap" extra="true">
+<image name="md_nomap" extra="true">
 <origin>0 0</origin>
 <pos>0.915 0.468</pos>
 <maxSize>0.055 0.055</maxSize>

@@ -325,7 +325,7 @@
 </image>
 		
 <!--  Informa se o jogo tem ou nao o mapa = pode escolher o lugar no tema -->	
-<image name="md_map,md_nomap" extra="true">
+<image name="md_nomap" extra="true">
 <origin>0 0</origin>
 <pos>0.915 0.468</pos>
 <maxSize>0.055 0.055</maxSize>
@@ -360,6 +360,12 @@
 <color>dddddd</color>
 <zIndex>100</zIndex>
 <linearSmooth>true</linearSmooth>
+</image>
+
+<image name="md_favorite, md_map, md_manual, md_savestate, md_cheevos, md_hidden, md_kidgame">
+<storyboard>  
+<animation property="opacity" from="0.6" to="1"  duration="350" mode="easeInOut" autoreverse="true" repeat="forever"/>   
+</storyboard>
 </image>
 
 <text name="logoText">
