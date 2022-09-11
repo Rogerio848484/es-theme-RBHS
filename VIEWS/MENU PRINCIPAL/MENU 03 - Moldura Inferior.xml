@@ -8,9 +8,13 @@
 <pos>0 0.60</pos>
 <backgroundColor>00000000</backgroundColor>
 <color>ffffff</color>
+<glowColor>000000</glowColor>
 <rotation>-4.5</rotation> 
-<static>true</static>
-<zIndex>20000</zIndex>	  
+<zIndex>9</zIndex>	  
+<storyboard>
+<animation property="opacity" from="0" to="1" begin="100" duration="100" mode="EaseOut"/>
+<animation property="y" from="0.59" begin="100" duration="200" mode="linear"/>
+</storyboard>  
 </text> 
 
 <image name="background" extra="true">
