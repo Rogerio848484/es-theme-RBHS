@@ -88,7 +88,10 @@
 <!----------------------------------------------------------->
 
 <image name="md_fanart" extra="true">
-<visible>false</visible>
+<pos>0.28 0.565</pos>
+<origin>0.50 0.50</origin>
+<maxSize>0.425 .425</maxSize>
+<zIndex>14</zIndex>
 </image>
 
 <image name="md_image" extra="true">
@@ -122,27 +125,27 @@
 <origin>0.5 0.5</origin>
 <effect>none</effect>
 <size>0.405 .55</size>
-<delay>0</delay>
+<delay>1</delay>
 <zIndex>15</zIndex>
 </video>
 
-<image name="md_marquee" extra="true">
-<pos>0.29 0.84</pos>
-<origin>0.5 0.5</origin>
-<maxSize>0.25 0.40</maxSize>
-<zIndex>20</zIndex>
-<storyboard>
-<animation property="opacity" from="1" to="1" begin="0" duration="500" mode="linear"/>
-</storyboard>  
-</image>
+<text name="md_name">
+<pos>0.0654 0.865</pos>
+<glowColor>000000</glowColor>
+<glowSize>1</glowSize> 
+</text>
 
 <!----------------------------------------------------------->
 <!-------------------------- FALSES ------------------------->
 <!----------------------------------------------------------->
 
-<text name=" md_lbl_players,md_lbl_publisher,md_publisher,md_lbl_developer,md_developer,logoText,md_developer,md_lbl_releasedate,md_releasedate,md_lbl_rating,md_lbl_genre,md_genre,md_description,md_lbl_playcount,md_lbl_lastplayed, md_lbl_gametime,md_lbl_playcount,md_lbl_lastplayed,md_lbl_gametime,md_playcount,md_lastplayed,md_gametime,md_players">
+<text name="md_lbl_players,md_lbl_publisher,md_publisher,md_lbl_developer,md_developer,logoText,md_developer,md_lbl_releasedate,md_releasedate,md_lbl_rating,md_lbl_genre,md_genre,md_description,md_lbl_playcount,md_lbl_lastplayed, md_lbl_gametime,md_lbl_playcount,md_lbl_lastplayed,md_lbl_gametime,md_playcount,md_lastplayed,md_gametime,md_players">
 <visible>false</visible>
 </text> 
+
+<image name="md_marquee" extra="true">
+<visible>false</visible>
+</image>
 
 </customView>
  
