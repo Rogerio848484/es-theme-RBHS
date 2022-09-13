@@ -104,10 +104,8 @@
 
 <subset name="Background" displayName="Background Options">
 <include name="OFF" displayName="OFF"/>
-<include name="Fanart 01" displayName="Fanart 01">./INCLUDES/OPCOES DE BACKGROUND/FANART 01.xml</include>
-<include name="Videogames 01" displayName="Videogames 01">./INCLUDES/OPCOES DE BACKGROUND/VIDEOGAMES 01.xml</include>
-<include name="Fanart 02" displayName="Fanart 02">./INCLUDES/OPCOES DE BACKGROUND/FANART 02.xml</include>
-<include name="Videogames 02" displayName="Videogames 02">./INCLUDES/OPCOES DE BACKGROUND/VIDEOGAMES 02.xml</include>
+<include name="Wallpapers" displayName="Wallpapers">./INCLUDES/OPCOES DE BACKGROUND/FANART 01.xml</include>
+<include name="Videogames" displayName="Videogames">./INCLUDES/OPCOES DE BACKGROUND/VIDEOGAMES 01.xml</include>
 </subset>
 
 <subset name="Wheel" displayName="Wheel Options">
