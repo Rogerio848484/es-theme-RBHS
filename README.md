@@ -45,6 +45,9 @@ Tema voltado para pessoas que estão migrando do Hyperspin para o Retrobat.
 ### GAMELIST DETAILED CAPA 2D + CARTUCHO
 ![](https://i.ibb.co/cJqvCvS/Whats-App-Image-2022-09-07-at-14-56-26.jpg)
 
+### GAMELIST GAMECAROUSEL CAPA 3D + VIDEO + CARTUCHO
+![](https://i.ibb.co/W6xHq5v/Whats-App-Image-2022-09-13-at-21-16-49.jpg)
+
 ### Créditos:
 
 Heder Broubous - Gamelist Basic - Detailed
