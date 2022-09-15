@@ -88,16 +88,16 @@
 <!----------------------------------------------------------->
 
 <image name="md_fanart" extra="true">
-<pos>0.281 0.565</pos>
+<pos>0.28 0.565</pos>
 <origin>0.50 0.50</origin>
-<maxSize>0.425 .425</maxSize>
+<maxSize>0.40 .425</maxSize>
 <zIndex>14</zIndex>
 </image>
 
 <image name="md_image" extra="true">
 <pos>0.622 0.63</pos>
 <origin>0.5 0.5</origin>
-<maxSize>0.30 .450</maxSize>
+<maxSize>0.25 .450</maxSize>
 <zIndex>13</zIndex>
 <storyboard>
 <animation property="opacity" from="1" to="1" begin="0" duration="500" mode="linear"/>
@@ -130,7 +130,7 @@
 </video>
 
 <text name="md_name">
-<pos>0.0657 0.865</pos>
+<pos>0.0657 0.868</pos>
 <glowColor>000000</glowColor>
 <glowSize>1</glowSize>
 </text>

@@ -5,7 +5,7 @@
 <view name="system">
 
 <text name="systemInfo">
-<pos>0 0.60</pos>
+<pos>0 0.635</pos>
 <backgroundColor>00000000</backgroundColor>
 <color>ffffff</color>
 <glowColor>000000</glowColor>
@@ -13,7 +13,7 @@
 <zIndex>9</zIndex>	  
 <storyboard>
 <animation property="opacity" from="0" to="1" begin="100" duration="100" mode="EaseOut"/>
-<animation property="y" from="0.59" begin="100" duration="200" mode="linear"/>
+<animation property="y" from="0.61" begin="100" duration="200" mode="linear"/>
 </storyboard>  
 </text> 
 
@@ -21,11 +21,14 @@
 <pos>0 0</pos>
 <size>1 1</size>
 <path>./../../ARTES/BACKGROUND FANART 1/${system.theme}.jpg</path>
+<path>./../../ARTES/BACKGROUND FANART 1/${system.theme}.png</path>
+<path>./../../ARTES/BACKGROUND FANART 1/${system.theme}.webp</path>
+<path>./../../ARTES/BACKGROUND FANART 1/${system.theme}.jpeg</path>
 <zIndex>1</zIndex>
 </image>
 
 <image name="moldura inferior" extra="true">
-<pos>0 0.175</pos>
+<pos>0 0.21</pos>
 <size>1 .78</size>
 <path>./../../ARTES/MOLDURA MENU PRINCIPAL/moldurainferior50%.png</path>
 <zIndex>2</zIndex>
@@ -37,7 +40,7 @@
 	  
 <carousel name="systemcarousel">
 <type>grid</type>
-<pos>0 0.29</pos>
+<pos>0 0.323</pos>
 <size>1 1</size>
 <zIndex>5000</zIndex>         
 <logoScale>1.30</logoScale> 
