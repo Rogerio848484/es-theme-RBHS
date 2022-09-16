@@ -4,8 +4,14 @@
 <view name="system">
 
 <image name="logo">
-<storyboard>
-<animation mode="linear" begin="0" from="0.5" to="0.5" duration="500" property="opacity"/>
+<storyboard event="activate">
+<animation mode="linear" begin="0" from="1" to="1" duration="500" property="opacity"/>
+</storyboard>
+<storyboard event="scroll">
+<animation mode="linear" begin="0" from="0.50" to="0.50" duration="500" property="opacity"/>
+</storyboard>
+<storyboard event="deactivate">
+<animation mode="linear" begin="0" from="0.50" to="0.50" duration="500" property="opacity"/>
 </storyboard>
 </image>
 
