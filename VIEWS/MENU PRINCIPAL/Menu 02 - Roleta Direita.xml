@@ -33,18 +33,30 @@
 <!---------------------------------------------------------------------->
 
 <text name="systemInfo">
-<pos>0.18 0.55</pos>
 <origin>0.5 0.5</origin>
+<pos ifSubset="Video Options:Aleatorio">0.18 0.56</pos>
+<pos ifSubset="Video Options:Off">0.70 0.50</pos>
+<pos ifSubset="Video Options:Sistemas">0.18 0.56</pos>
 <backgroundColor>00000000</backgroundColor>
 <color>ffffff</color>
 <glowColor>000000</glowColor>
-<rotation>-4.5</rotation> 
+<rotation ifSubset="Video Options:Aleatorio">-4.5</rotation> 
+<rotation ifSubset="Video Options:Off">-35</rotation> 
+<rotation ifSubset="Video Options:Sistemas">-4.5</rotation> 
 <zIndex>6</zIndex>	  
-<storyboard>
+<storyboard ifSubset="Video Options:Aleatorio">
 <animation property="opacity" from="0" to="1" begin="2100" duration="100" mode="EaseOut"/>
 <animation property="y" from="0.50" begin="2100" duration="400" mode="linear"/>
 </storyboard>  
-</text> 
+<storyboard ifSubset="Video Options:Off">
+<animation property="opacity" from="0" to="1" begin="100" duration="100" mode="EaseOut"/>
+<animation property="y" from="0.50" begin="0" duration="400" mode="linear"/>
+</storyboard>  
+<storyboard ifSubset="Video Options:Sistemas">
+<animation property="opacity" from="0" to="1" begin="2100" duration="100" mode="EaseOut"/>
+<animation property="y" from="0.50" begin="2100" duration="400" mode="linear"/>
+</storyboard>  
+</text>
 
 <helpsystem name="help">
 <pos>0 0.97</pos>    
@@ -120,6 +132,9 @@
 </image>
 
 <image name="caratula" extra="true">
+<visible ifSubset="Video Options:Aleatorio">true</visible>
+<visible ifSubset="Video Options:Off">false</visible>
+<visible ifSubset="Video Options:Sistemas">true</visible>
 <pos>0 0</pos>
 <size>1 1</size>
 <path>./../../ARTES/ARTES ROLETA/caratula.png</path>
