@@ -1,0 +1,16 @@
+<theme>
+   <formatVersion>7</formatVersion>
+
+<view name="screen">
+
+<text name="clock">
+<color>ffffff</color>
+<glowColor>000000</glowColor>
+<pos>0.89 0.50</pos>
+<size>0.10 0.058</size>
+<verticalAlignment>right</verticalAlignment>
+</text>
+
+</view>
+
+</theme>
