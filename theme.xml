@@ -235,8 +235,7 @@
 </subset>
 
 <subset name="Video Options" displayName="Video Options">
-<include name="Aleatorio" displayName="Aleatorio">./INCLUDES/OPCOES DE VIDEO/VIDEO ALEATORIO.xml</include>
-<include name="Sistemas" displayName="Sistemas">./INCLUDES/OPCOES DE VIDEO/VIDEO SISTEMAS.xml</include>
+<include name="On" displayName="On">./INCLUDES/OPCOES DE VIDEO/VIDEO SISTEMAS.xml</include>
 <include name="Off" displayName="Off"/>
 </subset>
 
