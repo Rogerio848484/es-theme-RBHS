@@ -12,7 +12,7 @@
 <text name="clock">
 <color>ffffff</color>
 <glowColor>000000</glowColor>
-<pos>0.89 0.961</pos>
+<pos>0.89 0.96</pos>
 <size>0.10 0.058</size>
 <verticalAlignment>right</verticalAlignment>
 </text>
@@ -96,9 +96,9 @@
 <!-------------------------- OPÇÕES DO MENU ---------------------------->
 <!---------------------------------------------------------------------->
 
-<subset name="Main Menu" displayName="Main Menu Options">
+<subset name="Main Menu Options" displayName="Main Menu Options">
 <include name="MENU 01 - Azulejos" displayName="MENU 01 - Azulejos">./VIEWS/MENU PRINCIPAL/Menu 01 - Azulejos.xml</include>
-<include name="MENU 02 - Roleta" displayName="MENU 02 - Roleta Direita">./VIEWS/MENU PRINCIPAL/MENU 02 - Roleta Direita.xml</include>
+<include name="MENU 02 - Roleta Direita" displayName="MENU 02 - Roleta Direita">./VIEWS/MENU PRINCIPAL/MENU 02 - Roleta Direita.xml</include>
 <include name="MENU 03 - Moldura Inferior" displayName="MENU 03 - Moldura Inferior">./VIEWS/MENU PRINCIPAL/MENU 03 - Moldura Inferior.xml</include>
 </subset>
 
