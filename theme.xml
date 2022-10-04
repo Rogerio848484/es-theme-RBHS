@@ -116,6 +116,7 @@
 <include name="Circular" displayName="Wheel Circular">./INCLUDES/OPCOES DE WHEEL/WHEEL CIRCULAR.xml</include>
 <include name="Long" displayName="Wheel Long">./INCLUDES/OPCOES DE WHEEL/WHEEL LONG.xml</include>
 <include name="Rectangle" displayName="Wheel Rectangle">./INCLUDES/OPCOES DE WHEEL/WHEEL RECTANGLE.xml</include>
+<include name="Classic" displayName="Wheel Classic">./INCLUDES/OPCOES DE WHEEL/WHEEL CLASSIC.xml</include>
 </subset>
 
 <subset name="Color Theme" displayName="Theme Colour Options">
