@@ -30,7 +30,14 @@
 <image name="moldura inferior" extra="true">
 <pos>0 0.21</pos>
 <size>1 .78</size>
-<path>./../../ARTES/MOLDURA MENU PRINCIPAL/moldurainferior50%.png</path>
+<path ifSubset="Wheel Options:Carbon">./../../ARTES/MOLDURA MENU PRINCIPAL/moldurainferior50%.png</path>
+<path ifSubset="Wheel Options:Circular">./../../ARTES/MOLDURA MENU PRINCIPAL/moldurainferior50%.png</path>
+<path ifSubset="Wheel Options:Classic">./../../ARTES/MOLDURA MENU PRINCIPAL/moldurainferior50%.png</path>
+<path ifSubset="Wheel Options:Clean">./../../ARTES/MOLDURA MENU PRINCIPAL/moldura50%logoclean.png</path>
+<path ifSubset="Wheel Options:Long">./../../ARTES/MOLDURA MENU PRINCIPAL/moldura50%long.png</path>
+<path ifSubset="Wheel Options:Rectangle">./../../ARTES/MOLDURA MENU PRINCIPAL/moldurainferior50%.png</path>
+<path ifSubset="Wheel Options:Silver">./../../ARTES/MOLDURA MENU PRINCIPAL/moldurainferior50%.png</path>
+<path ifSubset="Wheel Options:Off">./../../ARTES/MOLDURA MENU PRINCIPAL/moldurainferior50%.png</path>
 <zIndex>2</zIndex>
 </image>
     
@@ -40,14 +47,42 @@
 	  
 <carousel name="systemcarousel">
 <type>grid</type>
-<pos>0 0.323</pos>
+<pos ifSubset="Wheel Options:Off">0 0.323</pos>
+<pos ifSubset="Wheel Options:Carbon">0 0.3268</pos>
+<pos ifSubset="Wheel Options:Circular">0 0.323</pos>
+<pos ifSubset="Wheel Options:Classic">0 0.327</pos>
+<pos ifSubset="Wheel Options:Clean">0 0.323</pos>
+<pos ifSubset="Wheel Options:Long">0 0.324</pos>
+<pos ifSubset="Wheel Options:Rectangle">0 0.3273</pos>
+<pos ifSubset="Wheel Options:Silver">0 0.327</pos>
 <size>1 1</size>
 <zIndex>5000</zIndex>         
-<logoScale>1.30</logoScale> 
-<logoSize>0.125 0.25</logoSize>
+<logoScale ifSubset="Wheel Options:Carbon">1.30</logoScale> 
+<logoScale ifSubset="Wheel Options:Circular">1.30</logoScale> 
+<logoScale ifSubset="Wheel Options:Classic">1.30</logoScale> 
+<logoScale ifSubset="Wheel Options:Clean">1.60</logoScale> 
+<logoScale ifSubset="Wheel Options:Long">1.50</logoScale> 
+<logoScale ifSubset="Wheel Options:Rectangle">1.35</logoScale> 
+<logoScale ifSubset="Wheel Options:Silver">1.2</logoScale> 
+<logoScale ifSubset="Wheel Options:Off">1.30</logoScale> 
 <color>00000000</color>
+<logoSize ifSubset="Wheel Options:Carbon">0.17 0.30</logoSize>
+<logoSize ifSubset="Wheel Options:Circular">0.13 0.30</logoSize>
+<logoSize ifSubset="Wheel Options:Classic">0.125 0.25</logoSize>
+<logoSize ifSubset="Wheel Options:Clean">0.15 0.30</logoSize>
+<logoSize ifSubset="Wheel Options:Long">0.15 0.30</logoSize>
+<logoSize ifSubset="Wheel Options:Rectangle">0.17 0.30</logoSize>
+<logoSize ifSubset="Wheel Options:Silver">0.18 0.30</logoSize>
+<logoSize ifSubset="Wheel Options:Off">0.125 0.25</logoSize>
 <logoAlignment>center</logoAlignment>
-<maxLogoCount>7</maxLogoCount>
+<maxLogoCount ifSubset="Wheel Options:Carbon">5</maxLogoCount>
+<maxLogoCount ifSubset="Wheel Options:Circular">7</maxLogoCount>
+<maxLogoCount ifSubset="Wheel Options:Classic">7</maxLogoCount>
+<maxLogoCount ifSubset="Wheel Options:Clean">5</maxLogoCount>
+<maxLogoCount ifSubset="Wheel Options:Long">5</maxLogoCount>
+<maxLogoCount ifSubset="Wheel Options:Rectangle">5</maxLogoCount>
+<maxLogoCount ifSubset="Wheel Options:Silver">5</maxLogoCount>
+<maxLogoCount ifSubset="Wheel Options:Off">7</maxLogoCount>
 </carousel>
 	  
 <image name="logo">

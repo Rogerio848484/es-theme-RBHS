@@ -108,15 +108,15 @@
 <include name="Videogames" displayName="Videogames">./INCLUDES/OPCOES DE BACKGROUND/VIDEOGAMES 01.xml</include>
 </subset>
 
-<subset name="Wheel" displayName="Wheel Options">
-<include name="Off" displayName="Wheel Off"/>
-<include name="clean" displayName="Wheel Clean">./INCLUDES/OPCOES DE WHEEL/WHEEL CLEAN.xml</include>
-<include name="Carbon" displayName="Wheel Carbon">./INCLUDES/OPCOES DE WHEEL/WHEEL CARBON.xml</include>
-<include name="Silver" displayName="Wheel Silver">./INCLUDES/OPCOES DE WHEEL/WHEEL SILVER.xml</include>
-<include name="Circular" displayName="Wheel Circular">./INCLUDES/OPCOES DE WHEEL/WHEEL CIRCULAR.xml</include>
-<include name="Long" displayName="Wheel Long">./INCLUDES/OPCOES DE WHEEL/WHEEL LONG.xml</include>
-<include name="Rectangle" displayName="Wheel Rectangle">./INCLUDES/OPCOES DE WHEEL/WHEEL RECTANGLE.xml</include>
-<include name="Classic" displayName="Wheel Classic">./INCLUDES/OPCOES DE WHEEL/WHEEL CLASSIC.xml</include>
+<subset name="Wheel Options" displayName="Wheel Options">
+<include name="Off" displayName="Off"/>
+<include name="Carbon" displayName="Carbon">./INCLUDES/OPCOES DE WHEEL/WHEEL CARBON.xml</include>
+<include name="Circular" displayName="Circular">./INCLUDES/OPCOES DE WHEEL/WHEEL CIRCULAR.xml</include>
+<include name="Classic" displayName="Classic">./INCLUDES/OPCOES DE WHEEL/WHEEL CLASSIC.xml</include>
+<include name="Clean" displayName="Clean">./INCLUDES/OPCOES DE WHEEL/WHEEL CLEAN.xml</include>
+<include name="Long" displayName="Long">./INCLUDES/OPCOES DE WHEEL/WHEEL LONG.xml</include>
+<include name="Rectangle" displayName="Rectangle">./INCLUDES/OPCOES DE WHEEL/WHEEL RECTANGLE.xml</include>
+<include name="Silver" displayName="Silver">./INCLUDES/OPCOES DE WHEEL/WHEEL SILVER.xml</include>
 </subset>
 
 <subset name="Color Theme" displayName="Theme Colour Options">
