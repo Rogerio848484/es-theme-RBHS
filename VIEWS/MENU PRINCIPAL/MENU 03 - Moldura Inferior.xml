@@ -84,6 +84,10 @@
 <video name="background_video" extra="true">
 <visible>false</visible>
 </video>
+
+<image name="logo">
+<path>./../../ARTES/LOGOS/LOGOCLEAN/${system.theme}.png</path>
+</image>
  
 </view>
 

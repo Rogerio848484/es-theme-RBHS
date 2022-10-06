@@ -5,7 +5,7 @@
 
 
 <image name="logo">
-<path>./ARTES/LOGOS/WHEEL CLASSIC/${system.theme}.png</path>
+<path>./../../ARTES/LOGOS/WHEEL CLASSIC/${system.theme}.png</path>
 </image>
 
 </view>

@@ -12,14 +12,34 @@
 
 <carousel name="systemcarousel">
 <type>grid</type>
-<pos>0 0.29</pos>
+<pos ifSubset="Wheel Options:Classic">0 0.28001</pos>
+<pos ifSubset="Wheel Options:Clean">0 0.286</pos>
+<pos ifSubset="Wheel Options:Espiral">0 0.28</pos>
+<pos ifSubset="Wheel Options:Rectangle">0 0.28</pos>
+<pos ifSubset="Wheel Options:Silver">0 0.2801</pos>
+<pos ifSubset="Wheel Options:Circular">0 0.275</pos>
 <size>1 1</size>
 <zIndex>50</zIndex>         
-<logoScale>1.5</logoScale> 
-<logoSize>0.125 0.25</logoSize>
+<logoScale ifSubset="Wheel Options:Classic">1.30</logoScale> 
+<logoScale ifSubset="Wheel Options:Clean">1.60</logoScale> 
+<logoScale ifSubset="Wheel Options:Espiral">1.30</logoScale> 
+<logoScale ifSubset="Wheel Options:Rectangle">1.30</logoScale> 
+<logoScale ifSubset="Wheel Options:Silver">1.2</logoScale> 
+<logoScale ifSubset="Wheel Options:Circular">1.30</logoScale> 
+<logoSize ifSubset="Wheel Options:Classic">0.125 0.25</logoSize>
+<logoSize ifSubset="Wheel Options:Clean">0.15 0.30</logoSize>
+<logoSize ifSubset="Wheel Options:Espiral">0.125 0.25</logoSize>
+<logoSize ifSubset="Wheel Options:Rectangle">0.17 0.30</logoSize>
+<logoSize ifSubset="Wheel Options:Silver">0.18 0.30</logoSize>
+<logoSize ifSubset="Wheel Options:Circular">0.13 0.30</logoSize>
 <color>00000000</color>
 <logoAlignment>center</logoAlignment>
-<maxLogoCount>5</maxLogoCount>
+<maxLogoCount ifSubset="Wheel Options:Classic">7</maxLogoCount>
+<maxLogoCount ifSubset="Wheel Options:Clean">5</maxLogoCount>
+<maxLogoCount ifSubset="Wheel Options:Espiral">7</maxLogoCount>
+<maxLogoCount ifSubset="Wheel Options:Rectangle">5</maxLogoCount>
+<maxLogoCount ifSubset="Wheel Options:Silver">5</maxLogoCount>
+<maxLogoCount ifSubset="Wheel Options:Circular">7</maxLogoCount>
 </carousel>
 
 <image name="logo">
@@ -148,6 +168,12 @@
 </image>
 
 <image name="selector" extra="true">
+<visible ifSubset="Wheel Options:Classic">false</visible>
+<visible ifSubset="Wheel Options:Clean">true</visible>
+<visible ifSubset="Wheel Options:Espiral">false</visible>
+<visible ifSubset="Wheel Options:Rectangle">false</visible>
+<visible ifSubset="Wheel Options:Silver">false</visible>
+<visible ifSubset="Wheel Options:Circular">false</visible>
 <pos>0 0</pos>
 <size>1 1</size>
 <path>./../../ARTES/MOLDURA MENU PRINCIPAL/selector.png</path>
