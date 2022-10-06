@@ -109,6 +109,7 @@
 </subset>
 
 <subset name="Wheel Options" displayName="Wheel Options">
+<include name="OFF" displayName="OFF"/>
 <include name="Circular" displayName="Circular">./INCLUDES/OPCOES DE WHEEL/WHEEL CIRCULAR.xml</include>
 <include name="Classic" displayName="Classic">./INCLUDES/OPCOES DE WHEEL/WHEEL CLASSIC.xml</include>
 <include name="Clean" displayName="Clean">./INCLUDES/OPCOES DE WHEEL/WHEEL CLEAN.xml</include>
