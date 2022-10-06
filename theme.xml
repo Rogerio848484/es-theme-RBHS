@@ -109,12 +109,10 @@
 </subset>
 
 <subset name="Wheel Options" displayName="Wheel Options">
-<include name="Off" displayName="Off"/>
-<include name="Carbon" displayName="Carbon">./INCLUDES/OPCOES DE WHEEL/WHEEL CARBON.xml</include>
 <include name="Circular" displayName="Circular">./INCLUDES/OPCOES DE WHEEL/WHEEL CIRCULAR.xml</include>
 <include name="Classic" displayName="Classic">./INCLUDES/OPCOES DE WHEEL/WHEEL CLASSIC.xml</include>
 <include name="Clean" displayName="Clean">./INCLUDES/OPCOES DE WHEEL/WHEEL CLEAN.xml</include>
-<include name="Long" displayName="Long">./INCLUDES/OPCOES DE WHEEL/WHEEL LONG.xml</include>
+<include name="Espiral" displayName="Espiral">./INCLUDES/OPCOES DE WHEEL/WHEEL ESPIRAL.xml</include>
 <include name="Rectangle" displayName="Rectangle">./INCLUDES/OPCOES DE WHEEL/WHEEL RECTANGLE.xml</include>
 <include name="Silver" displayName="Silver">./INCLUDES/OPCOES DE WHEEL/WHEEL SILVER.xml</include>
 </subset>
