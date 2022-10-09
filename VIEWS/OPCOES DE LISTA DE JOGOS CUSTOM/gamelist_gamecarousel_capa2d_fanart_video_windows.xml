@@ -9,7 +9,7 @@
 <!----------------------------------------------------------->
 
 <gamecarousel name="gamecarousel">
-<zIndex>999</zIndex>	      
+<zIndex>10</zIndex>	      
 <type>vertical</type>
 <pos>0.353 0.25</pos>
 <size>1 0.66</size>
@@ -19,6 +19,18 @@
 <maxLogoCount>5</maxLogoCount>
 <logoAlignment>center</logoAlignment>   
 <imageSource>marquee</imageSource>
+<storyboard event="open">
+<animation property="opacity" from="1" to="1" begin="0" duration="500" mode="linear"/>
+<animation property="opacity" from="1" to="0" begin="2000" duration="500" mode="linear"/>
+</storyboard>  
+<storyboard event="activateNext">
+<animation property="opacity" from="1" to="1" begin="0" duration="500" mode="linear"/>
+<animation property="opacity" from="1" to="0" begin="2000" duration="500" mode="linear"/>
+</storyboard>  
+<storyboard event="activatePrev">
+<animation property="opacity" from="1" to="1" begin="0" duration="500" mode="linear"/>
+<animation property="opacity" from="1" to="0" begin="2000" duration="500" mode="linear"/>
+</storyboard>  
 </gamecarousel> 
 
 <!----------------------------------------------------------->
@@ -37,14 +49,49 @@
 <visible>false</visible>
 </image>
 
-<image name="background" extra="true">
+<image name="bg-game-right" extra="true">
 <pos>0 0</pos>
 <size>1 1</size>
 <zIndex>2</zIndex>
 <path>./ARTES/ARTES GAMELIST/bg-game-right.png</path>
+<storyboard event="open">
+<animation property="opacity" from="1" to="1" begin="0" duration="500" mode="linear"/>
+<animation property="opacity" from="1" to="0" begin="1900" duration="1000" mode="linear"/>
+</storyboard>  
+<storyboard event="activateNext">
+<animation property="opacity" from="1" to="1" begin="0" duration="500" mode="linear"/>
+<animation property="opacity" from="1" to="0" begin="1900" duration="1000" mode="linear"/>
+</storyboard>  
+<storyboard event="activatePrev">
+<animation property="opacity" from="1" to="1" begin="0" duration="500" mode="linear"/>
+<animation property="opacity" from="1" to="0" begin="1900" duration="1000" mode="linear"/>
+</storyboard>  
+</image>
+
+<image name="bg-game-right2" extra="true">
+<pos>0 0</pos>
+<size>1 1</size>
+<zIndex>13</zIndex>
+<path>./ARTES/ARTES GAMELIST/bg-game-right2.png</path>
+<storyboard event="open">
+<animation property="opacity" from="0" to="0" begin="0" duration="500" mode="linear"/>
+<animation property="opacity" from="0" to="1" begin="1900" duration="1000" mode="linear"/>
+</storyboard>  
+<storyboard event="activateNext">
+<animation property="opacity" from="0" to="0" begin="0" duration="500" mode="linear"/>
+<animation property="opacity" from="0" to="1" begin="1900" duration="1000" mode="linear"/>
+</storyboard>  
+<storyboard event="activatePrev">
+<animation property="opacity" from="0" to="0" begin="0" duration="500" mode="linear"/>
+<animation property="opacity" from="0" to="1" begin="1900" duration="1000" mode="linear"/>
+</storyboard>  
 </image>
 
 <image name="background2" extra="true">
+<visible>false</visible>
+</image>
+
+<image name="background" extra="true">
 <visible>false</visible>
 </image>
 
@@ -53,11 +100,20 @@
 </image>
 
 <image name="logo2" extra="true">
-<pos>0.852 0.1</pos>
+<pos>0.852 0.125</pos>
 <origin>0.5 0.5</origin>
 <maxSize>0.22 0.18</maxSize>
-<zIndex>21</zIndex>
+<zIndex>12</zIndex>
 <path>./ARTES/LOGOS/LOGOCLEAN/${system.theme}.png</path>
+<storyboard event="open">
+<animation property="opacity" from="1" to="0" begin="2000" duration="500" mode="linear"/>
+</storyboard>  
+<storyboard event="activateNext">
+<animation property="opacity" from="1" to="0" begin="2000" duration="500" mode="linear"/>
+</storyboard>  
+<storyboard event="activatePrev">
+<animation property="opacity" from="1" to="0" begin="2000" duration="500" mode="linear"/>
+</storyboard>  
 </image>
 
 <!----------------------------------------------------------->
@@ -76,19 +132,19 @@
 <pos>0.5 0.5</pos>
 <origin>0.5 0.5</origin>
 <size>1 1</size>
-<zIndex>2</zIndex>
+<zIndex>13</zIndex>
 <path>./ARTES/ARTES ROLETA/caratula.png</path>
 <storyboard event="open">
 <animation property="opacity" from="0" to="0" begin="0" duration="500" mode="linear"/>
-<animation property="opacity" from="0" to="1" begin="1800" duration="500" mode="linear"/>
+<animation property="opacity" from="0" to="1" begin="2000" duration="500" mode="linear"/>
 </storyboard>  
 <storyboard event="activateNext">
 <animation property="opacity" from="0" to="0" begin="0" duration="500" mode="linear"/>
-<animation property="opacity" from="0" to="1" begin="1800" duration="500" mode="linear"/>
+<animation property="opacity" from="0" to="1" begin="2000" duration="500" mode="linear"/>
 </storyboard>  
 <storyboard event="activatePrev">
 <animation property="opacity" from="0" to="0" begin="0" duration="500" mode="linear"/>
-<animation property="opacity" from="0" to="1" begin="1800" duration="500" mode="linear"/>
+<animation property="opacity" from="0" to="1" begin="2000" duration="500" mode="linear"/>
 </storyboard>  
 </image>
 
@@ -96,32 +152,81 @@
 <!--------------------- ARTES GAMELIST ---------------------->
 <!----------------------------------------------------------->
 
-<image name="md_fanart" extra="true">
+<image name="md_fanart">
 <pos>0.5 0.5</pos>
 <origin>0.50 0.50</origin>
 <maxSize>1 1</maxSize>
 <zIndex>1</zIndex>
 <storyboard event="open">
 <animation property="scale" from="0.95" to="1" begin="0" duration="500" mode="linear"/>
+<animation property="zIndex" from="1" to="11" begin="1950" duration="500" mode="linear"/>
+<animation property="opacity" from="0.9" to="1" begin="1950" duration="400" mode="linear"/>
 </storyboard> 
 <storyboard event="activateNext">
-<animation property="scale" from="1" to="1.05" begin="0" duration="500" mode="linear"/>
+<animation property="scale" from="1" to="1.03" begin="0" duration="500" mode="linear"/>
+<animation property="zIndex" from="1" to="11" begin="1950" duration="500" mode="linear"/>
+<animation property="opacity" from="0.9" to="1" begin="1950" duration="400" mode="linear"/>
 </storyboard>  
 <storyboard event="activatePrev">
-<animation property="scale" from="1" to="0.95" begin="0" duration="500" mode="linear"/>
+<animation property="scale" from="1.03" to="1" begin="0" duration="500" mode="linear"/>
+<animation property="zIndex" from="1" to="11" begin="1950" duration="500" mode="linear"/>
+<animation property="opacity" from="0.9" to="1" begin="1950" duration="400" mode="linear"/>
 </storyboard>  
 </image>
 
-<image name="md_thumbnail" extra="true">
+<image name="md_marquee">
+<pos>0.50 0.560</pos>
+<origin>0.5 0.5</origin>
+<maxSize>0.22 0.36</maxSize>
+<zIndex>8000</zIndex>
+<storyboard event="open">
+<animation property="opacity" from="0" to="0" begin="0" duration="500" mode="linear"/>
+<animation property="opacity" from="0" to="1" begin="2000" duration="500" mode="linear"/>
+<animation property="scale" from="1" to="2" begin="2000" duration="1000" mode="linear"/>
+<animation property="x" from="0.83" to="0.75" begin="2000" duration="1000" mode="linear"/>
+<animation property="y" from="0.56" to="0.50" begin="2000" duration="1000" mode="linear"/>
+<animation property="x" from="0.75" to="0.50" begin="2600" duration="1000" mode="linear"/>
+<animation property="y" from="0.50" to="0.15" begin="2600" duration="1000" mode="linear"/>
+<animation property="scale" from="2" to="1" begin="2600" duration="1000" mode="linear"/>
+<animation property="rotation" from="-360" begin="2800" duration="800" mode="linear"/>
+<animation mode="linear" duration="4000" begin="3600" property="scale" repeat="forever" autoreverse="true" from="1.00" to="1.02"/>
+</storyboard>  
+<storyboard event="activateNext">
+<animation property="opacity" from="0" to="0" begin="0" duration="500" mode="linear"/>
+<animation property="opacity" from="0" to="1" begin="2000" duration="500" mode="linear"/>
+<animation property="scale" from="1" to="2" begin="2000" duration="1000" mode="linear"/>
+<animation property="x" from="0.83" to="0.75" begin="2000" duration="1000" mode="linear"/>
+<animation property="y" from="0.56" to="0.50" begin="2000" duration="1000" mode="linear"/>
+<animation property="x" from="0.75" to="0.50" begin="2600" duration="1000" mode="linear"/>
+<animation property="y" from="0.50" to="0.15" begin="2600" duration="1000" mode="linear"/>
+<animation property="scale" from="2" to="1" begin="2600" duration="1000" mode="linear"/>
+<animation property="rotation" from="-360" begin="2800" duration="800" mode="linear"/>
+<animation mode="linear" duration="4000" begin="3600" property="scale" repeat="forever" autoreverse="true" from="1.00" to="1.02"/>
+</storyboard>  
+<storyboard event="activatePrev">
+<animation property="opacity" from="0" to="0" begin="0" duration="500" mode="linear"/>
+<animation property="opacity" from="0" to="1" begin="2000" duration="500" mode="linear"/>
+<animation property="scale" from="1" to="2" begin="2000" duration="1000" mode="linear"/>
+<animation property="x" from="0.83" to="0.75" begin="2000" duration="1000" mode="linear"/>
+<animation property="y" from="0.56" to="0.50" begin="2000" duration="1000" mode="linear"/>
+<animation property="x" from="0.75" to="0.50" begin="2600" duration="1000" mode="linear"/>
+<animation property="y" from="0.50" to="0.15" begin="2600" duration="1000" mode="linear"/>
+<animation property="scale" from="2" to="1" begin="2600" duration="1000" mode="linear"/>
+<animation property="rotation" from="-360" begin="2800" duration="800" mode="linear"/>
+<animation mode="linear" duration="4000" begin="3600" property="scale" repeat="forever" autoreverse="true" from="1.00" to="1.02"/>
+</storyboard>  
+</image>
+
+<image name="md_thumbnail">
 <pos>0.30 0.77</pos>
 <origin>0.5 0.5</origin>
 <maxSize>0.25 0.30</maxSize>
-<zIndex>13</zIndex>
+<zIndex>14</zIndex>
 <storyboard>
 <animation property="opacity" from="0" to="0" begin="0" duration="500" mode="linear"/>
-<animation property="opacity" from="0" to="1" begin="1000" duration="500" mode="linear"/>
-<animation property="rotation" from="-360" begin="1000" duration="1000" mode="linear"/>
-<animation property="scale" from="0" to="1" begin="1000" duration="1000" mode="linear"/>
+<animation property="opacity" from="0" to="1" begin="2000" duration="500" mode="linear"/>
+<animation property="rotation" from="-360" begin="2000" duration="1000" mode="linear"/>
+<animation property="scale" from="0" to="1" begin="2000" duration="1000" mode="linear"/>
 </storyboard>  
 </image>
 
@@ -130,11 +235,11 @@
 </image>
 
 <video name="md_video">
-<pos>0.13 0.82</pos>
+<pos>0.12 0.77</pos>
 <origin>0.5 0.5</origin>
 <effect>none</effect>
-<size>0.20 0.20</size>
-<delay>1.5</delay>
+<size>0.23 0.23</size>
+<delay>2</delay>
 <zIndex>15</zIndex>
 </video>
 
@@ -144,7 +249,7 @@
 <glowSize>1</glowSize>
 <storyboard>
 <animation property="opacity" from="0" to="0" begin="0" duration="500" mode="linear"/>
-<animation property="opacity" from="0" to="1" begin="1800" duration="500" mode="linear"/>
+<animation property="opacity" from="0" to="1" begin="2000" duration="500" mode="linear"/>
 </storyboard>  
 </text>
 
@@ -152,13 +257,13 @@
 <!-------------------------- FALSES ------------------------->
 <!----------------------------------------------------------->
 
-<text name=" md_lbl_players,md_lbl_publisher,md_publisher,md_lbl_developer,md_developer,logoText,md_developer,md_lbl_releasedate,md_releasedate,md_lbl_rating,md_lbl_genre,md_genre,md_description,md_lbl_playcount,md_lbl_lastplayed, md_lbl_gametime,md_lbl_playcount,md_lbl_lastplayed,md_lbl_gametime,md_playcount,md_lastplayed,md_gametime,md_players">
+<text name="md_rating,md_ldl_rating,md_lbl_players,md_lbl_publisher,md_publisher,md_lbl_developer,md_developer,logoText,md_developer,md_lbl_releasedate,md_releasedate,md_lbl_rating,md_lbl_genre,md_genre,md_description,md_lbl_playcount,md_lbl_lastplayed, md_lbl_gametime,md_lbl_playcount,md_lbl_lastplayed,md_lbl_gametime,md_playcount,md_lastplayed,md_gametime,md_players">
 <visible>false</visible>
 </text> 
 
-<image name="md_marquee" extra="true">
+<rating name="md_rating">      
 <visible>false</visible>
-</image>
+</rating>	 
 
 </customView>
  
