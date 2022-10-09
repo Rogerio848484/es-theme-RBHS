@@ -256,6 +256,7 @@
 <include name="gamelist detailed Capa3d+Cartucho">./VIEWS/OPCOES DE LISTA DE JOGOS CUSTOM/gamelist_detailed_capa3d_cartucho.xml</include>
 <include name="gamelist detailed Capa2d+Cartucho">./VIEWS/OPCOES DE LISTA DE JOGOS CUSTOM/gamelist_detailed_capa2d_cartucho.xml</include>
 <include name="gamelist Gamecarousel Capa3d+Video">./VIEWS/OPCOES DE LISTA DE JOGOS CUSTOM/gamelist_gamecarousel_capa3d_video.xml</include>
-<include name="gamelist Gamecarousel Capa2d+Fanart+Video Windows-PC">./VIEWS/OPCOES DE LISTA DE JOGOS CUSTOM/gamelist_gamecarousel_capa2d_fanart_video_windows.xml</include>
+<include name="gamelist Gamecarousel Capa2d+Fanart+Video">./VIEWS/OPCOES DE LISTA DE JOGOS CUSTOM/gamelist_gamecarousel_capa2d_fanart_video.xml</include>
+<include name="gamelist Gamecarousel Capa2d+Fanart">./VIEWS/OPCOES DE LISTA DE JOGOS CUSTOM/gamelist_gamecarousel_capa2d_fanart.xml</include>
  
 </theme>

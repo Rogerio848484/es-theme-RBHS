@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+
+<customView name="gamelist Gamecarousel Capa2d+Fanart" inherits="gamecarousel">
+
+<!----------------------------------------------------------->
+<!------------------------ CARROUSEL ------------------------>
+<!----------------------------------------------------------->
+
+<gamecarousel name="gamecarousel">
+<zIndex>10</zIndex>	      
+<type>vertical</type>
+<pos>0.353 0.25</pos>
+<size>1 0.66</size>
+<logoScale>1.45</logoScale>
+<logoSize>0.125 0.250</logoSize>
+<color>00000000</color>
+<maxLogoCount>5</maxLogoCount>
+<logoAlignment>center</logoAlignment>   
+<imageSource>marquee</imageSource>
+</gamecarousel> 
+
+<!----------------------------------------------------------->
+<!------------------------ HELPSYSTEM ----------------------->
+<!----------------------------------------------------------->
+
+<helpsystem name="help">
+<pos>0 0.97</pos>    
+</helpsystem>
+
+<!----------------------------------------------------------->
+<!---------------------- ARTES SISTEMA ---------------------->
+<!----------------------------------------------------------->
+
+<image name="pointer" extra="true">
+<visible>false</visible>
+</image>
+
+<image name="bg-game-right" extra="true">
+<pos>0 0</pos>
+<size>1 1</size>
+<zIndex>2</zIndex>
+<path>./ARTES/ARTES GAMELIST/bg-game-right.png</path>
+</image>
+
+<image name="background2" extra="true">
+<visible>false</visible>
+</image>
+
+<image name="background" extra="true">
+<visible>false</visible>
+</image>
+
+<image name="logo">
+<visible>false</visible>
+</image>
+
+<image name="logo2" extra="true">
+<pos>0.852 0.125</pos>
+<origin>0.5 0.5</origin>
+<maxSize>0.22 0.18</maxSize>
+<zIndex>12</zIndex>
+<path>./ARTES/LOGOS/LOGOCLEAN/${system.theme}.png</path>
+</image>
+
+<!----------------------------------------------------------->
+<!----------------------- ARTES EXTRAS ---------------------->
+<!----------------------------------------------------------->
+
+<image name="fundo_black" extra="true">
+<visible>false</visible>
+</image>
+
+<image name="moldura_video_gamelist" extra="true">
+<visible>false</visible>
+</image>
+
+<image name="caratula" extra="true">
+<pos>0.5 0.5</pos>
+<origin>0.5 0.5</origin>
+<size>1 1</size>
+<zIndex>13</zIndex>
+<path>./ARTES/ARTES ROLETA/caratula.png</path>
+</image>
+
+<!----------------------------------------------------------->
+<!--------------------- ARTES GAMELIST ---------------------->
+<!----------------------------------------------------------->
+
+<image name="md_fanart">
+<pos>0.5 0.5</pos>
+<origin>0.50 0.50</origin>
+<maxSize>1 1</maxSize>
+<zIndex>1</zIndex>
+<storyboard event="open">
+<animation property="scale" from="0.95" to="1" begin="0" duration="500" mode="linear"/>
+</storyboard> 
+<storyboard event="activateNext">
+<animation property="scale" from="1" to="1.03" begin="0" duration="500" mode="linear"/>
+</storyboard>  
+<storyboard event="activatePrev">
+<animation property="scale" from="1.03" to="1" begin="0" duration="500" mode="linear"/>
+</storyboard>  
+</image>
+
+<image name="md_thumbnail">
+<pos>0.10 0.77</pos>
+<origin>0.5 0.5</origin>
+<maxSize>0.25 0.30</maxSize>
+<zIndex>14</zIndex>
+<storyboard event="open">
+<animation property="scale" from="1" to="1.03" begin="0" duration="500" mode="linear"/>
+</storyboard> 
+<storyboard event="activateNext">
+<animation property="scale" from="1" to="1.03" begin="0" duration="500" mode="linear"/>
+</storyboard>  
+<storyboard event="activatePrev">
+<animation property="scale" from="1.03" to="1" begin="0" duration="500" mode="linear"/>
+</storyboard>  
+</image>
+
+<image name="md_cartridge">
+<visible>false</visible>
+</image>
+
+<image name="md_marquee">
+<visible>false</visible>
+</image>
+
+<video name="md_video">
+<visible>false</visible>
+</video>
+
+<text name="md_name">
+<pos>0.04 0.92</pos>
+<glowColor>000000</glowColor>
+<glowSize>1</glowSize>
+</text>
+
+<!----------------------------------------------------------->
+<!-------------------------- FALSES ------------------------->
+<!----------------------------------------------------------->
+
+<text name="md_rating,md_ldl_rating,md_lbl_players,md_lbl_publisher,md_publisher,md_lbl_developer,md_developer,logoText,md_developer,md_lbl_releasedate,md_releasedate,md_lbl_rating,md_lbl_genre,md_genre,md_description,md_lbl_playcount,md_lbl_lastplayed, md_lbl_gametime,md_lbl_playcount,md_lbl_lastplayed,md_lbl_gametime,md_playcount,md_lastplayed,md_gametime,md_players">
+<visible>false</visible>
+</text> 
+
+<rating name="md_rating">      
+<visible>false</visible>
+</rating>	 
+
+</customView>
+ 
+</theme>

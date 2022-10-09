@@ -2,7 +2,7 @@
 <theme>
 <formatVersion>7</formatVersion>
 
-<customView name="gamelist Gamecarousel Capa2d+Fanart+Video Windows-PC" inherits="gamecarousel">
+<customView name="gamelist Gamecarousel Capa2d+Fanart+Video" inherits="gamecarousel">
 
 <!----------------------------------------------------------->
 <!------------------------ CARROUSEL ------------------------>
