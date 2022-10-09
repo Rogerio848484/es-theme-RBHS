@@ -7,10 +7,10 @@
 <view name="basic">	
 
 <textlist name="gamelist">
-<size>0.230 0.715</size>
+<size>0.230 0.68</size>
 <pos>0.015 0.218</pos>
 <alignment>left</alignment> 
-<lineSpacing>1.8</lineSpacing> 
+<lineSpacing>1.5</lineSpacing> 
 <zIndex>5</zIndex>	
 </textlist>
  

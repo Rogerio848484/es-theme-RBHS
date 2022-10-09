@@ -123,7 +123,7 @@
 <!--------------------- ARTES GAMELIST ---------------------->
 <!----------------------------------------------------------->
    	
-<image name="md_fanart">
+<video name="md_video">
 <pos>0.7 0.4</pos>
 <maxSize>0.5 0.5</maxSize>
 <zIndex>2</zIndex>   
@@ -136,7 +136,7 @@
 <storyboard event="activatePrev">
 <animation property="scale" begin="0" from="0.95" to="1" duration="600" mode="linear"/>
 </storyboard> 
-</image> 
+</video> 
 
 <image name="md_thumbnail">
 <pos>0.2 0.38</pos>

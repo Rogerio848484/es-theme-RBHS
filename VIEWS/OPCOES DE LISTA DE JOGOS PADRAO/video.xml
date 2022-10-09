@@ -9,8 +9,8 @@
 <!----------------------------------------------------------->
 
 <textlist name="gamelist">
-<pos>0.0184 0.18</pos>
-<size>0.2975 0.79</size>
+<pos>0.0184 0.17</pos>
+<size>0.2975 0.787</size>
 <lineSpacing>1.50</lineSpacing> 
 <alignment>left</alignment>
 <aligmentleft>true</aligmentleft>
