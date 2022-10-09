@@ -50,7 +50,7 @@ Tema voltado para pessoas que estão migrando do Hyperspin para o Retrobat.
 
 ### GAMELIST GAMECAROUSEL CAPA 2D + FANART + VIDEO 
 ![](https://i.ibb.co/qMwyFJk/Whats-App-Image-2022-10-08-at-23-18-06.jpg)
-
+![](https://i.ibb.co/GHQHSy2/Whats-App-Image-2022-10-08-at-23-19-40.jpg)
 
 ### Créditos:
 
