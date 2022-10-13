@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+
+<formatVersion>7</formatVersion>
+
+<view name="system">
+
+<image name="background" extra="true">
+<storyboard>
+<animation property="scale" from="1" to="1.05" begin="0" duration="1000" mode="linear"/>
+</storyboard>  
+</image>
+
+</view>
+
+</theme>

@@ -83,9 +83,6 @@
 <path>./../../ARTES/BACKGROUND VIDEOGAMES 1/${system.theme}.webp</path>
 <path>./../../ARTES/BACKGROUND VIDEOGAMES 1/${system.theme}.bmp</path>
 <zIndex>1</zIndex>
-<storyboard>
-<animation property="scale" from="1" to="1.05" begin="0" duration="1000" mode="linear"/>
-</storyboard>  
 </image>
 
 <video name="background_video" extra="true">

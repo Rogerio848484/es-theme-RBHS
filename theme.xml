@@ -108,6 +108,12 @@
 <include name="Videogames" displayName="Videogames">./INCLUDES/OPCOES DE BACKGROUND/VIDEOGAMES 01.xml</include>
 </subset>
 
+<subset name="Efeitos Background" displayName="Background Effect Options">
+<include name="OFF" displayName="OFF"/>
+<include name="Zoom In" displayName="Zoom In">./INCLUDES/OPCOES DE EFEITOS DE BACKGROUND/ZOOM IN.xml</include>
+<include name="Zoom Out" displayName="Zoom Out">./INCLUDES/OPCOES DE EFEITOS DE BACKGROUND/ZOOM OUT.xml</include>
+</subset>
+
 <subset name="Wheel Options" displayName="Wheel Options">
 <include name="OFF" displayName="OFF"/>
 <include name="Circular" displayName="Circular">./INCLUDES/OPCOES DE WHEEL/WHEEL CIRCULAR.xml</include>
