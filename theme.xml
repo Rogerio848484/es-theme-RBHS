@@ -116,10 +116,10 @@
 
 <subset name="Wheel Options" displayName="Wheel Options">
 <include name="OFF" displayName="OFF"/>
-<include name="Circular" displayName="Circular">./INCLUDES/OPCOES DE WHEEL/WHEEL CIRCULAR.xml</include>
+<include name="Circular" displayName="Circular" ifSubset="Main Menu Options:MENU 01 - Azulejos|MENU 03 - Moldura Inferior">./INCLUDES/OPCOES DE WHEEL/WHEEL CIRCULAR.xml</include>
 <include name="Classic" displayName="Classic">./INCLUDES/OPCOES DE WHEEL/WHEEL CLASSIC.xml</include>
 <include name="Clean" displayName="Clean">./INCLUDES/OPCOES DE WHEEL/WHEEL CLEAN.xml</include>
-<include name="Espiral" displayName="Espiral">./INCLUDES/OPCOES DE WHEEL/WHEEL ESPIRAL.xml</include>
+<include name="Espiral" displayName="Espiral" ifSubset="Main Menu Options:MENU 01 - Azulejos|MENU 03 - Moldura Inferior">./INCLUDES/OPCOES DE WHEEL/WHEEL ESPIRAL.xml</include>
 <include name="Rectangle" displayName="Rectangle">./INCLUDES/OPCOES DE WHEEL/WHEEL RECTANGLE.xml</include>
 <include name="Silver" displayName="Silver">./INCLUDES/OPCOES DE WHEEL/WHEEL SILVER.xml</include>
 </subset>
@@ -241,8 +241,8 @@
 </subset>
 
 <subset name="Video Options" displayName="Video Options">
-<include name="On" displayName="On">./INCLUDES/OPCOES DE VIDEO/VIDEO SISTEMAS.xml</include>
-<include name="Off" displayName="Off"/>
+<include name="On" displayName="On" ifSubset="Main Menu Options:MENU 01 - Azulejos|MENU 02 - Roleta Direita">./INCLUDES/OPCOES DE VIDEO/VIDEO SISTEMAS.xml</include>
+<include name="Off" displayName="Off" ifSubset="Main Menu Options:MENU 01 - Azulejos|MENU 02 - Roleta Direita"/>
 </subset>
 
 <subset name="Opções de Musicas" displayName="Music Options">
